@@ -5,12 +5,7 @@
 {t name=$this_user->name}%1{/t}</a> (<a href="{$base_url}/login.php?action=logout">
 	    {t}Logout{/t}
 </a>)</li>
-	<li>
-	  <a href="{$base_url}/listen.php">
-	    <span class="glyphicon glyphicon-headphones"></span>
-	    {t}Listen{/t}
-	  </a>
-	</li>
+	
 {else}
 	<li>
 	  <a href="{$base_url}/login.php">
@@ -18,13 +13,6 @@
 	    </span>
 	    {t}Log in{/t}
 	</a>
-	</li>
-	<li>
-	  <a href="{$base_url}/listen.php">
-	    <span class="glyphicon glyphicon-headphones">
-	    </span>
-	    {t}Listen{/t}
-	  </a>
 	</li>
 	<li>
 	  <a href="{$base_url}/register.php">
