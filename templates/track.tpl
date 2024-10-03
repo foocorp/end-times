@@ -1,11 +1,4 @@
 {include file='header.tpl' subheader='track-header.tpl'}
-<br />
-
-{if $flattr_uid}
-	{include file='flattr.tpl'}
-{/if}
-
-{include file='flattr-track-button.tpl'}
 
 <h4>Appears on</h4>
 {trackalbums artist=$track->artist_name track=$track->name}
@@ -68,7 +61,6 @@
 		{/section}
 		</ul>
 	{/if}
-	<br />
 
 {* Hack to get player if track is streamable *}
 {if $track->streamable}
