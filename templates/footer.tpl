@@ -13,7 +13,7 @@
 
 <h6>Libre.fm lets you keep track of your music listening habits</h6>
 
-<p>All music available onLibre.fm is available for you to remix, download and share.</p>
+<p>All music available on Libre.fm is available for you to remix, download and share.</p>
 
      <p>Libre.fm is supported by <a href="http://www.bytemark.co.uk">Bytemark</a> and <a href="http://archive.org">The Internet Archive</a>.</p>
 
