@@ -115,7 +115,7 @@
 
 </form>
 
-<details><h3>{t}Help{/t}</h3>
+<h3>{t}Help{/t}</h3>
 <dl>
   <dt id='dfn_location_uri'>{t}Location check{/t}</dt>
   <dd>{t escape=no}This feature looks up your location on <a href='http://www.geonames.org'>geonames</a>. You don't need to do it, but it will allow us find your latitude and longitude so we can add some great location-based features in the future.{/t}</dd>
@@ -126,15 +126,15 @@
   <dt id='dfn_id'>WebID (FOAF)</dt>
   <dd>{t escape=no}An address that represents you in RDF. See <a href='http://esw.w3.org/topic/WebID'>WebID</a> for details. If you don't know what this is, it's best to leave it blank.{/t}</dd>
 
-  <dt id='dfn_laconica_profile'>GNU social Profile</dt>
-  <dd>{t escape=no}The address for your micro-blog on a <a href='http://www.gnu.org/software/social/'>GNU social</a>-powered site such as <a href='http://freesocial.org/'>freesocial.org</a>.{/t}</dd>
+  <dt id='dfn_laconica_profile'>Fediverse Profile</dt>
+  <dd>{t escape=no}The address for your profile on the social web on an ActivityPub-powered site such as <a href='http://social.lol/'>social.lol</a>.{/t}</dd>
 
   <dt id='dfn_journal_rss'>RSS Feed</dt>
   <dd>{t site=$site_name escape=no}An RSS feed which will be used to populate your journal on %1. Defaults to your StatusNet RSS feed if you provide your StatusNet micro-blog address.{/t}</dd>
 
   <dt id='dfn_receive_emails'>Receive E-mails</dt>
   <dd>{t escape=no}From time to time we send out e-mails about all the cool new stuff we're getting up to. If you'd rather not hear about these things then simply untick this box.{/t}</dd>
-</dl></details>
+</dl>
 
 
 
