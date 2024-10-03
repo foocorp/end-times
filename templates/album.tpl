@@ -1,5 +1,4 @@
 {include file='header.tpl' subheader='album-header.tpl'}
-<br/><br/>
 
 <h4>Tracks</h4>
 {artisttracks artist=$album->artist_name album=$album->name}
