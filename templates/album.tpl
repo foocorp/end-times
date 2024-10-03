@@ -12,4 +12,7 @@
 	{$album_station = "librefm://artist/{$album->artist_name}/album/{$album->name}"}
 {/if}
 
+	<p><a href="https://www.discogs.com/search?q={$album->name}&type=artist">Find {$album->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$album->name}&from=results">Find {$album->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$album->name}">Find {$album->name} on YouTube</a></p>
+
+
 {include file='footer.tpl' sideplayer=true station=$album_station}
