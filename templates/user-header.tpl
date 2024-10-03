@@ -23,8 +23,6 @@
 	  {if $me->homepage}
 	  <p>Personal website: <a rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></p>
 	  {/if}
-	  {/if}
-{if $me->getTotalTracks()}
 	  {if $me->laconica_profile}
 	  <p>Fediverse: <a rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></p>
 	  {/if}
