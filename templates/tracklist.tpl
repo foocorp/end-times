@@ -21,43 +21,14 @@
 <table class="{$class} tracklist" border="1">
 	<thead>
 	  <tr>
-		{if $fstream}
-		<th class="icon"></th>
-		{/if}
-		{if $fimage}
-		<th></th>
-		{/if}
 		<th class="title">Title</th>
-		{if $flove}
-		<th class="icon"></th>
-		{/if}
-		{if $ftag}
-		<th class="icon"></th>
-		{/if}
-		{if $fbutton}
-		<th></th>
-		{/if}
-		{if $fcount}
 		<th class="count">Plays</th>
-		{/if}
-		{if $ftime}
 		<th class="time">Time</th>
-		{/if}
 	  </tr>
 	</thead>
 	<tbody>
 	{foreach from=$items item=i}
 	<tr>
-		{if $fstream}
-		{if $i.streamable}
-		<td class="icon" title="Track is streamable">
-		  <span class="glyphicon glyphicon-music"></span>
-		</td>
-		{else}
-		<td class="icon"></td>
-		{/if}
-		{/if}
-		<td class="image"></td>
 		<td class="name">
 			{if $i.tracklibraryurl}
 				<a href="{$i.tracklibraryurl|escape:'html'}">{$i.track}</a>
@@ -72,65 +43,13 @@
 				{/if}
 			{/if}
 		</td>
-		{if $flove}
-		{if $i.loved}<td class="icon" title="{$page->user->name} loves this track"><span class="glyphicon glyphicon-heart"></span></td>{else}<td class="icon"></td>{/if}
-		{/if}
-		{if $ftag}
-		{if $i.tagged}<td class="icon" title="{$page->user->name} has tagged this track"><i class="icon-tag"></i></td>{else}<td class="icon"></td>{/if}
-		{/if}
-		{if $fbutton}
-		<td class="buttons">
-			{if $page->ownedbyme}
-				{if $type == 'scrobble'}
-					<form method='post' action=''>
-					  <input type=hidden name='artist' value="{$i.artist}" />
-					  <input type=hidden name='track' value="{$i.track}" />
-					  <input type=hidden name='timestamp' value="{$i.time}" />
-					  <button class="btn btn-danger btn-xs"
-						  name='removescrobble' type='submit'>
-					    remove
-					  </button>
-					</form>
-				{elseif $type == 'loved'}
-					<form method='post' action=''>
-					  <input type=hidden name='artist' value="{$i.artist}" />
-					  <input type=hidden name='track' value="{$i.track}" />
-					  <button class="btn btn-danger btn-xs" name='unlove' type='submit'>
-					    remove
-					  </button>
-					</form>
-				{elseif $type == 'banned'}
-					<form method='post' action=''>
-					  <input type=hidden name='artist' value="{$i.artist}" />
-					  <input type=hidden name='track' value="{$i.track}" />
-					  <button class="btn btn-danger btn-xs" name='unban' type='submit'>
-					    remove
-					  </button>
-					</form>
-				{elseif $type == 'tagged'}
-					<form method='post' action=''>
-					  <input type=hidden name='removeartist' value="{$i.artist}" />
-					  <input type=hidden name='removetrack' value="{$i.track}" />
-					  <input type=hidden name='removetag' value="{$i.tag}" />
-					  <button class="btn btn-danger btn-xs" name='trackremovetag' type='submit'>
-					    remove
-					  </button>
-					</form>
-				{/if}
-			{/if}
-		</td>
-		{/if}
-		{if $fcount}
+
 		<td class="count">
 		  <span>{$i.freq}</span>
 		</td>
-		{/if}
-		{if $ftime}
 		<td class="time">
-		  <span class="glyphicon glyphicon-time"></span>
 		    {$i.timehuman}
 		</td>
-		{/if}
 	</tr>
 	{/foreach}
 	</tbody>
