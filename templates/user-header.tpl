@@ -1,24 +1,18 @@
-<div id="user-profile-header">
-    <div class="row">
-      <div class="col-sm-3">
-	<img class="img-circle img-responsive img-thumbnail" src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]">
-      </div>
-      <div class="col-sm-9">
-	  <h1>{$me->name}
-	  </h1>
+	<img style="float: right;" src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]">
+
+<h2>{$me->name}</h2>
+
 	  {if $me->getTotalTracks()}
-	  <p>
-	    <span class="label label-primary">
-	      <span class="glyphicon glyphicon-play"></span>
+	  <h3>
 	      {$me->getTotalTracks()} plays
-	    </span>
-	  </p>
+	  </h3>
 	  {/if}
 	                    {if $me->getTotalTracks()}
-	  <div id='user_bio'>
+	  <blockquote>
 	    <p>{$me->bio|escape:'html':'UTF-8'}</p>
-	  </div>
+	  </blockquote>
 	  {/if}
+
                   {if $me->getTotalTracks()}
 	  {if $me->homepage}
 	  <p>Personal website: <a rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></p>
@@ -28,10 +22,6 @@
 	  {/if}
 	  {/if}
 
-      </div>
-    </div>
-    <div class="margin-top">
+<hr />
+
       {include file='submenu.tpl'}
-    </div>
-</div>
-<br/>
