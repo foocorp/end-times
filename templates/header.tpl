@@ -19,9 +19,8 @@
 <body>
   <header>
 	  <h1><a id="title" class="navbar-brand" href="{$base_url}">{$site_name}</a></h1>
-	<nav class="collapse navbar-collapse gfm-navbar-collapse" role="navigation">
+	<nav>
 	  {include file='menu.tpl'}
-	  {include file='search-box.tpl'}
 	</nav>
   </header>
 
