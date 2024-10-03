@@ -1,3 +1,4 @@
+  <fieldset>
 <div class="form-group">
   <label for='username'>{t}Username{/t}</label>
   <input class="form-control" id='username' name='username' type='text' value='{$username}' required autofocus>
@@ -14,3 +15,4 @@
 <input name="return" type="hidden" value="{$return|htmlentities}" />
 <button class="btn btn-primary btn-lg" type='submit' name='login' value='{t}Login{/t}' />{t}Login{/t}</button>
 <a href="/register.php" class="btn btn-success btn-lg">Register now</a>
+</fieldset>
