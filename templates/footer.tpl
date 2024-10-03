@@ -18,14 +18,11 @@
 
      <p><a href="mailto:support@libre.fm">support@libre.fm</a></p>
 
-     <p><a href="https://github.com/foocorp/gnu-fm">Source Code</a></p>
-<p><a href="https://github.com/foocorp/hacienda">The Hacienda must be built</a></p>
+     <p><small><a href="https://github.com/foocorp/gnu-fm">Source Code</a> | <a href="https://github.com/foocorp/hacienda">The Hacienda must be built</a> | <a href="http://no-ai.club">Say no to AI</a> | <a href="http://1800www.com">3 steps to get a personal website</a></small></p>
 
      <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
 
 {include file='language-selector.tpl'}
-
-<p><a href="http://no-ai.club">Say no to AI</a> | <a href="http://1800www.com">3 steps to get a personal website</a></p>
 
 </footer>
 </body>
