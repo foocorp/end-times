@@ -102,7 +102,7 @@
 <hr />
 
 <p class="checkbox">
-      <label for='delete_account' style="font-color: red;">Danger Zone: 
+      <label for='delete_account' style="color: red; font-weight: bold; border: 1px solid red; padding: 1em; ">Danger Zone: 
 	<input type='checkbox' id='delete_account' name='delete_account' style='width: auto;' />
 	{t}Delete my account{/t}
       </label>
