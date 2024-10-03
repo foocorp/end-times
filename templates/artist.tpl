@@ -1,9 +1,5 @@
 {include file='header.tpl' subheader='artist-header.tpl'}
 
-{if $flattr_uid}
-{include file='flattr.tpl'}
-{/if}
-
 <div about="{$id}" typeof="mo:MusicArtist">
 
 	<div class="vcard">
@@ -26,9 +22,6 @@
 		</div>
 		{/if}
 	</div>
-
-	{include file='flattr-artist-button.tpl'}
-
 
 	<h3>{t}Albums{/t}</h3>
 	<ul>
