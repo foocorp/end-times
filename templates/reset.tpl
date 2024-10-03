@@ -49,8 +49,6 @@
   </fieldset>
   
 </form>
-</div>
 {/if}
-</div>
-</div> <!--end of row -->
+</main>
 {include file='mini-footer.tpl'}
