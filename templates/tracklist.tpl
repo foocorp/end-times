@@ -18,8 +18,7 @@
 	@param string url_sort_count  URL string to toggle sort order by count
 	@param string type            Type of list, 'tagged' (used to show correct button)
 *}
-<table class="{$class} tracklist">
-{if $thead}
+<table class="{$class} tracklist" border="1">
 	<thead>
 	  <tr>
 		{if $fstream}
@@ -46,7 +45,6 @@
 		{/if}
 	  </tr>
 	</thead>
-{/if}
 	<tbody>
 	{foreach from=$items item=i}
 	<tr>
