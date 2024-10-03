@@ -45,7 +45,6 @@
 
 <h2>we are bored in the city</h2>
 
-<h3>Libre.fm lets you keep track of your music listening habits</h3>
 
 {if ($logged_in)}
 Welcome <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>
@@ -53,12 +52,13 @@ Welcome <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name
 <p><a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
 
 {else}
+<h3>Libre.fm lets you keep track of your music listening habits</h3>
 <p><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
 {/if}
 
+</section>
+</main>
+</body>
+</html>
 
-<h2>must read</h1>
 
-<p><a href="https://bored.city">bored.city</a></p>
-
-{include file='footer.tpl'}
