@@ -1,3 +1,4 @@
+<fieldset>
 <div class="form-group">
   <label for='username'>{t}Username{/t}</label>
 <input type="text" class="form-control" placeholder="{t}Your username:{/t}" id="username" name="username" required autofocus />
@@ -20,3 +21,4 @@
         </label>
 </div>
         <button class="btn btn-lg btn-success" name="register" type="submit" value="{t}Sign up{/t}">Sign up</button>
+</fieldset>
