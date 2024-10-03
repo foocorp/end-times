@@ -22,7 +22,6 @@
 	<thead>
 	  <tr>
 		<th class="title">Title</th>
-		<th class="count">Plays</th>
 		<th class="time">Time</th>
 	  </tr>
 	</thead>
@@ -44,9 +43,6 @@
 			{/if}
 		</td>
 
-		<td class="count">
-		  <span>{$i.freq}</span>
-		</td>
 		<td class="time">
 		    {$i.timehuman}
 		</td>
