@@ -15,39 +15,9 @@
 	@param string url_sort_count  URL string to toggle sort order by count
 	@param string type            Type of list, 'tagged' (used to show correct button)
 *}
-<table class="{$class} albumlist" border="1">
-{if $thead}
-	<thead><tr>
-		{if $fstream}
-		<th class="icon"></th>
-		{/if}
-		{if $fimage}
-		<th></th>
-		{/if}
-		<th class="title">Title</th>
-		{if $fbutton}
-		<th class="buttons"></th>
-		{/if}
-		{if $fcount}
-		<th class="count">Plays</th>
-		{/if}
-	</thead>
-{/if}
+<ul>
 	{foreach from=$items item=i}
-	<tr>
-		{if $fstream}
-		{if $i.streamable}
-		<td class="icon" title="Album has streamable tracks">
-		  <span class="glyphicon glyphicon-music"></span>
-		</td>
-		{/if}
-		{/if}
-		{if $fimage && $i.image}
-		    <td class="image"><img src="{$i.image}" alt="[ Album Image ]"/></td>
-               {elseif $fimage}
-                   <td class="image"></td>
-		{/if}
-		<td class="name">
+	<li>
 			{if $i.albumlibraryurl}
 				<a href="{$i.albumlibraryurl|escape:'html'}">{$i.album}</a>
 			{else}
@@ -60,22 +30,6 @@
 					<a href="{$i.artisturl|escape:'html'}">{$i.artist}</a>
 				{/if}
 			{/if}
-		</td>
-		{if $fbutton}
-			<td class="buttons">
-				{if $page->ownedbyme}
-					{if $type == 'tagged'}
-					<form method='post' action=''><input type=hidden name='removeartist' value="{$i.artist}" /><input type=hidden name='removealbum' value="{$i.album}" /><input type=hidden name='removetag' value="{$i.tag}" /><button name='albumremovetag' type='submit'>remove</button></form>
-					{/if}
-				{/if}
-			</td>
-		{/if}
-		{if $fcount}
-		<td class="count"><span>{$i.freq}</span></td>
-		{/if}
-		{if $ftime}
-		<td class="time"><span>{$i.timehuman}</span></td>
-		{/if}
-	</tr>
+	</li>
 	{/foreach}
-</table>
+</ul>
