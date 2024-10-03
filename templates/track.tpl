@@ -9,8 +9,6 @@
 		<li property="rdfs:comment">{t}Listeners {/t} <span class="badge">{$track->getListenerCount()}</span></li>
 	</ul>
 
-{include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
-
 	{if $track->licenseurl && $track->license}
 	<p id='license'><a rel=":license" href="{$track->licenseurl}"><img class="img-responsive" src="{$img_url}/licenses/{$track->license}.png" alt= "[ Track License ]"/></a></p>
 	{/if}
@@ -69,5 +67,7 @@
 {if $track->streamable}
 	{$streamable = true}
 {/if}
+
+{include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
 
 {include file='footer.tpl' sideplayer=true station='track'}
