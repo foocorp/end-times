@@ -1,25 +1,15 @@
 					</section>
-				</div>
-			</article>
 		{if $nosidebar != true}
+<aside>
 		{include file="sidebar.tpl" player=$sideplayer}
+</aside>
 		{/if}
-	</div>
+	</main>
 
 
 
-</div>
-</div>
-
-
-
-
-<div id="footer">
-
-     <div class="container margin-top">
-		{include file='language-selector.tpl'}<br />
-
-     </div>
+<footer>
+{include file='language-selector.tpl'}
 
 
 	 	 <p class="text-center text-muted">Listen to Libre.fm founder, Matt Lee on <a href="https://timworthington.org/looksunfamiliar/">Looks Unfamiliar</a></p>
@@ -44,10 +34,10 @@
 
      <p class="text-center">You can get the source code to GNU FM from <a href="https://github.com/foocorp/gnu-fm">GitHub</a>, however now <a href="https://github.com/foocorp/hacienda">The Hacienda must be built</a></p>
 
-     <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
+     <p class="text-center"><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
 
      </div>
 
-</div>
+</footer>
 </body>
 </html>
