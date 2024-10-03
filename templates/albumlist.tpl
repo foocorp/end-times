@@ -15,7 +15,7 @@
 	@param string url_sort_count  URL string to toggle sort order by count
 	@param string type            Type of list, 'tagged' (used to show correct button)
 *}
-<table class="{$class} albumlist">
+<table class="{$class} albumlist" border="1">
 {if $thead}
 	<thead><tr>
 		{if $fstream}
