@@ -22,12 +22,13 @@
 <body>
   <header>
 	  <h1><a id="title" class="navbar-brand" href="{$base_url}">{$site_name}</a></h1>
-	<nav>
-	  {include file='menu.tpl'}
-	</nav>
   </header>
 
   <main>
+
+	<nav>
+	  {include file='menu.tpl'}
+	</nav>
 
 
 				{if $nosidebar}
