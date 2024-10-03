@@ -5,7 +5,8 @@
 	<p>{t escape=no}Your account has been activated! You may now login!{/t}</p>
         <p><a class="btn btn-primary btn-lg" href="{$base_url}/login.php">login!</a></p>
  <h2>P.S...</h2>
-        <p>Are you following <a href="https://social.coop/@mattl" target="_blank">@mattl on Mastodon</a>?</p>
+        <p>Are you following <a href="https://social.coop/@mattl" target="_blank">@mattl on Mastodon</a> or <a href="http://bsky.app/profile/mat.tl" target="_blank">@mat.tl on Bluesky</a>?</p>
+
 </main>
 {include file='footer.tpl'}
 
@@ -15,7 +16,7 @@
         <h2>{t}Check your email now{/t}</h2>
 	<p>{t}Please follow the link in your email to activate your account!{/t}</p>
  <h2>P.S...</h2>
-        <p>Are you following <a href="http://bsky.app/profile/mat.tl" target="_blank">@mat.tl on Bluesky</a>?</p>
+        <p>Are you following <a href="https://social.coop/@mattl" target="_blank">@mattl on Mastodon</a> or <a href="http://bsky.app/profile/mat.tl" target="_blank">@mat.tl on Bluesky</a>?</p>
 
 </main>
 {include file='footer.tpl'}
