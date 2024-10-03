@@ -98,7 +98,7 @@
     <input class="form-control" name='password_2' id='password_2' type='password' autocomplete="off" value='' />
   </p>
 
-  <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 9 mins</strong></p>
+  <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 20-30 mins, sorry about that.</strong></p>
 
   <p>
     <button class="btn btn-primary btn-block" type='submit' value='{t}Change{/t}'>{t}Change{/t}</button>
