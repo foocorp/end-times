@@ -2,17 +2,20 @@
 
 <h4>Appears on</h4>
 {trackalbums artist=$track->artist_name track=$track->name}
+
+	<ul class="list-inline">
+		{if !empty($track->duration)}<li property="mo:durationXSD" datatype="xsd:duration" content="PT{$track->duration}S">Duration: {$duration}</li>{/if}
+		<li property="rdfs:comment">{t}Playcount {/t} <span class="badge">{$track->getPlayCount()}</span></li>
+		<li property="rdfs:comment">{t}Listeners {/t} <span class="badge">{$track->getListenerCount()}</span></li>
+	</ul>
+
 {include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
 
 	{if $track->licenseurl && $track->license}
 	<p id='license'><a rel=":license" href="{$track->licenseurl}"><img class="img-responsive" src="{$img_url}/licenses/{$track->license}.png" alt= "[ Track License ]"/></a></p>
 	{/if}
 	
-	<ul class="list-inline">
-		{if !empty($track->duration)}<li property="mo:durationXSD" datatype="xsd:duration" content="PT{$track->duration}S">Duration: {$duration}</li>{/if}
-		<li property="rdfs:comment">{t}Playcount {/t} <span class="badge">{$track->getPlayCount()}</span></li>
-		<li property="rdfs:comment">{t}Listeners {/t} <span class="badge">{$track->getListenerCount()}</span></li>
-	</ul>
+
 
 	{if $track->streamable}
 	{if $track->downloadurl}
