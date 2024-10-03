@@ -4,7 +4,7 @@
 
 <p style="background-color: yellow; font-size: 18px;"><strong>Got Last.fm? Connect your account here and scrobble to both services!</strong></p>
 
-<p><a class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connections to other services</a></p>
+<p><a style="font-weight: bold" class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connections to other services</a></p>
 
 <!-- <p><a class="btn btn-success btn-lg" href='{$base_url}/artist-signup.php'>Get an artist account</a></p> -->
 
