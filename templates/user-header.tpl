@@ -32,6 +32,10 @@
 	  <p>Personal website: <a rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></p>
 	  {/if}
 
+<div id='user_bio'>
+	    <p>{$me->bio|escape:'html':'UTF-8'}</p>
+	  </div>
+
       </div>
     </div>
     <div class="margin-top">
