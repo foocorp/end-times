@@ -25,7 +25,7 @@
 	</nav>
   </header>
 
-  
+  <main>
 
 
 				{if $nosidebar}
@@ -38,5 +38,5 @@
 					
 					</header>	
 {/if}
-					<main>
+					<section>
 				{/if}
