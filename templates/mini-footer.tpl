@@ -8,18 +8,22 @@
 	<li><a href="{$base_url}/reset.php">{t}Lost password{/t}</a><li>
       </ul>
 
-     <p class="text-center">www2</p>
+     <h3>Libre.fm lets you keep track of your music listening habits</h3>
 
-     <p class="text-center text-muted">Libre.fm is supported by <a href="http://bytemark.co.uk">Bytemark</a> and <a href="http://archive.org">The Internet Archive</a>.</p>
+<p>All music available on Libre.fm is available for you to remix, download and share.</p>
 
-     <p class="text-center">You have noticed some things are broken around here. File a <a href="https://github.com/foocorp/hacienda/issues/">GitHub issue</a>, get in touch via email <a href="mailto:support@libre.fm">support@libre.fm</a> or ask <a href="https://mat.tl">mattl on social web</a> if things are really broken. Sorry.</p>
+     <p><small>Libre.fm supports the <a href="http://indieweb.org">IndieWeb</a> mission and the Fediverse and is supported by <a href="http://www.bytemark.co.uk">Bytemark</a> and <a href="http://archive.org">The Internet Archive</a></small></p>
 
-     <hr style="border: 1px solid black" />
+     <p><a href="mailto:support@libre.fm">support@libre.fm</a></p>
 
-     <p class="text-center">You can get the source code to GNU FM from <a href="https://github.com/foocorp/gnu-fm">GitHub</a>, however now <a href="https://github.com/foocorp/hacienda">The Hacienda must be built</a></p>
+     <p><a href="https://github.com/foocorp/gnu-fm">Source Code</a></p>
+<p><a href="https://github.com/foocorp/hacienda">The Hacienda must be built</a></p>
 
-     <p class="text-center"><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
+     <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
 
+{include file='language-selector.tpl'}
+
+<p><a href="http://no-ai.club">Say no to AI</a> | <a href="http://1800www.com">3 steps to get a personal website</a></p>
 
 
 
