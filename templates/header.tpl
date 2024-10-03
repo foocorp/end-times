@@ -13,7 +13,9 @@
 {section name=i loop=$extra_head_links}
 	<link rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}" title="{$extra_head_links[i].title|escape:'html':'UTF-8'}"  />
 {/section}
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link href="https://cdn.cache.lol/profiles/themes/css/base.css?v=2024-09-10" rel="stylesheet">
+    <link href="https://bored.city/omg.lol-neonknight.css" rel="stylesheet">
 </head>
 
 <body>
