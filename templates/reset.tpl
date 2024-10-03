@@ -50,5 +50,4 @@
   
 </form>
 {/if}
-</main>
 {include file='mini-footer.tpl'}
