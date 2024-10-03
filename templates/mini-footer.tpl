@@ -1,6 +1,4 @@
-<div class="container">
-  <div class="row">
-    <div class="col-sm-offset-3 col-sm-6 margin-top">
+<center>
       <ul class="list-inline text-center">
 	<li><a href="/">{t}Back to site{/t}</a> &middot;</li>
 	<li><a href="{$base_url}/register.php">{t}Register{/t}</a> &middot;</li>
@@ -11,11 +9,7 @@
      <h3>Libre.fm lets you keep track of your music listening habits</h3>
 
      <p><a href="mailto:support@libre.fm">support@libre.fm</a></p>
-
-
-</div>
-  </div>
-</div> <!-- end of container -->
-</div>
+</center>
+</main>
 </body>
 </html>
