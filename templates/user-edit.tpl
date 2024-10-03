@@ -2,9 +2,11 @@
 
 <h1>Edit your profile</h1>
 
+<p style="background-color: yellow; font-size: 18px;"><strong>Got Last.fm? Connect your account here and scrobble to both services!</strong></p>
+
 <p><a class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connections to other services</a></p>
 
-<p><a class="btn btn-success btn-lg" href='{$base_url}/artist-signup.php'>Get an artist account</a></p>
+<!-- <p><a class="btn btn-success btn-lg" href='{$base_url}/artist-signup.php'>Get an artist account</a></p> -->
 
 <!-- <p><a class="btn btn-default btn-lg" href='{$base_url}/artist-signup.php'>Change my password</a></p>
 
