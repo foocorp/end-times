@@ -1,10 +1,12 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<h1>Edit your profile</h1>
-
 <p style="background-color: yellow; font-size: 18px;"><strong>Got Last.fm? Connect your account here and scrobble to both services!</strong></p>
 
 <p><a style="font-weight: bold" class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connections to other services</a></p>
+
+<hr />
+
+<h2>Edit your profile</h2>
 
 <!-- <p><a class="btn btn-success btn-lg" href='{$base_url}/artist-signup.php'>Get an artist account</a></p> -->
 
@@ -84,12 +86,7 @@
     </div> -->
 
 
-    <p class="checkbox">
-      <label for='delete_account'>
-	<input type='checkbox' id='delete_account' name='delete_account' style='width: auto;' />
-	{t}Delete my account{/t}
-      </label>
-   </p><p>
+    <p>
     <label for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
     </label>
@@ -101,6 +98,15 @@
   </p>
 
   <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 20-30 mins, sorry about that.</strong></p>
+
+<hr />
+
+<p class="checkbox">
+      <label for='delete_account' style="font-color: red;">Danger Zone: 
+	<input type='checkbox' id='delete_account' name='delete_account' style='width: auto;' />
+	{t}Delete my account{/t}
+      </label>
+   </p>
 
   <p>
     <button class="btn btn-primary btn-block" type='submit' value='{t}Change{/t}'>{t}Change{/t}</button>
