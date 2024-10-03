@@ -1,8 +1,6 @@
 
 <h2>{$me->name}</h2>
 
-<p>Joined on {$me->created|date_format:"%A, %B %e, %Y"}</p>
-
 	<p><img src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]"></p>
 
 	  {if $me->getTotalTracks()}
