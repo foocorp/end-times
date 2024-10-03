@@ -1,3 +1,5 @@
 header, footer {text-align: center;}
 nav ul {text-align: center;}
 nav li {list-style: none;}
+
+body {background-color: #aaa !important;}
