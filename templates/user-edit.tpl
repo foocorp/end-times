@@ -42,12 +42,14 @@
     <input class="form-control" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' />
   </div>
 
-  <div class="form-group">
+  <p style="background-color: yellow; font-size: 18px;"><strong>Shows up on your profile once you start listening to music</strong></p>
+
+  <!-- <div class="form-group">
     <label for='avatar_uri'>{t}Avatar address:{/t}
       <span><a href='#dfn_avatar_uri' rel='glossary'>{t}What's this?{/t}</a></span>
     </label>
     <input class="form-control" name='avatar_uri' id='avatar_uri' value='{$avatar_uri|escape:'html':'UTF-8'}' />
-  </div>
+  </div> -->
 
   <div class="form-group">
     <label for='bio'>{t}Mini Biography:{/t}</label>
@@ -62,26 +64,26 @@
     </label>
   </div>
 
-    <div class="form-group">
+    <!-- <div class="form-group">
       <label for='id'>{t}WebID (FOAF){/t}:
 	<span><a href='#dfn_id' rel='glossary'>{t}What's this?{/t}</a></span>
       </label>
       <input class="form-control" name='id' id='id' value='{$id|escape:'html':'UTF-8'}' />
-    </div>
+    </div> -->
 
     <div class="form-group">
-      <label for='laconica_profile'>{t}GNU social Profile:{/t}
+      <label for='laconica_profile'>{t}Fediverse Profile:{/t}
 	<span><a href='#dfn_laconica_profile' rel='glossary'>{t}What's this?{/t}</a></span>
       </label>
       <input class="form-control" onchange='laconicaChange();' onclick='laconicaClick();' name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </div>
 
-    <div class="form-group">
+    <!-- <div class="form-group">
       <label for='journal_rss'>{t}RSS Feed:{/t}
 	<span><a href='#dfn_journal_rss' rel='glossary'>{t}What's this?{/t}</a></span>
       </label>
       <input class="form-control" name='journal_rss' id='journal_rss' value='{$journal_rss|escape:'html':'UTF-8'}' />
-    </div>
+    </div> -->
 
 
     <div class="checkbox">
