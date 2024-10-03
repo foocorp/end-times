@@ -1,6 +1,7 @@
-	<img style="float: right;" src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]">
 
 <h2>{$me->name}</h2>
+
+	<p><img src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]"></p>
 
 	  {if $me->getTotalTracks()}
 	  <h3>
