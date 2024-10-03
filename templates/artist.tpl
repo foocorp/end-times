@@ -35,11 +35,8 @@
 		{if $add_album_link}<li><a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a></li>{/if}
 	</ul>
 
-
-	<br />
-
 	{if !empty($similarArtists)}
-		<h3 style='text-align: center; clear: left;'>{t}Similar free artists{/t}</h3>
+		<h3>{t}Similar free artists{/t}</h3>
 		<ul class="tagcloud">
 		{section name=i loop=$similarArtists}
 			<li style='font-size:{$similarArtists[i].size}'><a href='{$similarArtists[i].url}'>{$similarArtists[i].artist}</a></li>
@@ -47,10 +44,9 @@
 		</ul>
 	{/if}
 
-	<br />
 
 	{if !empty($tagcloud)}
-		<h3 style='text-align: center; clear: left;'>{t}Tags used to describe this artist{/t}</h3>
+		<h3>{t}Tags used to describe this artist{/t}</h3>
 		<ul class="tagcloud">
 		{section name=i loop=$tagcloud}
 			<li style='font-size:{$tagcloud[i].size}'><a href='{$tagcloud[i].pageurl}' title='{t uses=$tagcloud[i].count}This tag was used %1 times{/t}' rel='tag'>{$tagcloud[i].name}</a></li>
@@ -58,7 +54,8 @@
 		</ul>
 	{/if}
 
-	<br />
+	<p><a href="https://www.discogs.com/search?q={$artist->name}&type=artist">Find {$artist->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$artist->name}&item_type=b&from=results">Find {$artist->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></p>
+	
 
 </div>
 
