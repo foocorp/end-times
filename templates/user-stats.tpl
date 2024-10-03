@@ -8,7 +8,7 @@
 
 <h4 id="stats_by_day">{t name=$me->name|escape:'html':'UTF-8'}%1's scrobbles by day{/t}</h4>
 
-{$graphtopartists->artists};
+{$artists};
 {$graphtopartists->artists_data};
 {$graphtopartists->tick_interval};
 {$graphtopartists->max_x_axis};
