@@ -1,7 +1,7 @@
 
 <h2>{$me->name}</h2>
 
-<p>($me->created}</p>
+<p>{$me->created}</p>
 
 	<p><img src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]"></p>
 
