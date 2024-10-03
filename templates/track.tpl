@@ -33,6 +33,8 @@
 	{/if}
 	{/if}
 
+	<h3>Love this track?</h3>
+
 	{if $logged_in}
 	   {if $isloved}
                <form action='' method='post'>
