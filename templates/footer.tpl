@@ -9,9 +9,8 @@
 
 
 <footer>
-{include file='language-selector.tpl'}
 
-<h6>Libre.fm lets you keep track of your music listening habits</h6>
+<h3>Libre.fm lets you keep track of your music listening habits</h3>
 
 <p>All music available on Libre.fm is available for you to remix, download and share.</p>
 
@@ -24,6 +23,8 @@
      <p>You can get the source code to GNU FM from <a href="https://github.com/foocorp/gnu-fm">GitHub</a>, however now <a href="https://github.com/foocorp/hacienda">The Hacienda must be built</a></p>
 
      <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
+
+{include file='language-selector.tpl'}
 
 </footer>
 </body>
