@@ -40,9 +40,6 @@
 		<td class="icon" title="Album has streamable tracks">
 		  <span class="glyphicon glyphicon-music"></span>
 		</td>
-		{else}
-		<td class="icon">
-		</td>
 		{/if}
 		{/if}
 		{if $fimage && $i.image}
