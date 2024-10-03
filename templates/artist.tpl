@@ -24,6 +24,7 @@
 	</div>
 
 	<h3>{t}Albums{/t}</h3>
+	<p><small>Limited to 25 albums</small></p>
 	<ul>
 		{section name=i loop=$albums max=25}
 		{if $albums[i]->name}
