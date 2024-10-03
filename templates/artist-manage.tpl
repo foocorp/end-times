@@ -38,12 +38,6 @@
 		  </p>
 		</div>
 
-		<div class="form-group">
-		  <label for='flattr_uid'>Flattr Username</label>
-		  <input class="form-control" type='text' name='flattr_uid' id='flattr_uid' value='{$flattr_uid|escape:'htmlall'}' />
-		  <p class="help-block">If you have a <a href='http://flattr.com'>flattr account</a> simply enter your flattr username and we'll automatically put flattr buttons on your artist and track pages. This way your fans will be able to show their appreciation with the occasional tip.</p>
-		</div>
-
 		<button class="btn btn-primary btn-block" type='submit' name='submit' value='Update' >Update</button>
 		</form>
 	</div>
