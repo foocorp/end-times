@@ -22,8 +22,6 @@
 {else}
 {include file='mini-header.tpl'}
 
- <div class="container">
-
       <h1 class="text-center">Sign up for a free account</h1>
 
       <form class="form-signin" method="post" action=''>
