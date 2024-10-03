@@ -28,7 +28,6 @@
 {/if}
 
 {if !empty($recommendedArtists)}
-	<br />
 	<h4>{t name=$me->name}Libre artists that %1 might like{/t}</h4>
 	<ul>
 		{foreach from=$recommendedArtists item=artist}
