@@ -25,7 +25,7 @@
 
 	<h3>{t}Albums{/t}</h3>
 	<ul>
-		{section name=i loop=$albums}
+		{section name=i loop=$albums max=25}
 		{if $albums[i]->name}
 		<li about="{$albums[i]->id}" property="dc:title" content="{$albums[i]->name|escape:'html':'UTF-8'}" typeof="mo:Record" class="haudio">
 					<a rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a>
