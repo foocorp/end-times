@@ -70,6 +70,9 @@
 	{$streamable = true}
 {/if}
 
+	<p><a href="https://www.discogs.com/search?q={$track->artist_name}+{$track->name}">Find {$track->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$track->artist_name}+{$track->name}&from=results">Find {$track->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$track->artist_name}+{$track->name}">Find {$track->name} on YouTube</a></p>
+
+
 {include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
 
 {include file='footer.tpl' sideplayer=true station='track'}
