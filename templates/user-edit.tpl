@@ -115,7 +115,7 @@
   <p>{t site=$site_name escape=no}The web address for a picture to represent you on %1. It should not be more than 80x80 pixels. (64x64 is best.) If you leave this empty, we'll use <a href='http://libravatar.org'>Libravatar.org</a> to find an image for you.{/t}</p>
 
   <!-- <dt id='dfn_id'>WebID (FOAF)</dt>
-  <dd>{t escape=no}An address that represents you in RDF. See <a href='http://esw.w3.org/topic/WebID'>WebID</a> for details. If you don't know what this is, it's best to leave it blank.{/t}</dd> --?
+  <dd>{t escape=no}An address that represents you in RDF. See <a href='http://esw.w3.org/topic/WebID'>WebID</a> for details. If you don't know what this is, it's best to leave it blank.{/t}</dd> -->
 
   <h4 id='dfn_laconica_profile'>Fediverse Profile</h4>
   <p>{t escape=no}The address for your profile on the social web on an ActivityPub-powered site such as <a href='http://social.lol/' target='_blank'>social.lol</a>.{/t}</p>
