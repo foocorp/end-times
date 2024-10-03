@@ -1,7 +1,7 @@
 <ul class="nav navbar-nav">
 {if ($logged_in)}
 <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Signed in as 
+        <a href="/user/{t name=$this_user->name}%1{/t}" class="dropdown-toggle" data-toggle="dropdown">Signed in as 
 {t name=$this_user->name}%1{/t}</a> (<a href="{$base_url}/login.php?action=logout">
 	    {t}Logout{/t}
 </a>)</li>
