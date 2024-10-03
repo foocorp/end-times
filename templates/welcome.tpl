@@ -1,4 +1,25 @@
-{include file='header.tpl'}
+<header>
+	  <h1><a id="title" class="navbar-brand" href="{$base_url}">{$site_name}</a></h1>
+
+  </header>
+
+  <main>
+
+
+
+
+				{if $nosidebar}
+                                <!-- nosb -->
+				{else}
+{if isset($subheader)}
+					<header>
+						
+							{include file="$subheader"}
+					
+					</header>	
+{/if}
+					<section>
+				{/if}
 
 <h2>we are bored in the city</h2>
 
