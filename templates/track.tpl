@@ -9,7 +9,7 @@
 
 <h4>Appears on</h4>
 {trackalbums artist=$track->artist_name track=$track->name}
-{include file='albumlist.tpl' class=#table# items=$trackalbums fimage=true fstream=true ftime=true}
+{include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
 
 	{if $track->licenseurl && $track->license}
 	<p id='license'><a rel=":license" href="{$track->licenseurl}"><img class="img-responsive" src="{$img_url}/licenses/{$track->license}.png" alt= "[ Track License ]"/></a></p>
