@@ -104,6 +104,8 @@
     <input class="form-control" name='password_2' id='password_2' type='password' autocomplete="off" value='' />
   </div>
 
+  <p><strong>Please note profile edits are still cached for approximately 9 mins</strong></p>
+
   <div class="form-group">
     <button class="btn btn-primary btn-block" type='submit' value='{t}Change{/t}'>{t}Change{/t}</button>
     <input name='submit' value='1' type='hidden' />
@@ -111,7 +113,7 @@
 
 </form>
 
-<h3>{t}Help{/t}</h3>
+<details><h3>{t}Help{/t}</h3>
 <dl>
   <dt id='dfn_location_uri'>{t}Location check{/t}</dt>
   <dd>{t escape=no}This feature looks up your location on <a href='http://www.geonames.org'>geonames</a>. You don't need to do it, but it will allow us find your latitude and longitude so we can add some great location-based features in the future.{/t}</dd>
@@ -130,7 +132,7 @@
 
   <dt id='dfn_receive_emails'>Receive E-mails</dt>
   <dd>{t escape=no}From time to time we send out e-mails about all the cool new stuff we're getting up to. If you'd rather not hear about these things then simply untick this box.{/t}</dd>
-</dl>
+</dl></details>
 
 
 
