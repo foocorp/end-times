@@ -14,7 +14,7 @@
 
 <p>All music available on Libre.fm is available for you to remix, download and share.</p>
 
-     <p><small>Libre.fm is supported by <a href="http://www.bytemark.co.uk">Bytemark</a> and <a href="http://archive.org">The Internet Archive</a></small></p>
+     <p><small>Libre.fm supports the <a href="http://indieweb.org">IndieWeb</a> mission and the Fediverse and is supported by <a href="http://www.bytemark.co.uk">Bytemark</a> and <a href="http://archive.org">The Internet Archive</a></small></p>
 
      <p><a href="mailto:support@libre.fm">support@libre.fm</a></p>
 
