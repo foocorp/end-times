@@ -47,7 +47,7 @@
   </div> -->
 
   <p><label for='bio'>{t}Mini Biography:{/t}</label></p>
-    <p><textarea class="form-control" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
+    <p><textarea cols="40" rows="5" style="font-family: monospace" class="form-control" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
 
   <!-- <div class="checkbox">
     <label for='receive_emails'>
