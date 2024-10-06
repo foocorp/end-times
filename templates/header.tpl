@@ -26,7 +26,7 @@
   <header>
 {if ($logged_in)}
 	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}">{$site_name}</a></h1>
-{% else %}
+{else}
 	  <h1><a id="title" class="navbar-brand" href="/>{$site_name}</a></h1>
 {/if}
 	<nav>
