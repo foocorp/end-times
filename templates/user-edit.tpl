@@ -26,17 +26,17 @@
 
   <p>
     <label for='fullname'>{t}Full name:{/t}</label></p>
-    <p><input type="text: class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
+    <p><input size="40" maxlength="40" type="text" class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
     <p class="help-block">{t}Enter your name here, if you want to.{/t}</p>
 
 <p>
     <label for='location'>{t}Location:{/t}</label></p><p>
-    <input class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' />
+    <input size="40" maxlength="40" type="text"class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' />
     <p class="help-block">{t}Where do you live?{/t}</p>
 
 <p>
     <label for='homepage'>{t}Website address:{/t}</label></p><p>
-    <input type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
+    <input size="40" maxlength="40" type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
   </div>
 
   <p style="background-color: yellow; font-size: 18px;"><strong>Shows up on your profile once you start listening to music</strong></p>
@@ -70,7 +70,7 @@
       <label for='laconica_profile'>{t}Fediverse Profile:{/t}
 	<span><a href='#dfn_laconica_profile' rel='glossary'>{t}What's this?{/t}</a></span>
       </label></p>
-      <p><input class="form-control" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <p><input class="form-control" size="40" maxlength="40" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <!-- <div class="form-group">
@@ -85,11 +85,11 @@
     <label for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
     </label>
-    <input class="form-control" name='password_1' id='password_1' type='password' autocomplete="off" value='' />
+    <input class="form-control" name='password_1' id='password_1' size="40" maxlength="40" type='password' autocomplete="off" value='' />
  </p><p>
     <label for='password_2'>{t}Confirm Password:{/t}
     </label>
-    <input class="form-control" name='password_2' id='password_2' type='password' autocomplete="off" value='' />
+    <input class="form-control" name='password_2' id='password_2' size="40" maxlength="40" type='password' autocomplete="off" value='' />
   </p>
 
   <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 20-30 mins, sorry about that.</strong></p>
