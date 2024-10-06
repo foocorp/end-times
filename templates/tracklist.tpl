@@ -18,7 +18,7 @@
 	@param string url_sort_count  URL string to toggle sort order by count
 	@param string type            Type of list, 'tagged' (used to show correct button)
 *}
-<table class="{$class} tracklist" border="1">
+<table class="endtimes-table {$class} tracklist">
 	<thead>
 	  <tr>
 		<th class="title">Title</th>
