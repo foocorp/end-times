@@ -25,16 +25,18 @@
 <form class="form-signin" action='{$base_url}/user-edit.php' method='post'>
 
   <p>
-    <label for='fullname'>{t}Full name:{/t}</label>
-    <input type="text: class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
+    <label for='fullname'>{t}Full name:{/t}</label></p>
+    <p><input type="text: class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
     <p class="help-block">{t}Enter your name here, if you want to.{/t}</p>
- </p><p>
-    <label for='location'>{t}Location:{/t}</label>
+
+<p>
+    <label for='location'>{t}Location:{/t}</label></p><p>
     <input class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' />
     <p class="help-block">{t}Where do you live?{/t}</p>
- </p><p>
-    <label for='homepage'>{t}Website address:{/t}</label>
-    <input type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' />
+
+<p>
+    <label for='homepage'>{t}Website address:{/t}</label></p><p>
+    <input type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
   </div>
 
   <p style="background-color: yellow; font-size: 18px;"><strong>Shows up on your profile once you start listening to music</strong></p>
@@ -67,8 +69,8 @@
     <p>
       <label for='laconica_profile'>{t}Fediverse Profile:{/t}
 	<span><a href='#dfn_laconica_profile' rel='glossary'>{t}What's this?{/t}</a></span>
-      </label>
-      <input class="form-control" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      </label></p>
+      <p><input class="form-control" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <!-- <div class="form-group">
