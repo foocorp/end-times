@@ -31,7 +31,7 @@
 
   <p>
     <label for='fullname'>{t}Full name:{/t}</label>
-    <input class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
+    <input type="text: class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
     <p class="help-block">{t}Enter your name here, if you want to.{/t}</p>
  </p><p>
     <label for='location'>{t}Location:{/t}</label>
@@ -39,7 +39,7 @@
     <p class="help-block">{t}Where do you live?{/t}</p>
  </p><p>
     <label for='homepage'>{t}Website address:{/t}</label>
-    <input class="form-control" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' />
+    <input type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' />
   </div>
 
   <p style="background-color: yellow; font-size: 18px;"><strong>Shows up on your profile once you start listening to music</strong></p>
@@ -75,7 +75,7 @@
       <label for='laconica_profile'>{t}Fediverse Profile:{/t}
 	<span><a href='#dfn_laconica_profile' rel='glossary'>{t}What's this?{/t}</a></span>
       </label>
-      <input class="form-control" onchange='laconicaChange();' onclick='laconicaClick();' name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <input class="form-control" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <!-- <div class="form-group">
@@ -126,7 +126,7 @@
   <dd>{t escape=no}An address that represents you in RDF. See <a href='http://esw.w3.org/topic/WebID'>WebID</a> for details. If you don't know what this is, it's best to leave it blank.{/t}</dd> -->
 
   <h4 id='dfn_laconica_profile'>Fediverse Profile</h4>
-  <p>{t escape=no}The address for your profile on the social web on an ActivityPub-powered site such as <a href='http://social.lol/' target='_blank'>social.lol</a>.{/t}</p>
+  <p>{t escape=no}The URL for your profile on the social web on an ActivityPub-powered site such as <a href='http://social.lol/' target='_blank'>social.lol</a>.{/t}</p>
 
   <!-- <dt id='dfn_journal_rss'>RSS Feed</dt>
   <dd>{t site=$site_name escape=no}An RSS feed which will be used to populate your journal on %1. Defaults to your StatusNet RSS feed if you provide your StatusNet micro-blog address.{/t}</dd> -->
