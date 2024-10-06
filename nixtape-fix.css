@@ -9,3 +9,5 @@ body {background-color: #aaa !important;}
 .endtimes-table:nth-child(odd) {
     background: whitesmoke;
 }
+
+.help-block {font-size: 80%; color: #666}
