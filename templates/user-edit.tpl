@@ -17,14 +17,9 @@
 <p><button class="btn btn-danger btn-lg" href='{$base_url}/artist-signup.php'>Delete my account</button></p> -->
 
 {if isset($errors)}
-<div id="errors">
 {section loop=$errors name=error}
-  <div class="alert alert-danger">
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
     <p>{$errors[error]}</p>
-  </div>
 {/section}
-</div>
 {/if}
 
 <form class="form-signin" action='{$base_url}/user-edit.php' method='post'>
