@@ -92,7 +92,7 @@
     <input class="form-control" name='password_2' id='password_2' size="40" maxlength="40" type='password' autocomplete="off" value='' />
   </p>
 
-  <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 20-30 mins, sorry about that.</strong></p>
+  <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
 <hr />
 
