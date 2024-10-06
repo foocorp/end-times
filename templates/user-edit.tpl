@@ -46,10 +46,8 @@
     <input class="form-control" name='avatar_uri' id='avatar_uri' value='{$avatar_uri|escape:'html':'UTF-8'}' />
   </div> -->
 
-  <p>
-    <label for='bio'>{t}Mini Biography:{/t}</label>
-    <textarea class="form-control" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea>
-  </p>
+  <p><label for='bio'>{t}Mini Biography:{/t}</label></p>
+    <p><textarea class="form-control" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
 
   <!-- <div class="checkbox">
     <label for='receive_emails'>
