@@ -35,6 +35,16 @@
 	  {/if}
 	  {/if}
 
+
+	  {if ($logged_in)}
+                  {if $me->getTotalTracks()}
+	  {if $me->homepage}
+	  {if $me->laconica_profile}
+	<p>Hey! Glad to see you're using Libre.fm! Please consider adding your name to <a href="https://github.com/foocorp/hacienda/issues/39">this list of users</a>.</p>
+ {/if}
+	  {/if}
+	  {/if}
+{/if}
 </div>
 
 <hr />
