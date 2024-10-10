@@ -13,3 +13,5 @@ body {background-color: #aaa !important;}
 .end-times-alert {background: #faffbe; padding: 1em; text-align: center;}
 
 .help-block {font-size: 80%; color: #666}
+
+.img-responsive {width: 100%; max-width: 260px !important;}
