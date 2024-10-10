@@ -8,6 +8,12 @@
 
 <h2>Edit your profile</h2>
 
+	  {if $me->homepage}
+	  {if $me->laconica_profile}
+	<p class="end-times-alert">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join us on the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
+ 	  {/if}
+	  {/if}
+
 <!-- <p><a class="btn btn-success btn-lg" href='{$base_url}/artist-signup.php'>Get an artist account</a></p> -->
 
 <!-- <p><a class="btn btn-default btn-lg" href='{$base_url}/artist-signup.php'>Change my password</a></p>
