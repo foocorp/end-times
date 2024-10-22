@@ -47,6 +47,10 @@
 
   <p style="background-color: yellow; font-size: 18px;"><strong>Shows up on your profile once you start listening to music</strong></p>
 
+<div class="form-group">
+<p>We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for avatars. You can sign up there and make sure you use the same email address so it'll show up here too.</p>
+</div>
+
   <!-- <div class="form-group">
     <label for='avatar_uri'>{t}Avatar address:{/t}
       <span><a href='#dfn_avatar_uri' rel='glossary'>{t}What's this?{/t}</a></span>
@@ -120,8 +124,8 @@
   <!-- <dt id='dfn_location_uri'>{t}Location check{/t}</dt>
   <dd>{t escape=no}This feature looks up your location on <a href='http://www.geonames.org'>geonames</a>. You don't need to do it, but it will allow us find your latitude and longitude so we can add some great location-based features in the future.{/t}</dd> -->
 
-  <h4 id='dfn_avatar_uri'>{t}Avatar address{/t}</h4>
-  <p>{t site=$site_name escape=no}The web address for a picture to represent you on %1. It should not be more than 80x80 pixels. (64x64 is best.) If you leave this empty, we'll use <a href='http://libravatar.org'>Libravatar.org</a> to find an image for you.{/t}</p>
+  <!-- <h4 id='dfn_avatar_uri'>{t}Avatar address{/t}</h4>
+  <p>{t site=$site_name escape=no}The web address for a picture to represent you on %1. It should not be more than 80x80 pixels. (64x64 is best.) If you leave this empty, we'll use <a href='http://libravatar.org'>Libravatar.org</a> to find an image for you.{/t}</p> -->
 
   <!-- <dt id='dfn_id'>WebID (FOAF)</dt>
   <dd>{t escape=no}An address that represents you in RDF. See <a href='http://esw.w3.org/topic/WebID'>WebID</a> for details. If you don't know what this is, it's best to leave it blank.{/t}</dd> -->
