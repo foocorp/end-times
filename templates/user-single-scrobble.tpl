@@ -9,7 +9,7 @@
 
 <h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-<p>Listened to <span class="p-music-track">{if $artist}<a href="/artist/{$artist}/track/{$track}">{$track}</a>{else}{$track}{/if}</span> {if $artist}by <span class="p-music-artist"><a href="/artist/{$artist}">{$artist}</a></span>{/if}{if $album} on <span class="p-music-album">{$album}</span>{/if}</p>
+<p>Listened to <span class="p-music-track">{if $artist}<a href="/artist/{$artist}/track/{$track}|escape:'html'}">{$track}</a>{else}{$track}{/if}</span> {if $artist}by <span class="p-music-artist"><a href="/artist/{$artist}|escape:'html'}">{$artist}</a></span>{/if}{if $album} on <span class="p-music-album">{$album}</span>{/if}</p>
 
 
 
