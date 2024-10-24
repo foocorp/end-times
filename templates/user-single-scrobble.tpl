@@ -1,7 +1,18 @@
-{include file='header.tpl' subheader='user-header.tpl'}
+{include file='header.tpl'}
 
-{if $page->scrobbles}
-	{include file='scrobble.tpl' class=#librarytable# items=$page->scrobbles thead=true fartist=true ftag=true ftime=true fbutton=true flove=true fstream=true type='scrobble'}
+{if $artist}
+
+<h2>{$me->name}</h2>
+
+<p>Listened to {$track} by {$artist}</p>
+
+
+
+
+<p>{$stamp}</p>
+
+
+
 {/if}
 
 {include file='footer.tpl'}
