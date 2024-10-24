@@ -30,6 +30,12 @@
 
 <p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature</a></p>
 
+{if ($logged_in)}
+{if $this_user->uniqueid == $me->uniqueid}
+...
+{/if}
+{/if}
+
 {/if}
 
 {include file='footer.tpl'}
