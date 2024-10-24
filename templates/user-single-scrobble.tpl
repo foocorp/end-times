@@ -17,6 +17,7 @@
 	<a rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}">{$extra_head_links[i].title|escape:'html':'UTF-8'}</a>
 {/section}
 
+<p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature</a></p>
 
 {/if}
 
