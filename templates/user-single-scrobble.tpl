@@ -32,7 +32,9 @@
 
 {if ($logged_in)}
 {if $this_user->uniqueid == $me->uniqueid}
-...
+<details>
+<p><small>This is a scrobble you made, so you should be able to delete it from here. Coming soon.</small></p>
+</details>
 {/if}
 {/if}
 
