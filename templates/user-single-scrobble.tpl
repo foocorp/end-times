@@ -13,10 +13,7 @@
 
 <p>Listened to <span class="p-music-track">{$track}</span> {if $artist}by <span class="p-music-artist">{$artist}</span>{/if}{if $album} on <span class="p-music-album">{$album}</span>{/if}</p>
 
-
-
-
-<time>{$stamp}</time>
+<time datetime="{$stamp}">{$stomp}</time>
 
 </fieldset>
 </div>
