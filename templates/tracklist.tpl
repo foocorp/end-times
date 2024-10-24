@@ -44,7 +44,11 @@
 		</td>
 
 		<td class="time">
+		{if $me->uniqueid}
+                    <a href="/user/{$me->name}/scrobbles/{$i.time}">{$i.timehuman}</a>
+                {else}
 		    {$i.timehuman}
+                {/if}
 		</td>
 	</tr>
 	{/foreach}
