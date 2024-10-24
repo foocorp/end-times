@@ -18,8 +18,6 @@
 
 </fieldset>
 </div>
-<details>
-<p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
 <ul>
 {section name=i loop=$extra_head_links}
@@ -27,6 +25,9 @@
 	<li><a href="https://shareopenly.org/share/?url=https://libre.fm/user/{$me->name}/scrobble/{$scrobble}&text={$me->name} listened to {$track} {if $artist}by {$artist}{/if}{if $album} on {$album}{/if} %23librefm %23indieweb %23music %23shareopenly">Share this on social media</a></li>
 {/section}
 </ul>
+
+<details>
+<p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
 <p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature</a></p>
 
