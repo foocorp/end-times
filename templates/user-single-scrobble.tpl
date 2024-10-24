@@ -1,6 +1,11 @@
 {include file='header.tpl'}
 
+
+
 {if $track}
+
+<div class="h-entry">
+<fieldset>
 
 <h2><a href="/user/{$me->name}">{$me->name}</a></h2>
 
@@ -10,6 +15,9 @@
 
 
 <p>{$stamp}</p>
+
+</fieldset>
+</div>
 
 <p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
