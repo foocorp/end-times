@@ -2,7 +2,7 @@
 
 {if $artist}
 
-<h2>{$me->name}</h2>
+<h2><a href="/user/{$me->name}">{$me->name}</a></h2>
 
 <p>Listened to {$track} by {$artist}</p>
 
