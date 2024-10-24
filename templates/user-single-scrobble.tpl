@@ -7,14 +7,14 @@
 <div class="h-entry">
 <fieldset>
 
-<h2><a href="/user/{$me->name}">{$me->name}</a></h2>
+<h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-<p>Listened to {$track} {if $artist}by {$artist}{/if}{if $album} on {$album}{/if}</p>
-
-
+<p>Listened to <span class="p-music-track">{$track}</span> {if $artist}by <span class="p-music-artist">{$artist}</span>{/if}{if $album} on <span class="p-music-album">{$album}</span>{/if}</p>
 
 
-<p>{$stamp}</p>
+
+
+<time>{$stamp}</time>
 
 </fieldset>
 </div>
