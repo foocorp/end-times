@@ -3,7 +3,7 @@
 <div class="h-entry">
 <h2><a href="https://libre.fm/user/{$me->name}">{$me->name}</a></h2>
 
-<p>Listened to {$track} {if $artist}by {$artist}{/if}{if $album}on {$album}{/if}</p>
+<p>Listened to {$track} {if $artist}by {$artist}{/if}{if $album} on {$album}{/if}</p>
 
 
 
