@@ -18,7 +18,7 @@
 
 </fieldset>
 </div>
-
+<details>
 <p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
 <ul>
@@ -32,11 +32,11 @@
 
 {if ($logged_in)}
 {if $this_user->uniqueid == $me->uniqueid}
-<details>
+
 <p><small>This is a scrobble you made, so you should be able to delete it from here. Coming soon.</small></p>
+{/if}
+{/if}
 </details>
-{/if}
-{/if}
 
 {/if}
 
