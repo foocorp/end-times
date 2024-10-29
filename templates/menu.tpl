@@ -22,7 +22,7 @@
 	  </a>
 	</li>
 {/if}
-<li><a target="_blank" href="https://librefm.wordpress.com/2024/10/06/bunch-of-updates-to-libre-fm-this-week-2024-10-06/">This week in Libre.fm (October 6th 2024)</li>
+<li><strong>News!</strong> <a target="_blank" href="https://blog.libre.fm/2024/10/libre-fm-blog-launches-update-for-october-27th-2024/">This week in Libre.fm (October 27th 2024)</li>
 <li>Help? <a href="mailto:support@libre.fm">support@libre.fm</a> or <a target="_blank" href="https://github.com/foocorp/hacienda/issues">File an issue</a></li>
 	<li><a href="{$base_url}/donate.php">Donate</a></li>
 </ul>
