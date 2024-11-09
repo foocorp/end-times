@@ -225,7 +225,7 @@ a:visited {
 	  <h1><a id="title" class="navbar-brand" href="/">{$site_name}</a></h1>
 {/if}
 
-<p><small>(I broke the CSS on purpose)</small></p>
+<p><small>(<a href="https://github.com/foocorp/hacienda/issues/47">I broke the CSS on purpose</a>)</small></p>
 
 	<nav>
 	  {include file='menu.tpl'}
