@@ -59,11 +59,6 @@ a {
     text-underline-offset: 0.2em;
 }
 
-body > header {
-    background: var(--branding-background);
-    color: var(--branding-color);
-}
-
 body > header a {
     color: var(--branding-color);
 }
@@ -87,7 +82,7 @@ header p img {
 }
 
 .endtimes-table th {
-    color: white
+    color: white;
     text-align: center;
     font-weight: bold;
     background: navy;
