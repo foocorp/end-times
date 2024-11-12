@@ -26,6 +26,8 @@
 	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></a></h1>
 {/if}
 
+<p>We are bored in the city, there is no longer any Temple of the Sun.</p>
+
   </header>
 
   <main>
@@ -46,17 +48,15 @@
 					<section>
 				{/if}
 
-<h2>We are bored in the city, there is no longer any Temple of the Sun. </h2>
 
-<pBetween the legs of the women walking by, the dadaists imagined a monkey wrench and the surrealists a crystal cup. That's lost. We know how to read every promise in faces—the latest stage of morphology. The poetry of the billboards lasted twenty years.</p>
 
 {if ($logged_in)}
-Welcome <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>
+<h2>Welcome <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
 <p><a href="https://roadmap.libre.fm/">Libre.fm roadmap</a></p>
 <p><a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
 
 {else}
-<h3>Libre.fm lets you keep track of your music listening habits</h3>
+<h2>Libre.fm lets you keep track of your music listening habits</h2>
 <p><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
 {/if}
 
