@@ -39,7 +39,7 @@
 
       <div class="form-group">
 	<label for='email'>{t}E-mail{/t}</label>
-	<input class="form-control" id='email' name='email' type='text'  placeholder="{t}Your e-mail:{/t}" value='' autofocus />
+	<input class="form-control" id='email' name='email' type='text'  placeholder="{t}Your e-mail address:{/t}" value='' autofocus />
       </div>
 
       <button class="btn btn-primary btn-lg" type='submit' name='recover' value='{t}Reset my password!{/t}'>
