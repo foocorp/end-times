@@ -5,7 +5,7 @@
 </p>
 <p class="form-group">
   <label for='email'>{t}Email address{/t}</label>
-        <input type="email" class="form-control" placeholder="{t}Your e-mail:{/t}" id="email" name="email" required />
+        <input type="email" class="form-control" placeholder="{t}Your e-mail address:{/t}" id="email" name="email" required />
 </p>
 <p class="form-group">
   <label for='password'>{t}Password{/t}</label>
