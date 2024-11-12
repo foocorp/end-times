@@ -23,7 +23,7 @@
 {if ($logged_in)}
 	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile"></a></h1>
 {else}
-	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></a></h1>
+	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
 {/if}
 
 <p>We are bored in the city, there is no longer any Temple of the Sun.</p>
