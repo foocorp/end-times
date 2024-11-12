@@ -1,7 +1,7 @@
     :root {
-        --color: #fff;
-        --body-background: #342c2c;
-        --content-background: #342c2c;
+        --color: whitesmoke;
+        --body-background: #111;
+        --content-background: #111;
         --link-color: #13b8eb;
         --row-modifier: white;
         --branding-background: #0b0;
