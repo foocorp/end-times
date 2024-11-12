@@ -215,5 +215,5 @@ body {background-color: #aaa !important;}
 
 .text-center {text-align: center;}
 
-.btn-success {width: 100%; font-size: x-large;}
+.btn-success {width: 100%; font-size: x-large; background: green; color: white; padding: 1ch;}
 
