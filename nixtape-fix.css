@@ -213,5 +213,7 @@ body {background-color: #aaa !important;}
 
 .list-inline li {display: inline;}
 
-.text-center {text-align: center;]
+.text-center {text-align: center;}
+
+.btn-success {width: 100%; font-size: x-large;}
 
