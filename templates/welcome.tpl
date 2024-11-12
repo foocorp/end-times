@@ -21,9 +21,9 @@
 <body>
 <header>
 {if ($logged_in)}
-	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}">{$site_name}</a></h1>
+	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile"></a></h1>
 {else}
-	  <h1><a id="title" class="navbar-brand" href="/">{$site_name}</a></h1>
+	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></a></h1>
 {/if}
 
   </header>
@@ -46,8 +46,9 @@
 					<section>
 				{/if}
 
-<h2>we are bored in the city</h2>
+<h2>We are bored in the city, there is no longer any Temple of the Sun. </h2>
 
+<pBetween the legs of the women walking by, the dadaists imagined a monkey wrench and the surrealists a crystal cup. That's lost. We know how to read every promise in faces—the latest stage of morphology. The poetry of the billboards lasted twenty years.</p>
 
 {if ($logged_in)}
 Welcome <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>
