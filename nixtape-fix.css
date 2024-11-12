@@ -209,7 +209,7 @@ body {background-color: #aaa !important;}
   display: block;
 }
 
-.list-inline {margin-top: 1em; margin-bottom: 1em;}
+.list-inline {margin-top: 1em; margin-bottom: 1em; display: block; padding: 0;}
 
 .list-inline li {display: inline;}
 
