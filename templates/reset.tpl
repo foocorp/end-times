@@ -42,9 +42,11 @@
 	<input class="form-control" id='email' name='email' type='text'  placeholder="{t}Your e-mail address:{/t}" value='' autofocus />
       </div>
 
+      <div class="form-group">
       <button class="btn btn-success btn-lg" type='submit' name='recover' value='{t}Reset my password!{/t}'>
 	{t}Reset my password!{/t}
       </button>
+</div>
 
   </fieldset>
   
