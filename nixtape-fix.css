@@ -217,3 +217,11 @@ body {background-color: #aaa !important;}
 
 .btn-success {width: 100%; font-size: x-large; background: green; color: white; padding: 1ch;}
 
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90vh;
+}
+
