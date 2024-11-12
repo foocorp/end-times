@@ -186,3 +186,6 @@ body {background-color: #aaa !important;}
 .help-block {font-size: 80%; color: #666}
 
 .img-responsive {width: 100%; max-width: 260px !important;}
+
+
+.list-inline {display: inline; list-style: none;}
