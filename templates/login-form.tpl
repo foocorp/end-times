@@ -13,5 +13,5 @@
   </label>
 </div>
 <input name="return" type="hidden" value="{$return|htmlentities}" />
-<button class="btn btn-success btn-lg" type='submit' name='login' value='{t}Login{/t}' />{t}Login{/t}</button>
+<p><button class="btn btn-success btn-lg" type='submit' name='login' value='{t}Login{/t}' />{t}Login{/t}</button></p>
 </fieldset>
