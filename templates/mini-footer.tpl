@@ -1,6 +1,5 @@
 
       <ul class="list-inline text-center">
-	<li><a href="/">{t}Back to site{/t}</a></li>
 	<li><a href="{$base_url}/register.php">{t}Register{/t}</a></li>
 	<li><a href="{$base_url}/login.php">{t}Login{/t}</a></li>
 	<li><a href="{$base_url}/reset.php">{t}Lost password{/t}</a></li>
