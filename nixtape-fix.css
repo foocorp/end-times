@@ -183,14 +183,6 @@ nav li {list-style: none;}
 
 body {background-color: #aaa !important;}
 
-.endtimes-table {width: 100%; border: 1px solid #eee;}
-.endtimes-table th {background: whitesmoke; text-align: center; font-weight: bold;}
-.endtimes-table:nth-child(odd) {
-    background: whitesmoke;
-}
-
-.end-times-alert {background: #faffbe; padding: 1em; text-align: center; color: black;}
-
 .help-block {font-size: 80%; color: #666}
 
 .img-responsive {width: 100%; max-width: 260px !important;}
