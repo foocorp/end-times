@@ -1,6 +1,6 @@
     :root {
         --color: #fff;
-        --body-background: #000;
+        --body-background: #342c2c;
         --content-background: #342c2c;
         --link-color: #13b8eb;
         --row-modifier: white;
@@ -87,10 +87,10 @@ header p img {
 }
 
 .endtimes-table th {
-    color: var(--color);
+    color: white
     text-align: center;
     font-weight: bold;
-    background: var(--content-background);
+    background: navy;
     padding: 1.1ch
 }
 
@@ -115,6 +115,7 @@ header p img {
     background: #faffbe;
     padding: 1em;
     text-align: center;
+    color: black;
 }
 
 .help-block {
