@@ -18,6 +18,7 @@
 <h3>Recent plays</h3>
 {include file="tracklist.tpl" class=#table# items=$userscrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
 
+<!-- 
 {if !empty($lovedArtists)}
 	<h4>{t name=$me->name}Libre artists that %1 loves{/t}</h4>
 	<ul>
@@ -34,6 +35,6 @@
 			<li><a href='{$artist.url}'>{$artist.artist}</a></li>
 		{/foreach}
 	</ul>
-{/if}
+{/if} -->
 
 {include file='footer.tpl'}
