@@ -30,7 +30,7 @@
 
   </header>
 
-  <main class="center-screen">
+  <main>
 
 {if ($logged_in)}
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
