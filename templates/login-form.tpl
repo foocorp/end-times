@@ -13,6 +13,5 @@
   </label>
 </div>
 <input name="return" type="hidden" value="{$return|htmlentities}" />
-<button class="btn btn-primary btn-lg" type='submit' name='login' value='{t}Login{/t}' />{t}Login{/t}</button>
-<a href="/register.php" class="btn btn-success btn-lg">Register now</a>
+<button class="btn btn-success btn-lg" type='submit' name='login' value='{t}Login{/t}' />{t}Login{/t}</button>
 </fieldset>
