@@ -17,7 +17,7 @@
 </p>
 <p>
         <label class="checkbox">
-          <input type="checkbox" value="remember-me" name="foo-check"> {t}I read this form carefully, and double-checked my email address first, honest.{/t}
+          <input type="checkbox" required value="remember-me" name="foo-check"> {t}I read this form carefully, and double-checked my email address first, honest.{/t}
         </label>
 </p>
 <p>
