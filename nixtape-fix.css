@@ -94,7 +94,7 @@ header p img {
 }
 
 .endtimes-table tr:has(td):nth-child(2n) {
-    background: color-mix(in srgb, var(--content-background), var(--row-modifier) 6%);
+    backg2round: color-mix(in srgb, var(--content-background), var(--row-modifier) 6%);
 }
 
 .endtimes-table td {
