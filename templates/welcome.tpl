@@ -30,25 +30,7 @@
 
   </header>
 
-  <main>
-
-
-
-
-				{if $nosidebar}
-                                <!-- nosb -->
-				{else}
-{if isset($subheader)}
-					<header>
-						
-							{include file="$subheader"}
-					
-					</header>	
-{/if}
-					<section>
-				{/if}
-
-
+  <main class="center-screen">
 
 {if ($logged_in)}
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
@@ -60,7 +42,6 @@
 <p class="text-center"><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
 {/if}
 
-</section>
 </main>
 </body>
 </html>
