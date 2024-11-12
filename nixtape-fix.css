@@ -189,3 +189,24 @@ body {background-color: #aaa !important;}
 
 
 .list-inline {display: inline; list-style: none;}
+
+.mini-header {
+    max-width: 500px;
+}
+
+/* Element | https://libre.fm/login.php */
+
+.mini-header input{
+  width: 100%;
+  font-size: x-large;
+}
+
+/* Element | https://libre.fm/login.php */
+
+.mini-header label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
