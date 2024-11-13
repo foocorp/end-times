@@ -277,6 +277,10 @@ body {background-color: #aaa !important;}
   min-height: 90vh;
 }
 
+footer p, footer h3, header p {
+    text-wrap: balance;
+}
+
 #tops ul {
      columns: 3 auto;
 }
