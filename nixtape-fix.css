@@ -281,6 +281,15 @@ footer p, footer h3, header p {
     text-wrap: balance;
 }
 
+.tagcloud {
+    /* display: inline-table; */
+    list-style: none;
+    padding-left: 0;
+}
+.tagcloud li {
+    display: inline-table;
+}
+
 #tops ul {
      columns: 3 auto;
 }
