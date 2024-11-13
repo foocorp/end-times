@@ -151,14 +151,21 @@ header p img {
 }
 
 .h-card {
-    width: 50%;
     margin-bottom: 5ch;
     border-radius: 1ch;
     margin-inline: auto;
-    padding: 0.5ch 1ch 0.5ch;
     display: grid;
     gap: 1ch;
     background: #222;
+      width: 90%;
+  padding: 0.5ch 1ch 1.5ch;
+  text-align: left;
+}
+
+.h-card ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.6;
 }
 
 a {
