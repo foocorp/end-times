@@ -1,7 +1,7 @@
 {include file='header.tpl'}
 
-{if ($me->lanonica_profile)}
-...
+{if $me->laconica_profile}
+	  <li><a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
 {/if}
 
 {if $track}
