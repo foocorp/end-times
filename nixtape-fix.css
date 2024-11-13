@@ -243,7 +243,7 @@ body {background-color: #aaa !important;}
 
 /* Element | https://libre.fm/login.php */
 
-.form-group input{
+.form-group input, .form-group textarea{
   width: 100%;
   font-size: x-large;
 }
