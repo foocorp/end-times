@@ -33,7 +33,8 @@
   <main>
 
 {if ($logged_in)}
-<h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
+ <meta http-equiv="refresh" content="0;url=/user/{t name=$this_user->name}%1{/t}"> 
+<h2 class="text-center">Welcome back, <a href="">{t name=$this_user->name}%1{/t}</a></h2>
 <p class="text-center">See what's coming soon in the <a href="https://roadmap.libre.fm/">Libre.fm roadmap</a></p>
 <p class="text-center">Bug report? Feature request? <a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
 
