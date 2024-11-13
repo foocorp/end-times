@@ -1,4 +1,4 @@
-<ul class="nav navbar-nav inline-list">
+<ul class="nav navbar-nav list-inline">
 {if ($logged_in)}
 <li class="dropdown">
         <a href="/user/{t name=$this_user->name}%1{/t}" class="dropdown-toggle" data-toggle="dropdown"> 
