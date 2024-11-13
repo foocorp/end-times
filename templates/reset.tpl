@@ -45,6 +45,7 @@
       <p>
       <button class="btn btn-success btn-lg" type='submit' name='recover' value='{t}Reset my password!{/t}'>
 	{t}Reset my password!{/t}
+      </button>
       </p>
 </div>
 
