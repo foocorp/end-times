@@ -58,9 +58,8 @@
 
 	<h3 id="listeners">
 	{if $artist->getListenerCount()}
-        {assign var=items value=$artist->getListeners()}
 	<ul>
-        {foreach from=$items item=i}
+        {foreach from=$artist->getTopListeners() item=i}
         <li>
 	{$.username}
         </li>
