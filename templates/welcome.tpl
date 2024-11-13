@@ -51,7 +51,7 @@
 
 <div id="tops"{if ($logged_in)}class="logged-in"{/if}>
 {if ($tops)}
-<h3>Users with the most tracks</h3>
+<h3>Check out these fine users</h3>
 <ul>
 {$tops}
 </ul>
