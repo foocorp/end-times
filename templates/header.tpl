@@ -20,11 +20,7 @@
 
 <body>
   <header>
-{if ($logged_in)}
-	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile"></a></h1>
-{else}
 	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></a></h1>
-{/if}
 
 <p><small>(<a href="https://github.com/foocorp/hacienda/issues/47">I broke the CSS on purpose</a>)</small></p>
 
