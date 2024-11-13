@@ -1,8 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="end-times-alert"><strong>Got Last.fm? Connect your account here and scrobble to both services!</strong></p>
-
-<p><a style="font-weight: bold" class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connections to other services</a></p>
+<p class="end-times-alert"><strong>Got Last.fm? <a style="font-weight: bold" class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 
 <hr />
 
