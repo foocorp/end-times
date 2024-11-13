@@ -1,7 +1,7 @@
 <ul class="nav navbar-nav list-inline">
 {if ($logged_in)}
 <li><a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></li>
-<li>(<a href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a>)</li>
+<li><a href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></li>
 	
 {else}
 	<li>
