@@ -1,9 +1,9 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
 {if $nowplaying}
-<h2>Now playing</h2>
+<p><strong>{t name=$me->name}%1{/t}is currently listening to: </strong>
 
-<p><a class="alert-link" href="{$nowplaying[0].trackurl}">
+<a class="alert-link" href="{$nowplaying[0].trackurl}">
 	   {$nowplaying[0].track}
 	</a>
 	by
