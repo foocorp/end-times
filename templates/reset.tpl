@@ -38,7 +38,7 @@
       <p>{t}or{/t}:</p>
 
       <div class="form-group">
-	<label for='email'>{t}E-mail{/t}</label>
+	<label for='email'>{t}E-mail address{/t}</label>
 	<input class="form-control" id='email' name='email' type='text'  placeholder="{t}Your e-mail address:{/t}" value='' autofocus />
       </div>
 
