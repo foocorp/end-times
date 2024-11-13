@@ -43,6 +43,7 @@ nav li a {
 }
 
 
+
 nav li a {
   background-color: #222;
 }
@@ -231,7 +232,13 @@ body {background-color: #aaa !important;}
   display: block;
 }
 
-.list-inline {margin-top: 1em; margin-bottom: 1em; display: block; padding: 0;}
+.list-inline {margin-top: 1em; margin-bottom: 1em; padding: 0;
+  padding-bottom: 2ch;
+  display: inline-table;
+}
+
+             
+             }
 
 .list-inline li {display: inline;}
 
