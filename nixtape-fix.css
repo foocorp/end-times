@@ -299,7 +299,7 @@ body {background-color: #aaa !important;}
     columns: 3 auto;
 }
 
-th.time {
+th.time, td.time {
     display: none;
 }
 
@@ -316,7 +316,7 @@ th.time {
     columns: 2 auto;
 }
 
-th.time {
+th.time, td.time {
     display: none;
 }
     
