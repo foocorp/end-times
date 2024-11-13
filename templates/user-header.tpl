@@ -3,6 +3,10 @@
 
 <img class="u-photo" src="{$me->getAvatar(90)}" alt="">
 
+	  {if ($logged_in)}
+<a class="edit-profile-link" href="/user-edit.php">Edit my profile</a>
+{/if}
+
 	  {if $me->getTotalTracks()}
 	  <p>
 	      <strong>{$me->getTotalTracks()}</strong> tracks played
