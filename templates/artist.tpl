@@ -57,7 +57,7 @@
 	<hr>
 
 	{if $artist->getListenerCount()}
-	<section class="h-feed">
+	<section class="h-feed" id="tops">
 	<h3 id="listeners">Top listeners</h3>
 	<ul>
         {foreach from=$artist->getTopListeners() item=i}
