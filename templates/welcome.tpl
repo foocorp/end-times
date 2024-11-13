@@ -40,12 +40,6 @@
 {else}
 <h2 class="text-center">Libre.fm lets you keep track of your music listening habits.</h2>
 <p class="text-center"><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
-{if ($tops)}
-<h3>Users with the most tracks</h3>
-<ul style="columns: 3 auto;">
-{$tops}
-</ul>
-{/if}
 {/if}
 
 {if ($recents)}
@@ -55,7 +49,14 @@
 </ul>
 {/if}
 
-
+<div id="tops"{if ($logged_in)}class="logged-in"{/if}>
+{if ($tops)}
+<h3>Users with the most tracks</h3>
+<ul style="columns: 3 auto;">
+{$tops}
+</ul>
+{/if}
+</div>
 
 </main>
 </body>
