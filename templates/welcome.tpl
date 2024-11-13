@@ -42,7 +42,7 @@
 <p class="text-center"><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
 {if ($tops)}
 <h3>Users with the most tracks</h3>
-<ul>
+<ul style="columns: 3 auto;">
 {$tops}
 </ul>
 {/if}
