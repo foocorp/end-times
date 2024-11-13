@@ -24,11 +24,12 @@
 	  <li><a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
 	  {/if}
 	  {if $me->laconica_profile}
-	  <p>Fediverse: <a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></p>
+	  <li><a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
 	  {else}
 	  {if ($logged_in)}
 	  <p>Do you have an account on the social web? <a href="/user-edit.php">Add your fediverse profile</a> to your Libre.fm profile.</p>
 	  {/if}
+          </ul>
 	  {/if}
 	  {else}
 	  {if ($logged_in)}
