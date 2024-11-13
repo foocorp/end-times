@@ -1,17 +1,16 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
 {if $nowplaying}
-<h2>
-<strong>Now playing: </strong>
-	<span class="glyphicon glyphicon-music"></span>
-	<a class="alert-link" href="{$nowplaying[0].trackurl}">
+<h2>Now playing</h2>
+
+<p><a class="alert-link" href="{$nowplaying[0].trackurl}">
 	   {$nowplaying[0].track}
 	</a>
 	by
 	<a class="alert-link" href="{$nowplaying[0].artisturl}">
 	  {$nowplaying[0].artist}
 	</a>
-</h2>
+</p>
 {/if}
 
 {userscrobbles userid=$me->uniqueid  limit=10}
