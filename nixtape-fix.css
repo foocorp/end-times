@@ -33,6 +33,19 @@ nav li {
     list-style: none;
 }
 
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+nav li a {
+  background-color: #222;
+}
+
 html {    background-color: var(--body-background);}
 
 body {
