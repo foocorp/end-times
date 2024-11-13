@@ -158,6 +158,8 @@ header p img {
     padding: 0.5ch 1ch 0.5ch;
     display: grid;
     gap: 1ch;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,0.4108018207282913) 0%, rgba(0,0,0,1) 35%, rgba(22,22,22,1) 100%);
 }
 
 a {
