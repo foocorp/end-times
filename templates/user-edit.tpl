@@ -44,7 +44,7 @@
 
 <div class="form-group">
     <p><label for='homepage'>{t}Website address:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
+    <p><input size="40" maxlength="40" type="url" class="form-control" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
   </div>
 
   <p class="end-times-alert"><strong>Shows up on your profile once you start listening to music</strong></p>
@@ -81,7 +81,7 @@
 
     <div class="form-group">
       <p><label for='laconica_profile'>{t}Fediverse Profile:{/t}</label></p>
-      <p><input class="form-control" size="40" maxlength="40" type="url" placeholder="https://example.com/@mattl" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <p><input class="form-control" size="40" maxlength="40" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <!-- <div class="form-group">
