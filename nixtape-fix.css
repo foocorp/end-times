@@ -278,3 +278,6 @@ body {background-color: #aaa !important;}
   min-height: 90vh;
 }
 
+#tops .logged-in {
+    font-size: small;
+}
