@@ -192,6 +192,13 @@ color: lime;
       width: 90%;
   padding: 0.5ch 1ch 1.5ch;
   text-align: left;
+    position: relative;
+}
+
+.edit-profile-link {
+    position: absolute;
+    right: 2ch;
+    top: 2ch;
 }
 
 .h-card ul {
