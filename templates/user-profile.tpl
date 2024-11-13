@@ -39,7 +39,7 @@
 
 <hr>
 {if ($recents)}
-<h3>Recent plays</h3>
+<h3>Recent plays by other users</h3>
 <ul>
 {$recents}
 </ul>
