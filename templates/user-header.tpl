@@ -48,10 +48,12 @@
                   {if $me->getTotalTracks()}
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
+{if $me->name == $this_user->name}
 	<p class="end-times-alert">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Please consider adding your name to <a href="https://github.com/foocorp/hacienda/issues/39">this list of users</a>.</p>
  {/if}
 	  {/if}
 	  {/if}
+{/if}
 {/if}
 
 </div>
