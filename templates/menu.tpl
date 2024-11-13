@@ -1,23 +1,16 @@
 <ul class="nav navbar-nav list-inline">
 {if ($logged_in)}
-<li class="dropdown">
-        <a href="/user/{t name=$this_user->name}%1{/t}" class="dropdown-toggle" data-toggle="dropdown"> 
-{t name=$this_user->name}%1{/t}</a> (<a href="{$base_url}/login.php?action=logout">
-	    {t}Logout{/t}
-</a>)</li>
+<li><a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></li>
+<li>(<a href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a>)</li>
 	
 {else}
 	<li>
 	  <a href="{$base_url}/login.php">
-	    <span class="glyphicon glyphicon-log-in">
-	    </span>
 	    {t}Log in{/t}
 	</a>
 	</li>
 	<li>
 	  <a href="{$base_url}/register.php">
-	    <span class="glyphicon glyphicon-ok">
-	    </span>
 	    {t}Sign up{/t}
 	  </a>
 	</li>
