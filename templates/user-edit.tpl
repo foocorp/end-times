@@ -42,7 +42,7 @@
     <p class="help-block">{t}Where do you live?{/t}</p>
 </div>
 
-<p class="form-group">
+<div class="form-group">
     <p><label for='homepage'>{t}Website address:{/t}</label></p>
     <p><input size="40" maxlength="40" type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
   </div>
