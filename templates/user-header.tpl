@@ -1,4 +1,5 @@
 <div class="h-card">
+<div class="half">
 <h2 class="p-name">{$me->name}</h2>
 
 	<p><img class="u-photo" src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]"></p>
@@ -17,6 +18,8 @@
 	    <p>{$me->bio|escape:'html':'UTF-8'}</p>
 	  </blockquote>
 	  {/if}
+</div>
+<div class="half">
 
                   {if $me->getTotalTracks()}
 	  {if $me->homepage}
@@ -45,6 +48,9 @@
 	  {/if}
 	  {/if}
 {/if}
+
+</div>
+
 </div>
 
 <hr />
