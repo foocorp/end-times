@@ -4,7 +4,9 @@
 <img class="u-photo" src="{$me->getAvatar(90)}" alt="">
 
 	  {if ($logged_in)}
+{if $me->name == $this_user->name}
 <a class="edit-profile-link" href="/user-edit.php">Edit my profile</a>
+{/if}
 {/if}
 
 	  {if $me->getTotalTracks()}
