@@ -298,6 +298,12 @@ body {background-color: #aaa !important;}
 #tops.logged-in ul {
     columns: 3 auto;
 }
+
+th.time {
+    display: none;
+}
+
+    
 }
 
 @media only screen and (max-width: 500px) {
@@ -309,4 +315,9 @@ body {background-color: #aaa !important;}
 #tops.logged-in ul {
     columns: 2 auto;
 }
+
+th.time {
+    display: none;
+}
+    
 }
