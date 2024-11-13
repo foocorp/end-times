@@ -159,7 +159,7 @@ header p img {
     display: grid;
     gap: 1ch;
     background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,0.4108018207282913) 0%, rgba(1,1,1,1) 35%, rgba(22,22,22,1) 100%);
+background: linear-gradient(0deg, rgba(2,0,36,0.4108018207282913) 0%, rgba(1,1,1,1) 35%, rgba(22,22,22,1) 100%);
 }
 
 a {
