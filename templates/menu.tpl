@@ -1,7 +1,7 @@
-<ul class="nav navbar-nav">
+<ul class="nav navbar-nav inline-list">
 {if ($logged_in)}
 <li class="dropdown">
-        <a href="/user/{t name=$this_user->name}%1{/t}" class="dropdown-toggle" data-toggle="dropdown">Signed in as 
+        <a href="/user/{t name=$this_user->name}%1{/t}" class="dropdown-toggle" data-toggle="dropdown"> 
 {t name=$this_user->name}%1{/t}</a> (<a href="{$base_url}/login.php?action=logout">
 	    {t}Logout{/t}
 </a>)</li>
@@ -22,7 +22,5 @@
 	  </a>
 	</li>
 {/if}
-<li><strong>News!</strong> <a target="_blank" href="https://blog.libre.fm/2024/11/libre-fm-update-for-november-3rd-2024/">This week in Libre.fm (November 3rd 2024)</li>
-<li>Help? <a href="mailto:support@libre.fm">support@libre.fm</a> or <a target="_blank" href="https://github.com/foocorp/hacienda/issues">File an issue</a></li>
 	<li><a href="{$base_url}/donate.php">Donate</a></li>
 </ul>
