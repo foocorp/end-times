@@ -21,7 +21,7 @@
 <ul>
 {section name=i loop=$extra_head_links}
 	<li><a rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}">{$extra_head_links[i].title|escape:'html':'UTF-8'}</a></li>
-	<li><a href="https://shareopenly.org/share/?url=https://libre.fm/user/{$me->name}/scrobble/{$scrobble}&text={$me->name} {if $me->laconica_profile}({$me->laconica_profile}){/if} listened to {$track} {if $artist}by {$artist}{/if}{if $album} on {$album}{/if}%0A%0A %23librefm %23indieweb %23music %23listening %23shareopenly">Share this on social media</a></li>
+	<li><a href="https://shareopenly.org/share/?url=https://libre.fm/user/{$me->name}/scrobble/{$scrobble}&text={$me->name} {if $me->laconica_profile}({$me->laconica_profile}){/if} listened to {$track} {if $artist}by {$artist}{/if}{if $album} on {$album}{/if}%0A%0A %23librefm %23indieweb %23music %23listening %23shareopenly%0A%0A">Share this on social media</a></li>
 {/section}
 </ul>
 
