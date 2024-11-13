@@ -56,15 +56,17 @@
 
 	<hr>
 
-	<h3 id="listeners">
 	{if $artist->getListenerCount()}
+	<section class="h-feed">
+	<h3 id="listeners">Top listeners</h3>
 	<ul>
         {foreach from=$artist->getTopListeners() item=i}
-        <li>
-	{$i.username}
+        <li class="h-entry">
+	<a class="u-url" href="{$i.userurl}">{$i.username}</a>
         </li>
         {/foreach}
         </ul>
+	</section>
 	{/if}
 
 	<h3>Elsewhere</h3>
