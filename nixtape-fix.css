@@ -278,6 +278,14 @@ body {background-color: #aaa !important;}
   min-height: 90vh;
 }
 
+#tops ul {
+     columns: 3 auto;
+}
+
+#tops.logged-in ul {
+    columns: 6 auto;
+}
+
 #tops.logged-in li {
     font-size: small;
 }
