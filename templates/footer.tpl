@@ -20,6 +20,8 @@
 
      <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
 
+<p><small>Hey, where did that bloke go who said I was vital?</small></p>
+
 <!-- broken :'(
 
 {include file='language-selector.tpl'} -->
