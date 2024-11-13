@@ -30,19 +30,21 @@
 
 <form class="form-signin" action='{$base_url}/user-edit.php' method='post'>
 
-  <p class="form-group">
-    <label for='fullname'>{t}Full name:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="text" class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
+  <div class="form-group">
+    <p><label for='fullname'>{t}Full name:{/t}</label></p>
+    <p><input size="40" maxlength="40" type="text" class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' /></p>
     <p class="help-block">{t}Enter your name here, if you want to.{/t}</p>
+  </div>
 
-<p class="form-group">
-    <label for='location'>{t}Location:{/t}</label></p><p>
-    <input size="40" maxlength="40" type="text"class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' />
+<div class="form-group">
+    <p><label for='location'>{t}Location:{/t}</label></p>
+    <p><input size="40" maxlength="40" type="text"class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
     <p class="help-block">{t}Where do you live?{/t}</p>
+</div>
 
 <p class="form-group">
-    <label for='homepage'>{t}Website address:{/t}</label></p><p>
-    <input size="40" maxlength="40" type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
+    <p><label for='homepage'>{t}Website address:{/t}</label></p>
+    <p><input size="40" maxlength="40" type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
   </div>
 
   <p class="end-times-alert"><strong>Shows up on your profile once you start listening to music</strong></p>
@@ -58,8 +60,9 @@
     <input class="form-control" name='avatar_uri' id='avatar_uri' value='{$avatar_uri|escape:'html':'UTF-8'}' />
   </div> -->
 
-  <p class="form-group"><label for='bio'>{t}Mini Biography:{/t}</label></p>
+  <div class="form-group"><p><label for='bio'>{t}Mini Biography:{/t}</label></p>
     <p><textarea cols="40" rows="5" style="font-family: monospace" class="form-control" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
+  </div>
 
   <!-- <div class="checkbox">
     <label for='receive_emails'>
@@ -76,10 +79,8 @@
       <input class="form-control" name='id' id='id' value='{$id|escape:'html':'UTF-8'}' />
     </div> -->
 
-    <p class="form-group">
-      <label for='laconica_profile'>{t}Fediverse Profile:{/t}
-	<span><a href='#dfn_laconica_profile' rel='glossary'>{t}What's this?{/t}</a></span>
-      </label></p>
+    <div class="form-group">
+      <p><label for='laconica_profile'>{t}Fediverse Profile:{/t}</label></p>
       <p><input class="form-control" size="40" maxlength="40" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
@@ -91,16 +92,17 @@
     </div> -->
 
 
-    <p class="form-group">
-    <label for='password_1'>{t}Password:{/t}
+    <div class="form-group">
+    <p><label for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
-    </label>
-    <input class="form-control" name='password_1' id='password_1' size="40" maxlength="40" type='password' autocomplete="off" value='' />
- </p><p class="form-group">
-    <label for='password_2'>{t}Confirm Password:{/t}
-    </label>
-    <input class="form-control" name='password_2' id='password_2' size="40" maxlength="40" type='password' autocomplete="off" value='' />
-  </p>
+    </label></p>
+    <p><input class="form-control" name='password_1' id='password_1' size="40" maxlength="40" type='password' autocomplete="off" value='' />
+ </p>
+</div>
+<div class="form-group">
+    <p><label for='password_2'>{t}Confirm Password:{/t}</label></p>
+    <p><input class="form-control" name='password_2' id='password_2' size="40" maxlength="40" type='password' autocomplete="off" value='' /></p>
+  </div>
 
   <p class="end-times-alert"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
@@ -113,10 +115,10 @@
       </label>
    </p>
 
-  <p class="form-group">
+  <div class="form-group">
     <button class="btn btn-success btn-block" type='submit' value='{t}Change{/t}'>{t}Update profile{/t}</button>
     <input name='submit' value='1' type='hidden' />
-  </p>
+  </div>
 
 </form>
 
