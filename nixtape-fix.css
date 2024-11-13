@@ -130,6 +130,8 @@ header p img {
     padding: 1em;
     text-align: center;
     color: black;
+       margin-top: 1ch;
+    border-radius: 1ch;
 }
 
 .help-block {
