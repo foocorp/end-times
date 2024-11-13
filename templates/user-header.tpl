@@ -33,13 +33,17 @@
 	  <li><a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
 	  {else}
 	  {if ($logged_in)}
+{if $me->name == $this_user->name}
 	  <p>Do you have an account on the social web? <a href="/user-edit.php">Add your fediverse profile</a> to your Libre.fm profile.</p>
+	  {/if}
 	  {/if}
           </ul>
 	  {/if}
 	  {else}
 	  {if ($logged_in)}
+{if $me->name == $this_user->name}
 	  <p>Join the IndieWeb revolution and <a href="/user-edit.php">add your personal website</a> to your Libre.fm profile.</p>
+	  {/if}
 	  {/if}
 	  {/if}
 
