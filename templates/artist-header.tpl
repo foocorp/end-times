@@ -1,6 +1,6 @@
 {if $artist->image_medium}
 <p><img class="img-responsive" src="{$artist->image_medium}"
-      alt= "[ {$artist->name} photo ]"/></p>{/if}
+      alt=""/></p>{/if}
 
 <h2>{$artist->name}
       </h2>
