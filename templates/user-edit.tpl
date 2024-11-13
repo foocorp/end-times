@@ -81,7 +81,7 @@
 
     <div class="form-group">
       <p><label for='laconica_profile'>{t}Fediverse Profile:{/t}</label></p>
-      <p><input class="form-control" size="40" maxlength="40" type="url" placeholder="https://example.com/@example" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <p><input class="form-control" size="40" maxlength="40" type="url" placeholder="https://example.com/@mattl" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <!-- <div class="form-group">
@@ -122,7 +122,7 @@
 
 </form>
 
-<h3>{t}Help{/t}</h3>
+<!-- <h3>{t}Help{/t}</h3>
   <!-- <dt id='dfn_location_uri'>{t}Location check{/t}</dt>
   <dd>{t escape=no}This feature looks up your location on <a href='http://www.geonames.org'>geonames</a>. You don't need to do it, but it will allow us find your latitude and longitude so we can add some great location-based features in the future.{/t}</dd> -->
 
@@ -140,7 +140,7 @@
 
   <!-- <dt id='dfn_receive_emails'>Receive E-mails</dt>
   <dd>{t escape=no}From time to time we send out e-mails about all the cool new stuff we're getting up to. If you'd rather not hear about these things then simply untick this box.{/t}</dd> -->
-</dl>
+</dl> -->
 
 
 
