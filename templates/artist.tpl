@@ -61,7 +61,7 @@
 	<ul>
         {foreach from=$artist->getTopListeners() item=i}
         <li>
-	{$.username}
+	{$i.username}
         </li>
         {/foreach}
         </ul>
