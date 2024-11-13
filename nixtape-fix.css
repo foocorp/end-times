@@ -121,6 +121,16 @@ header p img {
     padding: 0.2ch;
 }
 
+.endtimes-table td a {
+color: white;
+}
+
+
+.endtimes-table td a:hover {
+color: lime;
+}
+
+
 .endtimes-table td.time {
     text-align: end;
 }
