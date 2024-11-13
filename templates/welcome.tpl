@@ -41,6 +41,7 @@
 {else}
 <h2 class="text-center">Libre.fm lets you keep track of your music listening habits.</h2>
 <p class="text-center"><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
+<!-- {$recents} -->
 {/if}
 
 </main>
