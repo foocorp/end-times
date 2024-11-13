@@ -292,6 +292,17 @@ body {background-color: #aaa !important;}
 @media only screen and (max-width: 768px) {
   /* For phones: */
   #tops ul {
+     columns: 3 auto;
+}
+
+#tops.logged-in ul {
+    columns: 3 auto;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  /* For phones: */
+  #tops ul {
      columns: 2 auto;
 }
 
