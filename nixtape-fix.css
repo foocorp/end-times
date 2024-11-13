@@ -44,10 +44,13 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #222;
+
 }
 
 nav li a:hover {
-  background-color: #222;
+  background-color: #111;
+    color: whitesmoke;
 }
 
 html {    background-color: var(--body-background);}
