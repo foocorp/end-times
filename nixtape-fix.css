@@ -243,14 +243,14 @@ body {background-color: #aaa !important;}
 
 /* Element | https://libre.fm/login.php */
 
-.mini-header .form-group input{
+.form-group input{
   width: 100%;
   font-size: x-large;
 }
 
 /* Element | https://libre.fm/login.php */
 
-.mini-header .form-group label {
+.form-group label {
   font-weight: bold;
   margin-bottom: 10px;
   display: block;
