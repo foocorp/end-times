@@ -56,6 +56,18 @@
 
 	<hr>
 
+	<h3 id="listeners">
+	{if $artist->getListenerCount()}
+        {assign var=items value=$artist->getListeners()}
+	<ul>
+        {foreach from=$items item=i}
+        <li>
+	{$.username}
+        </li>
+        {/foreach}
+        </ul>
+	{/if}
+
 	<h3>Elsewhere</h3>
 
 	<p class="text-center"><a href="https://www.discogs.com/search?q={$artist->name}&type=artist">Find {$artist->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$artist->name}&item_type=b&from=results">Find {$artist->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></p>
