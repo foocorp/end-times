@@ -11,7 +11,7 @@
 
 	<p><img class="u-photo" src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]"></p>
 
-<p>Listened to <span class="p-music-track">{$track}</span> {if $artist}by <span class="p-music-artist"><a href="/artist/{$artist|escape:'html':'UTF-8'}">{$artist|escape:'html':'UTF-8'}</a></span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</p>
+<p>Listened to <span class="p-music-track">{$track}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</p>
 
 <time datetime="{$stamp}">{$stomp}</time>
 
