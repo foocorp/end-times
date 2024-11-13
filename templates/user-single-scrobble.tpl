@@ -1,6 +1,8 @@
 {include file='header.tpl'}
 
-
+{if ($me->lanonica_profile)}
+...
+{/if}
 
 {if $track}
 
@@ -9,9 +11,7 @@
 
 <h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-{if ($me->lanonica_profile)}
-.
-{/if}
+
 
 	<p><img class="u-photo" src="{$me->getAvatar(158)}" alt="[ {$me->name} avatar ]"></p>
 
