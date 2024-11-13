@@ -288,3 +288,14 @@ body {background-color: #aaa !important;}
 #tops.logged-in li {
     font-size: small;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For phones: */
+  #tops ul {
+     columns: 2 auto;
+}
+
+#tops.logged-in ul {
+    columns: 2 auto;
+}
+}
