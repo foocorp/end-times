@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p style="background-color: yellow; font-size: 18px;"><strong>Got Last.fm? Connect your account here and scrobble to both services!</strong></p>
+<p class="end-times-alert"><strong>Got Last.fm? Connect your account here and scrobble to both services!</strong></p>
 
 <p><a style="font-weight: bold" class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connections to other services</a></p>
 
@@ -45,7 +45,7 @@
     <input size="40" maxlength="40" type="url" class="form-control" placeholder="https://example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
   </div>
 
-  <p style="background-color: yellow; font-size: 18px;"><strong>Shows up on your profile once you start listening to music</strong></p>
+  <p class="end-times-alert"><strong>Shows up on your profile once you start listening to music</strong></p>
 
 <div class="form-group">
 <p>We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for avatars. You can sign up there and make sure you use the same email address so it'll show up here too.</p>
@@ -102,7 +102,7 @@
     <input class="form-control" name='password_2' id='password_2' size="40" maxlength="40" type='password' autocomplete="off" value='' />
   </p>
 
-  <p style="background-color: yellow; font-size: 18px;"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
+  <p class="end-times-alert"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
 <hr />
 
@@ -114,7 +114,7 @@
    </p>
 
   <p>
-    <button class="btn btn-primary btn-block" type='submit' value='{t}Change{/t}'>{t}Change{/t}</button>
+    <button class="btn btn-success btn-block" type='submit' value='{t}Change{/t}'>{t}Update profile{/t}</button>
     <input name='submit' value='1' type='hidden' />
   </p>
 
