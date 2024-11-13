@@ -52,7 +52,7 @@
 <div id="tops"{if ($logged_in)}class="logged-in"{/if}>
 {if ($tops)}
 <h3>Users with the most tracks</h3>
-<ul style="columns: 3 auto;">
+<ul>
 {$tops}
 </ul>
 {/if}
