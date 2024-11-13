@@ -37,4 +37,12 @@
 	</ul>
 {/if} -->
 
+<hr>
+{if ($recents)}
+<h3>Recent plays</h3>
+<ul>
+{$recents}
+</ul>
+{/if}
+
 {include file='footer.tpl'}
