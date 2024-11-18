@@ -302,6 +302,8 @@ footer p, footer h3, header p, .elsewhere {
     font-size: small;
 }
 
+span.shareable {display: none;}
+
 @media only screen and (max-width: 768px) {
   /* For phones: */
   #tops ul {
@@ -315,6 +317,9 @@ footer p, footer h3, header p, .elsewhere {
 th.time, td.time {
     display: none;
 }
+
+span.shareable {display: inline-table;}
+
 
     
 }
@@ -332,5 +337,8 @@ th.time, td.time {
 th.time, td.time {
     display: none;
 }
+
+    span.shareable {display: inline-table;}
+
     
 }
