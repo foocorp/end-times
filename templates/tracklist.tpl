@@ -43,7 +43,7 @@
 			{/if}
                 {if $me->uniqueid}
                   <span class="shareable">
-                    &nbsp; &emdash; (<a title="Share {$i.track} by {$i.artist}" href="/user/{$me->name}/scrobble/{$i.time}">&uarr; Share</a>)
+                    &nbsp; &mdash; (<a title="Share {$i.track} by {$i.artist}" href="/user/{$me->name}/scrobble/{$i.time}">&uarr; Share</a>)
                   </span>
                 {/if}
 		</td>
