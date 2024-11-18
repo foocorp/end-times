@@ -320,6 +320,8 @@ th.time, td.time {
 
 span.shareable {display: inline-table;}
 
+    span.shareable a {color: cyan;}
+
 
     
 }
@@ -339,6 +341,7 @@ th.time, td.time {
 }
 
     span.shareable {display: inline-table;}
+    span.shareable a {color: cyan;}
 
     
 }
