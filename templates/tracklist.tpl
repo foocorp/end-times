@@ -41,6 +41,11 @@
 					<a href="{$i.artisturl|escape:'html'}">{$i.artist}</a>
 				{/if}
 			{/if}
+                {if $me->uniqueid}
+                  <span class="shareable">
+                    <a title="Share {$i.track} by {$i.artist}" href="/user/{$me->name}/scrobble/{$i.time}">{$i.timehuman}</a>
+                  </span>
+                {/if}
 		</td>
 
 		<td class="time">
