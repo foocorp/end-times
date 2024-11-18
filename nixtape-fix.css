@@ -302,7 +302,7 @@ footer p, footer h3, header p, .elsewhere {
     font-size: small;
 }
 
-span.shareable {display: none;}
+span.shareable {display: none; float:right;}
 
 @media only screen and (max-width: 768px) {
   /* For phones: */
