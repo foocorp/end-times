@@ -37,8 +37,8 @@
 	  <p>Do you have an account on the social web? <a href="/user-edit.php">Add your fediverse profile</a> to your Libre.fm profile.</p>
 	  {/if}
 	  {/if}
-          </ul>
 	  {/if}
+          </ul>
 	  {else}
 	  {if ($logged_in)}
 {if $me->name == $this_user->name}
