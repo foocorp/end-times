@@ -19,6 +19,8 @@
 </head>
 
 <body>
+	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
+
 <header>
 {if ($logged_in)}
 	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile for {t name=$this_user->name}%1{/t}"></a></h1>
@@ -30,7 +32,7 @@
 
   </header>
 
-  <main>
+  <main id="main">
 
 {if ($logged_in)}
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
