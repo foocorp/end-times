@@ -8,6 +8,41 @@
         --branding-color: #fff;
     }
 
+.a11y-helper {
+						position: fixed;
+						top: 1rem;
+						left: -999em;
+						z-index: 11;
+						-moz-appearance: none;
+						-webkit-appearance: none;
+						background-color: transparent;
+						border: 1px solid black;
+						border-radius: 0.6rem;
+						box-sizing: border-box;
+						color: inherit;
+						font-family: inherit;
+						font-size: inherit;
+						font-weight: inherit;
+						line-height: inherit;
+						max-width: 100%;
+						display: inline-block;
+						margin: 0;
+						padding: 0.3em 0.8em;
+						font-weight: 500;
+						text-decoration: none;
+						border-radius: 3rem;
+						white-space: nowrap;
+						background-color: transparent;
+						color: blue;
+						border: 1px solid red;
+						transition: background-color 150ms ease;
+								
+						&:focus {
+							left: 1rem;
+							background: white;
+						  }
+					}
+
 @media (max-width: var(--collapse-table-width)) {
     .endtimes-table tr:has(th) {
         display: flex;
