@@ -8,6 +8,12 @@
         --branding-color: #fff;
     }
 
+#user-totals, #user-totals-small {
+	text-align: center;
+}
+
+#user-totals {font-size: x-large;}
+
 .a11y-helper {
 						position: fixed;
 						top: 1rem;
