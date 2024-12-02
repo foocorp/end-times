@@ -8,6 +8,10 @@
         <input type="email" class="form-control" placeholder="{t}Your e-mail address:{/t}" id="email" name="email" required />
 </p>
 <p class="form-group">
+  <label for='emailagain'>{t}Email address{/t} (again)</label>
+        <input type="email" class="form-control" placeholder="{t}Your e-mail address:{/t}" id="emailagain" required />
+</p>
+<p class="form-group">
   <label for='password'>{t}Password{/t}</label>
   <input class="form-control" id='password' name='password' type='password' value='' required>
 </p>
