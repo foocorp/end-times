@@ -8,19 +8,16 @@
 
     {if isset($errors)}
     <div class="alert alert-danger alert-dismissable">
-      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       <p id='errors'>{$errors}</p>
     </div>
     {/if}
 
     {if isset($changed)}
     <div class="alert alert-info alert-dismissable">
-      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       <p>{t}Your new password has been emailed to you.{/t}</p>
     </div>
     {elseif isset($sent)}
     <div class="alert alert-info alert-dismissable">
-      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       <p>{t}An email with further information has been sent to the email address associated with your profile.{/t}</p>
     </div>
 
