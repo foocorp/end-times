@@ -9,5 +9,16 @@
 	</ul>
 {/if}
 
+{if !empty($topsongs)}
+	<h2>{t name=$me->name}%1{/t} most listened to song of 2024</h2>
+	<p><a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist} with {$topsongs[0].freq} plays</p>
+{/if}
+
+{if !empty($scrobblecount)}
+	<h2>{t name=$me->name}%1{/t} listened to {$scrobblecount} songs in 2024</h2>
+{/if}
+
+
+
 
 {include file='footer.tpl'}
