@@ -15,7 +15,7 @@
 	<h2>{t name=$me->name}%1{/t} top artists for {$year}</h2>
 	<ol>
 		{section name=i loop=$topartists}
-			<li>{$topartists[i].artist} ($topartists[i].freq plays)</li>
+			<li>{$topartists[i].artist} ({$topartists[i].freq} plays)</li>
 		{/section}
 	</ol>
 {/if}
