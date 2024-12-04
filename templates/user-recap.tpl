@@ -20,6 +20,9 @@
 	</ol>
 {/if}
 
+<p><a href="https://shareopenly.org/share/?url=https://libre.fm/user/{$me->name}/recap/{$year}&text=https://libre.fm/user/{$me->name}/recap/{$year} listened to  {$scrobblecount} songs in {$year}%0A%0A%23LibreFM %23indieweb %23music %23listening %23ShareOpenly%0A%0A">Share this on social media</a></p>
+
+
 
 
 
