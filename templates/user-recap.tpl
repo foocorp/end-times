@@ -4,7 +4,7 @@
 	<h2>{t name=$me->name}%1{/t} top artists for 2024</h2>
 	<ul>
 		{section name=i loop=$topartists}
-			<li>{$topartists[i].name}</li>
+			<li>{$topartists[i].artist}</li>
 		{/section}
 	</ul>
 {/if}
