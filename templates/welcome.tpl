@@ -24,7 +24,6 @@
 <header>
 {if ($logged_in)}
 	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile for {t name=$this_user->name}%1{/t}"></a></h1>
-<p class="text-center"><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">See your 2024 music recap</a></p>
 {else}
 	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
 {/if}
@@ -37,6 +36,8 @@
 
 {if ($logged_in)}
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
+<p class="text-center"><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">See your 2024 music recap</a></p>
+
 {if ($totals)}
 <div id="user-totals-small">
 {$totals}
