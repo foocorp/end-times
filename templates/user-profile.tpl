@@ -1,5 +1,12 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
+{if ($logged_in)}
+{if $me->name == $this_user->name}
+<p class="text-center elsewhere"><a href="/user/{$me->name}/recap/2024">See my 2024 recap</a></p>
+{/if}
+{/if}
+
+
 {if $nowplaying}
 <p class="text-center elsewhere"><strong>{t name=$me->name}%1{/t} is currently listening to: </strong>
 
