@@ -3,9 +3,9 @@
 {if ($logged_in)}
 {if $me->name == $this_user->name}
 <p class="text-center elsewhere"><a href="/user/{$me->name}/recap/2024">See my 2024 recap</a></p>
+{/if}
 {else}
 <p class="text-center elsewhere"><a href="/user/{$me->name}/recap/2024">See {$me->name}'s 2024 recap</a></p>
-{/if}
 {/if}
 
 
