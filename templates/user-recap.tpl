@@ -4,7 +4,7 @@
 
 {if !empty($scrobblecount)}
 	<p>{t name=$me->name}%1{/t} listened to {$scrobblecount} songs in {$year}</p>
-	<p>(That's approximately {$scrobblemins} of music!)</p>
+	<p>(That's approximately {$scrobblemins} hours of music!)</p>
 {/if}
 
 {if !empty($topsongs)}
