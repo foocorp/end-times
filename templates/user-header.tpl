@@ -5,7 +5,7 @@
 
 	  {if ($logged_in)}
 {if $me->name == $this_user->name}
-<a class="edit-profile-link" href="/user-edit.php">Edit my profile</a> or <a href="/user/{$me->name}/recap/2024">See my 2024 recap</a>
+<a class="edit-profile-link" href="/user-edit.php">Edit my profile</a>
 {/if}
 {/if}
 
