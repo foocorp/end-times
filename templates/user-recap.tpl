@@ -1,21 +1,23 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
+<h2>{t name=$me->name}%1{/t}'s Libre.fm recap for {$year}</h2>
+
 {if !empty($scrobblecount)}
-	<h2>{t name=$me->name}%1{/t} listened to {$scrobblecount} songs in {$year}</h2>
+	<p>{t name=$me->name}%1{/t} listened to {$scrobblecount} songs in {$year}</p>
+	<p>(That's approximately {$scrobblemins} of music!)</p>
 {/if}
 
 {if !empty($topsongs)}
-	<h2>{t name=$me->name}%1{/t} most listened to song of {$year}</h2>
-	<p><a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist}</a> with {$topsongs[0].freq} plays</p>
+	<p>{t name=$me->name}%1{/t} had one favorite song in {$year}: <a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist}</a> with {$topsongs[0].freq} plays</p>
 {/if}
 
 {if !empty($topartists)}
 	<h2>{t name=$me->name}%1{/t} top artists for {$year}</h2>
-	<ul>
+	<ol>
 		{section name=i loop=$topartists}
-			<li>{$topartists[i].artist}</li>
+			<li>{$topartists[i].artist} ($topartists[i].freq plays)</li>
 		{/section}
-	</ul>
+	</ol>
 {/if}
 
 
