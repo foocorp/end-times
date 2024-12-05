@@ -1,5 +1,29 @@
 {include file='header.tpl'}
 
-<h2>About Libre.fm</h2>
+<h2>How to use Libre.fm</h2>
+
+[screenshot]
+
+<p>Connect your music player to Libre.fm</p>
+
+<p>Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
+
+<p>Depending on how you listen to music, we recommend Web Scrobbler and DeaDBeeF for new users but there are dozens of Libre.fm compatible players.</p>
+
+<h3>How do I listen to music?</h3>
+
+<p>Some musicians share their music with the world with Creative Commons licenses. We'll have streaming and downloads of these songs shortly.</p>
+
+<h3>Can I import my listening habits from Last.fm, etc?</h3>
+
+<p>This is something we hope to offer in early 2025. Previous solutions exist but require command line experience.</p>
+
+<h3>Can I export my data?</h3>
+
+<p>You can! We're working out the best format to deliver that in, but you can request your data today.</p>
+
+<h3>Do you support any social media features?</h3>
+
+<p>You can share a link showing any song you've listened to the Fediverse and Bluesky. We're working on additional social media features.</p>
 
 {include file='footer.tpl'}
