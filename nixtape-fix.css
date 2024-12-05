@@ -12,6 +12,8 @@
 	text-align: center;
 }
 
+.about-img{max-width: 100%;}
+
 #user-totals {font-size: x-large;}
 
 .a11y-helper {
