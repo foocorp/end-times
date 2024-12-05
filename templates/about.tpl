@@ -28,7 +28,7 @@
 
 <h3>Do you support any social media features?</h3>
 
-<p>You can share a link showing any song you've listened to the Fediverse and Bluesky. We're working on additional social media features.</p>
+<p>You can <a href="https://libre.fm/user/mattl/scrobble/1733371909" target="_blank">share a link showing any song you've listened to</a> the Fediverse and Bluesky. We're working on additional social media features.</p>
 
 </details>
 
