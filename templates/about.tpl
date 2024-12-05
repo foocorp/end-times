@@ -8,15 +8,15 @@
 
 <p class="text-center">Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
 
-<p class="text-center">Depending on how you listen to music, we recommend Web Scrobbler and DeaDBeeF for new users but there are dozens of Libre.fm compatible players.</p>
+<p class="text-center">Depending on how you listen to music, <a href="https://wiki.libre.fm/Clients">we recommend Web Scrobbler and DeaDBeeF</a> for new users but there are dozens of Libre.fm compatible players.</p>
 
 <p class="text-center"><a href="register.php">Sign up (it's free!)</a></p>
 
 <details>
-<summary>FAQ</summary>
+<summary>Frequently Asked Questions</summary>
 <h3>How do I listen to music?</h3>
 
-<p>Some musicians share their music with the world with Creative Commons licenses. We'll have streaming and downloads of these songs shortly.</p>
+<p>Some musicians share their music with the world with some <a href="https://creativecommons.org" target="_blank">Creative Commons</a> licenses. We'll have streaming and downloads of these songs shortly.</p>
 
 <h3>Can I import my listening habits from Last.fm, etc?</h3>
 
