@@ -4,7 +4,7 @@
 
 <p class="text-center"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></p>
 
-<p class="text-center">Connect your music player to Libre.fm</p>
+<h3 class="text-center">Connect your music player to Libre.fm</h3>
 
 <p class="text-center">Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
 
