@@ -2,7 +2,7 @@
 
 <h2 class="text-center">How to use Libre.fm</h2>
 
-<p class="text-center"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></p>
+<p class="text-center"><a href="https://wiki.libre.fm/Clients"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></a></p>
 
 <h3 class="text-center">Connect your music player to Libre.fm</h3>
 
