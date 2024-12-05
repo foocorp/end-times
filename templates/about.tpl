@@ -1,14 +1,14 @@
 {include file='header.tpl'}
 
-<h2>How to use Libre.fm</h2>
+<h2 class="text-center">How to use Libre.fm</h2>
 
-[screenshot]
+<p class="text-center"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></p>
 
-<p>Connect your music player to Libre.fm</p>
+<p class="text-center">Connect your music player to Libre.fm</p>
 
-<p>Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
+<p class="text-center">Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
 
-<p>Depending on how you listen to music, we recommend Web Scrobbler and DeaDBeeF for new users but there are dozens of Libre.fm compatible players.</p>
+<p class="text-center">Depending on how you listen to music, we recommend Web Scrobbler and DeaDBeeF for new users but there are dozens of Libre.fm compatible players.</p>
 
 <h3>How do I listen to music?</h3>
 
