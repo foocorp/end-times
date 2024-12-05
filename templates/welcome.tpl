@@ -48,6 +48,7 @@
 
 {else}
 <h2 class="text-center">Libre.fm lets you keep track of your music listening habits.</h2>
+<p class="text-center"><a href="/about/">Learn more about how Libre.fm works</a></p>
 {if ($totals)}
 <div id="user-totals">
 {$totals}
