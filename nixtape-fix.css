@@ -308,7 +308,7 @@ body {background-color: #aaa !important;}
 
 .list-inline li {display: inline;}
 
-.text-center {text-align: center;}
+.text-center {text-align: center; text-wrap: balance;}
 
 .btn-success {width: 100%; font-size: x-large; background: green; color: white; padding: 1ch;}
 
