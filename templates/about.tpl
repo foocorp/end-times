@@ -10,6 +10,10 @@
 
 <p class="text-center">Depending on how you listen to music, we recommend Web Scrobbler and DeaDBeeF for new users but there are dozens of Libre.fm compatible players.</p>
 
+<p class="text-center"><a href="register.php">Sign up (it's free!)</a></p>
+
+<details>
+<summary>FAQ</summary>
 <h3>How do I listen to music?</h3>
 
 <p>Some musicians share their music with the world with Creative Commons licenses. We'll have streaming and downloads of these songs shortly.</p>
@@ -25,5 +29,7 @@
 <h3>Do you support any social media features?</h3>
 
 <p>You can share a link showing any song you've listened to the Fediverse and Bluesky. We're working on additional social media features.</p>
+
+</details>
 
 {include file='footer.tpl'}
