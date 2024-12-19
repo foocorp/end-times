@@ -1,14 +1,14 @@
 {include file='header.tpl'}
 
-<h2 class="text-center">How to use Libre.fm</h2>
+<h2 class="text-center">How Libre.fm works</h2>
 
-<p class="text-center"><a href="https://wiki.libre.fm/Clients"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></a></p>
+<p class="text-center">Step 1. Pick a client. Depending on how you listen to music, <a href="https://wiki.libre.fm/Clients">we recommend Web Scrobbler and DeaDBeeF</a> for new users but there are dozens of Libre.fm compatible players.</p>
 
-<h3 class="text-center">Connect your music player to Libre.fm</h3>
+<p class="text-center"><a target="_blank" href="https://wiki.libre.fm/Clients"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></a></p>
+
+<h3 class="text-center">2. Connect your client to Libre.fm</h3>
 
 <p class="text-center">Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
-
-<p class="text-center">Depending on how you listen to music, <a href="https://wiki.libre.fm/Clients">we recommend Web Scrobbler and DeaDBeeF</a> for new users but there are dozens of Libre.fm compatible players.</p>
 
 <p class="text-center"><a class="btn" href="register.php">Sign up (it's free!)</a></p>
 
