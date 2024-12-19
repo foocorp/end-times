@@ -24,7 +24,6 @@
 
 	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></a></h1>
 
-<p><small>(<a href="https://github.com/foocorp/hacienda/issues/47">I broke the CSS on purpose</a>)</small></p>
 
 	<nav>
 	  {include file='menu.tpl'}
