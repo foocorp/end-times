@@ -58,7 +58,7 @@
 {/if}
 
 {if ($recents)}
-<h3>Recent plays</h3>
+<h3>Recently listened to by the Libre.fm community</h3>
 <ul>
 {$recents}
 </ul>
@@ -66,7 +66,7 @@
 
 <div id="tops"{if ($logged_in)}class="logged-in"{/if}>
 {if ($tops)}
-<h3>Check out these fine users</h3>
+<h3>Check out what some of our existing users are listening to</h3>
 <ul>
 {$tops}
 </ul>
