@@ -10,7 +10,7 @@
 	</a>
 	</li>
 	<li>
-	  <a href="{$base_url}/register.php">
+	  <a href="{$base_url}/about/">
 	    {t}Sign up{/t}
 	  </a>
 	</li>
