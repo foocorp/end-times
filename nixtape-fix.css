@@ -15,7 +15,7 @@
 .btn {
   background-color: #04AA6D; /* Green */
   border: none;
-  color: white;
+  color: white !important;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
