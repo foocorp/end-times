@@ -106,7 +106,7 @@
 
 <hr />
 
-<!-- <details>
+<details>
 <summary>{t}Delete my account{/t}</summary>
 <p class="checkbox">
       <label for='delete_account' style="color: red; font-weight: bold; border: 1px solid red; padding: 1em; ">Danger Zone: 
@@ -114,7 +114,7 @@
 	{t}Delete my account{/t}
       </label>
    </p>
-</details> -->
+</details>
 
   <div class="form-group">
     <button class="btn btn-success btn-block" type='submit' value='{t}Change{/t}'>{t}Update profile{/t}</button>
