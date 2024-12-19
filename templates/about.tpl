@@ -2,7 +2,9 @@
 
 <h2 class="text-center">How Libre.fm works</h2>
 
-<p class="text-center">Step 1. Pick a client. Depending on how you listen to music, <a href="https://wiki.libre.fm/Clients">we recommend Web Scrobbler and DeaDBeeF</a> for new users but there are dozens of Libre.fm compatible players.</p>
+<h3 class="text-center">Step 1. Pick a client.</h3>
+
+<p class="text-center">Depending on how you listen to music, <a href="https://wiki.libre.fm/Clients">we recommend Web Scrobbler and DeaDBeeF</a> for new users but there are dozens of Libre.fm compatible players.</p>
 
 <p class="text-center"><a target="_blank" href="https://wiki.libre.fm/Clients"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></a></p>
 
