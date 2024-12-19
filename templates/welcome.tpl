@@ -57,6 +57,8 @@
 <p class="text-center"><a href="https://libre.fm/login.php">Sign in to an existing account</a></p>
 {/if}
 
+<div style="background-color: #221f1f; border: 1px solid #eee; padding: 1em;">
+
 {if ($recents)}
 <h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
 <ul>
@@ -71,6 +73,8 @@
 {$tops}
 </ul>
 {/if}
+</div>
+
 </div>
 
 </main>
