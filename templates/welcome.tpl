@@ -27,9 +27,6 @@
 {else}
 	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
 {/if}
-
-<p>We are bored in the city, there is no longer any Temple of the Sun.</p>
-
   </header>
 
   <main id="main">
@@ -47,7 +44,7 @@
 <p class="text-center">Bug report? Feature request? <a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
 
 {else}
-<h2 class="text-center">Libre.fm lets you keep track of your music listening habits.</h2>
+<h2 class="text-center" style="font-size: 300%">Libre.fm lets you keep track of your music listening habits.</h2>
 {if ($totals)}
 <div id="user-totals">
 {$totals}
