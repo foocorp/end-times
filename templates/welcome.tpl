@@ -54,7 +54,7 @@
 {$totals}
 </div>
 {/if}
-<p class="text-center"><a href="https://libre.fm/login.php">Sign in</a> or <a href="/register.php">register</a></p>
+<p class="text-center"><a href="https://libre.fm/login.php">Sign in</a> or <a href="/about/">register</a></p>
 {/if}
 
 {if ($recents)}
