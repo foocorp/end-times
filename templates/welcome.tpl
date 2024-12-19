@@ -29,7 +29,7 @@
 {/if}
   </header>
 
-  <main id="main">
+  <main id="main" style="padding: 0">
 
 {if ($logged_in)}
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
@@ -44,7 +44,7 @@
 <p class="text-center">Bug report? Feature request? <a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
 
 {else}
-<h2 class="text-center" style="font-size: 300%">Libre.fm lets you keep track of your music listening habits.</h2>
+<h2 class="text-center" style="font-size: 300%; margin: 0; padding: 0;">Libre.fm lets you keep track of your music listening habits.</h2>
 {if ($totals)}
 <div id="user-totals">
 {$totals}
