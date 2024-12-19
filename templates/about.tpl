@@ -12,7 +12,7 @@
 
 <p class="text-center">Every time you listen to a track, your computer (or phone, TV, etc) reports the song title, artist and album to Libre.fm. We put these on your profile.</p>
 
-<p class="text-center"><a class="btn" href="register.php">Sign up (it's free!)</a></p>
+<p class="text-center"><a class="btn" href="/register.php">Sign up (it's free!)</a></p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How do I listen to music?</h3>
