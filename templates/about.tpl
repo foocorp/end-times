@@ -14,7 +14,7 @@
 
 <p class="text-center"><a class="btn" href="/register.php">Sign up (it's free!)</a></p>
 
-<h2>Frequently Asked Questions</h2>
+<h2 class="text-center">Frequently Asked Questions</h2>
 <h3>How do I listen to music?</h3>
 
 <p>Some musicians share their music with the world with some <a href="https://creativecommons.org" target="_blank">Creative Commons</a> licenses. We'll have streaming and downloads of these songs shortly.</p>
