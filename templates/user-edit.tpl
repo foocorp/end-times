@@ -35,6 +35,11 @@
   </div>
 
 <div class="form-group">
+<p><label>Email address:</label><span>{$email}</span></p>
+<p>If you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
+</div>
+
+<div class="form-group">
     <p><label for='location'>{t}Location:{/t}</label></p>
     <p><input size="40" maxlength="40" type="text"class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
     <p class="help-block">{t}Where do you live?{/t}</p>
