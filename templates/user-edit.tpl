@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="end-times-alert"><strong>Got Last.fm? <a style="font-weight: bold" class="btn btn-primary btn-lg" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+<p class="end-times-alert"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 
 <hr />
 
@@ -34,7 +34,7 @@
     <p class="help-block">{t}Enter your name here, if you want to.{/t}</p>
   </div>
 
-<div class="form-group">
+<div class="form-group" id="email">
 <p><label>Email address:</label><span>{$email}</span></p>
 <p>If you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
 </div>
