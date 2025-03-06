@@ -1,7 +1,7 @@
 {if $album->mbid}
 	<img class="img-responsive"
 	     src="https://coverartarchive.org/release/{$album->mbid}/front-250"
-	alt="" width="250" />
+	alt="" width="250" loading="lazy" />
    {/if}
 
 
