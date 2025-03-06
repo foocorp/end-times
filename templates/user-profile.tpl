@@ -5,7 +5,7 @@
 {if $nowplaying}
 <p class="text-center elsewhere"><strong>{t name=$me->name}%1{/t} is currently listening to: </strong></p>
 
-<p><img src="https://turtle.libre.fm/cover.php?artist={$nowplaying[0].artist}&album={$nowplaying[0].album}" alt="" height="250></p>
+<p><img src="https://turtle.libre.fm/cover.php?artist={$nowplaying[0].artist}&album={$nowplaying[0].album}" alt="" height="250"></p>
 
 <p><a class="alert-link" href="{$nowplaying[0].trackurl}">
 	   {$nowplaying[0].track}
