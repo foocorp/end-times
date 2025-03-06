@@ -1,9 +1,9 @@
 {if $album->mbid}
-	<img class="img-responsive"
+	<img style="border: 1px solid white;" class="img-responsive"
 	     src="https://coverartarchive.org/release/{$album->mbid}/front-250"
 	alt="" height="250" loading="lazy" />
 {else}
-<img src="https://turtle.libre.fm/cover.php?album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}" height="250" alt="" loading="lazy" />
+<img style="border: 1px solid white;" src="https://turtle.libre.fm/cover.php?album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}" height="250" alt="" loading="lazy" />
    {/if}
 
 
