@@ -11,7 +11,7 @@
 
 {if $album}
 
-<p><img src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" height="64" alt=""></p>
+<p><img src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" height="158" alt=""></p>
 
 <p>Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
 
