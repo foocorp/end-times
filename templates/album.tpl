@@ -1,5 +1,9 @@
 {include file='header.tpl' subheader='album-header.tpl'}
 
+<!--
+{$album|@print_r}
+-->
+
 <h4>Tracks</h4>
 {artisttracks artist=$album->artist_name album=$album->name}
 {include file='tracklist.tpl' class=#table# items=$artisttracks fstream=true}
