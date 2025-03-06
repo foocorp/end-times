@@ -7,7 +7,7 @@
 	     src="https://coverartarchive.org/release/{$album->mbid}/front-250"
 	alt="" height="250" loading="lazy" />
 {else}
-<img style="border: 1px solid white;" src="https://turtle.libre.fm/cover.php?album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}"  alt="" loading="lazy" />
+<img style="border: 1px solid white;" src="https://turtle.libre.fm/cover.php?rg=1&album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}"  alt="" loading="lazy" />
    {/if}
 <h2>
 	  {$track->name}
