@@ -5,26 +5,25 @@
 <div class="h-entry">
 <fieldset>
 
-<h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
+<h2 class="text-center"class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-	<p><img class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
+	<p class="text-center"><img class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
 
 {if $album}
 
 <p class="text-center"><a href="{$url}"><img src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" height="250" alt=""></a></p>
 
-<p>Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
+<p class="text-center">Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
 
 
 
 {else}
-<p>Listened to <span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}</p>
+<p class="text-center">Listened to <span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}</p>
 
 
 {/if}
 
-
-<time datetime="{$stamp}">{$stomp}</time>
+<time class="text-center" datetime="{$stamp}">{$stomp}</time>
 
 </fieldset>
 </div>
