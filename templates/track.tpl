@@ -3,7 +3,7 @@
 <h4>Appears on</h4>
 {trackalbums artist=$track->artist_name track=$track->name}
 
-	<ul class="list-inline">
+	<ul>
 		{if !empty($track->duration)}<li property="mo:durationXSD" datatype="xsd:duration" content="PT{$track->duration}S">Duration: {$duration}</li>{/if}
 		<li property="rdfs:comment">{t}Playcount {/t} <span class="badge">{$track->getPlayCount()}</span></li>
 		<li property="rdfs:comment">{t}Listeners {/t} <span class="badge">{$track->getListenerCount()}</span></li>
