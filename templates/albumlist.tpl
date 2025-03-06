@@ -17,11 +17,11 @@
 *}
 <ul>
 	{foreach from=$items item=i}
-	<li>
+	
 			{if $i.albumlibraryurl}
-				<a href="{$i.albumlibraryurl|escape:'html'}">{$i.album}</a>
+				<li><a href="{$i.albumlibraryurl|escape:'html'}">{$i.album}</a>
 			{else}
-				<a href="{$i.albumurl|escape:'html'}">{$i.album}</a>
+				<li><a href="{$i.albumurl|escape:'html'}">{$i.album}</a>
 			{/if}
 			{if $fartist} by
 				{if $i.artistlibraryurl}
