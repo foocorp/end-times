@@ -3,11 +3,11 @@
 <p class="text-center elsewhere"><a href="/user/{$me->name}/recap/2024">See {$me->name}'s 2024 recap</a></p>
 
 {if $nowplaying}
-<p class="text-center elsewhere"><strong>{t name=$me->name}%1{/t} is currently listening to: </strong>
+<p class="text-center elsewhere"><strong>{t name=$me->name}%1{/t} is currently listening to: </strong></p>
 
 <p><img src="https://turtle.libre.fm/cover.php?artist={$nowplaying[0].artist}&album={$nowplaying[0].album}" alt="" height="250></p>
 
-<a class="alert-link" href="{$nowplaying[0].trackurl}">
+<p><a class="alert-link" href="{$nowplaying[0].trackurl}">
 	   {$nowplaying[0].track}
 	</a>
 	by
