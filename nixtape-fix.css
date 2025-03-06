@@ -114,7 +114,7 @@ body {
     margin-inline: auto;
     margin-block: 0;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    background-color: var(--body-background);
+    /* background-color: var(--body-background); */
     min-width: 300px;
     max-width: 800px;
 }
