@@ -23,7 +23,7 @@
 
 {/if}
 
-<time class="text-center" datetime="{$stamp}">{$stomp}</time>
+<p class="text-center"><time class="text-center" datetime="{$stamp}">{$stomp}</time></p>
 
 </fieldset>
 </div>
