@@ -18,11 +18,7 @@
 	<p>{if $album->mbid}<a href="https://musicbrainz.org/release/{$album->mbid}">{$album->name} on MusicBrainz</a> &middot;
 {/if}<a href="https://www.discogs.com/search?q={$album->artist_name}+{$album->name}">Find {$album->name} on Discogs</a> &middot; <a href="https://bandcamp.com/search?q={$album->artist_name}+{$album->name}&from=results">Find {$album->name} on Bandcamp</a> &middot; <a href="https://www.youtube.com/results?search_query={$album->artist_name}+{$album->name}">Find {$album->name} on YouTube</a></p>
 
-{if $album->mbid}<p><small>Cover Art provided by <a href="https://coverartartchive.org/">Cover Art Archive</a>, a project of MusicBrainz and the Internet Archive</small></p>
-
-<p><small>It is believed that the use of low-resolution images of cover art solely to illustrate the audio recording in question, is fair use.</small></p>
-
-{/if}
+{if $album->mbid}<p><small>Cover Art provided by <a href="https://coverartartchive.org/">Cover Art Archive</a>, a project of MusicBrainz and the Internet Archive.</small></p>{/if}
 
 
 {include file='footer.tpl' sideplayer=true station=$album_station}
