@@ -18,6 +18,7 @@
 <ul>
 	{foreach from=$items item=i}
         {if $i.album}
+<!-- {$i.mbid} -->
 	<li>
 			{if $i.albumlibraryurl}
 				<a href="{$i.albumlibraryurl|escape:'html'}">{$i.album}</a>
