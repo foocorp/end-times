@@ -6,12 +6,11 @@
 	{if !($pagetitle)}
 	<title>{$site_name}</title>
 	{else}
-	<title>{$pagetitle|escape:'html':'UTF-8'} &mdash; {$site_name}</title>
+	<title>{$pagetitle|escape:'html':'UTF-8'} &middot; {$site_name}</title>
 	{/if}
 	<script type="text/javascript" src="{$base_url}/js/player.js"></script>
 	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
 {section name=i loop=$extra_head_links}
-	<link rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}" title="{$extra_head_links[i].title|escape:'html':'UTF-8'}"  />
 {/section}
 <meta name="viewport" content="width=device-width,initial-scale=1" />
     {assign var=random_id value=10|mt_rand:2000}
