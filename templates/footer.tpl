@@ -20,7 +20,7 @@
 
      <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
 
-<p><small>Hey, where did that bloke go who said I was vital?</small></p>
+<p><small><a href="https://halfmanhalfbiscuit.uk/mcintyre-treadmore-and-davitt-1991/prag-vec-at-the-melkweg/">In the town where I was born / Lived a man who went to work / And he told us of his life / Building space ships on forty pounds a week</a></small></p>
 
 <!-- broken :'(
 
