@@ -1,12 +1,10 @@
-{if $album->image}
+{if $album->mbid}
 	<img class="img-responsive"
-	     src="{$album->image}"
-	alt="{$album->name} album cover" />
+	     src="https://coverartarchive.org/release/{$album->mbid}/front-250"
+	alt="" />
    {/if}
 
-{if $album->mbid}
-<p><a href="https://musicbrainz.org/release/{$album->mbid}">MusicBrainz ID {$album->mbid}</a></p>
-{/if}
+
 
     <h2>
       {$album->name}
