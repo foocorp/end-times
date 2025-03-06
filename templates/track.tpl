@@ -3,6 +3,8 @@
 <h4>Appears on</h4>
 {trackalbums artist=$track->artist_name track=$track->name}
 
+{include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
+
 	<ul>
 		{if !empty($track->duration)}<li property="mo:durationXSD" datatype="xsd:duration" content="PT{$track->duration}S">Duration: {$duration}</li>{/if}
 		<li property="rdfs:comment">{t}Playcount {/t} <span class="badge">{$track->getPlayCount()}</span></li>
@@ -73,6 +75,5 @@
 	<p><a href="https://www.discogs.com/search?q={$track->artist_name}+{$track->name}">Find {$track->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$track->artist_name}+{$track->name}&from=results">Find {$track->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$track->artist_name}+{$track->name}">Find {$track->name} on YouTube</a></p>
 
 
-{include file='albumlist.tpl' class=#table# items=$trackalbums fimage=false fstream=true ftime=true}
 
 {include file='footer.tpl' sideplayer=true station='track'}
