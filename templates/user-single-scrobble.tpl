@@ -7,8 +7,6 @@
 
 <h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-<!-- {$album} -->
-
 	<p><img class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
 
 <p>Listened to <span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</p>
