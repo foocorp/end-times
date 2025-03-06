@@ -4,7 +4,6 @@
 	alt="" height="250" loading="lazy" />
 {else}
 <img src="https://turtle.libre.fm/cover.php?album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}" height="250" alt="" loading="lazy" />
-<p>(We just fetched this image for you!)</p>
    {/if}
 
 
