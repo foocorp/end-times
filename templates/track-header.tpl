@@ -1,3 +1,10 @@
+<!--
+
+{$track|@var_dump} 
+
+-->
+
+
 
 {if $album->mbid}
 	<img class="img-responsive"
@@ -10,5 +17,5 @@
 	<h2>
 	  {$track->name}
 	</h2>
-	<h3>on <a href="{$album->getURL()}">{$album->name}</a> by <a href="{$artist->getURL()}">{$artist->name}</a></h3>
+	<h3><a href="{$artist->getURL()}">{$artist->name}</a></h3>
     {include file='submenu.tpl'}
