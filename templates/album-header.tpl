@@ -2,6 +2,8 @@
 	<img class="img-responsive"
 	     src="https://coverartarchive.org/release/{$album->mbid}/front-250"
 	alt="" height="250" loading="lazy" />
+{else}
+<img src="https://turtle.libre.fm/cover.php?album={$album->name}&artist={$artist->name}" height="1" width="1" alt="" loading="lazy" />
    {/if}
 
 
