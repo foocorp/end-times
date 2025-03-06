@@ -4,6 +4,10 @@
 	alt="{$album->name} album cover" />
    {/if}
 
+{if $album->mbid}
+<p><a href="https://musicbrainz.org/release/{$album->mbid}">MusicBrainz ID {$album->mbid}</a></p>
+{/if}
+
     <h2>
       {$album->name}
     </h2>
