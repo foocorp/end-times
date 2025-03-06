@@ -7,7 +7,7 @@
 
 <h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-
+<!-- {$album} -->
 
 	<p><img class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
 
