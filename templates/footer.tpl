@@ -6,7 +6,7 @@
 		{/if}
 	</main>
 
-
+<p><small>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of MusicBrainz and the Internet Archive.</small></p>
 
 <footer>
 
