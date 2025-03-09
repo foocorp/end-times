@@ -22,7 +22,7 @@
 
 <p><small><a href="https://halfmanhalfbiscuit.uk/mcintyre-treadmore-and-davitt-1991/prag-vec-at-the-melkweg/">In the town where I was born / Lived a man who went to work / And he told us of his life / Building space ships on forty pounds a week</a></small></p>
 
-<p>{$page_time}</p>
+<p>This page generated in {$page_time} seconds.</p>
 
 </footer>
 </body>
