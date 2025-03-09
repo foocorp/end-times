@@ -74,6 +74,9 @@
 
 </div>
 
+<p class="text-center">This page generated in {$page_time} seconds.</p>
+
+
 </main>
 </body>
 </html>
