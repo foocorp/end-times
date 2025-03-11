@@ -73,8 +73,8 @@
 
 	{if $mblinks}
 	<ul>
-	{section name=i loop=$mblinks}
-			<li><a href='{$mblinks[i][0]}'>{$mblinks[i]}</a></li>
+	{section name=i loop=$mblinks key=k item=v}
+			<li><a href='{$v}'>{$k}</a></li>
 		{/section}
 	</ul>
 	{/if}
