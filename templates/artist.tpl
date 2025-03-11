@@ -71,6 +71,15 @@
 
 	<h3>Elsewhere</h3>
 
+	{if $mblinks}
+	<ul>
+	{section name=i loop=$mblinks}
+			<li><a href='{$mblinks[i][0]}'>{$mblinks[i]}</a></li>
+		{/section}
+	</ul>
+	
+	
+
 	<p class="text-center elsewhere"><a href="https://www.discogs.com/search?q={$artist->name}&type=artist">Find {$artist->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$artist->name}&item_type=b&from=results">Find {$artist->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></p>
 	
 
