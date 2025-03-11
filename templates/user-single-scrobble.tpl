@@ -17,6 +17,9 @@
 
 
 {else}
+{if $image}
+<p class="text-center"><img height="250" style="outline: 1px solid white;" src="{$image}" alt=""/></p>
+{/if}
 <p class="text-center">Listened to <span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist"><a href="/artist/{$artist|escape:'html':'UTF-8'}">{$artist|escape:'html':'UTF-8'}</span>{/if}</p>
 
 
@@ -49,6 +52,10 @@
 </fieldset>
 </details>
 
+{/if}
+
+{if $image}
+<p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</small></p>
 {/if}
 
 {include file='footer.tpl'}
