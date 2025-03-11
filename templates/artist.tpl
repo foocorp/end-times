@@ -75,7 +75,6 @@
 <ul>
 <li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
 {if $mblinks}
-<li><a href="https://musicbrainz.org/artist/{$artist->mbid}">{$artist->name} on MusicBrainz</a></li>
 {foreach from=$mblinks item=v}
    <li><a href="{$v}">{$v}</a></li>
 {/foreach}
@@ -83,7 +82,7 @@
 </ul>
 
 {if $mblinks}
-<p>Links provided by MusicBrainz.</p>
+<p><a href="<a href="https://musicbrainz.org/artist/{$artist->mbid}">{$artist->name} on MusicBrainz</a> (<a href="https://musicbrainz.org/artist/{$artist->mbid}/edit#external-links-editor-container">Add/edit links on MusicBrainz</a>)</p>
 {/if}
 	
 	<!-- 
