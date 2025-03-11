@@ -1,5 +1,5 @@
 {if $image}
-<p><img src="{$image}" alt=""/></p>
+<p><img height="300" src="{$image}" alt=""/></p>
 {/if}
 
 <h2>{$artist->name}</h2>
