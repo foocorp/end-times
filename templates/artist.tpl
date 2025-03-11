@@ -74,8 +74,8 @@
 	{if $mblinks}
 
 	<ul>
-	{section name=i loop=$mblinks}
-			<li>{$mblinks|@print_r}</li>
+	{section name=i loop=$mblinks key=k item=v}
+			<li>{$mblinks[k]}</li>
 		{/section}
 	</ul> 
 	{/if}
