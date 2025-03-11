@@ -72,12 +72,12 @@
 	<h3>Elsewhere</h3>
 
 	{if $mblinks}
-<!--
+
 	<ul>
 	{section name=i loop=$mblink}
-			<li>var_dump($mblink);</li>
+			<li>{$mblink|@print_r}</li>
 		{/section}
-	</ul> -->
+	</ul> 
 	{/if}
 	
 	
