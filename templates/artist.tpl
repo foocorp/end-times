@@ -80,7 +80,6 @@
    <li><a href="{$v}">{$artist->name} {$k}</li>
 {/foreach}
 	{/if}
-<li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
 </ul>
 
 {if $mblinks}
