@@ -55,7 +55,7 @@
 {/if}
 
 {if $image}
-<p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</small></p>
+<p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</a></small></p>
 {/if}
 
 {include file='footer.tpl'}
