@@ -72,11 +72,12 @@
 	<h3>Elsewhere</h3>
 
 	{if $mblinks}
+<!--
 	<ul>
-	{section name=i loop=$mblinks key=k item=v}
-			<li><a href='{$v}'>{$k}</a></li>
+	{section name=i loop=$mblink}
+			<li>var_dump($mblink);</li>
 		{/section}
-	</ul>
+	</ul> -->
 	{/if}
 	
 	
