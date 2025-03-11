@@ -69,22 +69,28 @@
 	</section>
 	{/if}
 
-	<h3>Elsewhere</h3>
 
-	{if $mblinks}
+<h3>Elsewhere</h3>
 
-	<ul>
 <ul>
+<li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
+{if $mblinks}
+<li><a href="https://musicbrainz.org/artist/{$artist->mbid}">{$artist->name} on MusicBrainz</a></li>
 {foreach from=$mblinks key=k item=v}
-   <li>{$k}: {$v}</li>
+   <li><a href="{$v}">{$artist->name} {$k}</li>
 {/foreach}
-</ul>
 	{/if}
-	
-	
+<li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
+</ul>
 
-	<p class="text-center elsewhere"><a href="https://www.discogs.com/search?q={$artist->name}&type=artist">Find {$artist->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$artist->name}&item_type=b&from=results">Find {$artist->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></p>
+{if $mblinks}
+<p>Links provided by MusicBrainz.</p>
+{/if}
 	
+	<!-- 
+
+	<a href="https://www.discogs.com/search?q={$artist->name}&type=artist">Find {$artist->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$artist->name}&item_type=b&from=results">Find {$artist->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></p>
+	 -->
 
 </div>
 
