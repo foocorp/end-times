@@ -54,7 +54,7 @@
 
 {/if}
 
-{if $image}
+{if $wikipedia}
 <p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</a></small></p>
 {/if}
 
