@@ -77,9 +77,7 @@
 {if $mblinks}
 <li><a href="https://musicbrainz.org/artist/{$artist->mbid}">{$artist->name} on MusicBrainz</a></li>
 {foreach from=$mblinks item=v}
-{$mblinks|@print_r}}
-
-   <li><a href="{$v[0]}">{$artist->name} {$v[1]}</a></li>
+   <li><a href="{$v}">{$v}</a></li>
 {/foreach}
 	{/if}
 </ul>
