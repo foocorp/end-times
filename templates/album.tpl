@@ -11,7 +11,7 @@
 	{$album_station = "librefm://artist/{$album->artist_name}/album/{$album->name}"}
 {/if}
 
-	<p>{if $album->mbid}<a href="https://musicbrainz.org/release/{$album->mbid}">{$album->name} on MusicBrainz</a> &middot;
+	<p>{if $album->mbid}<a href="https://musicbrainz.org/release-group/{$album->mbid}">{$album->name} on MusicBrainz</a> &middot;
 {/if}<a href="https://www.discogs.com/search?q={$album->artist_name}+{$album->name}">Find {$album->name} on Discogs</a> &middot; <a href="https://bandcamp.com/search?q={$album->artist_name}+{$album->name}&from=results">Find {$album->name} on Bandcamp</a> &middot; <a href="https://www.youtube.com/results?search_query={$album->artist_name}+{$album->name}">Find {$album->name} on YouTube</a></p>
 
 
