@@ -1,6 +1,5 @@
 {if $image}
 <p><img src="{$image}" alt=""/></p>
-<p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</small></p>
 {/if}
 
 <h2>{$artist->name}</h2>
