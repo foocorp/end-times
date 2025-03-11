@@ -76,8 +76,8 @@
 <li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
 {if $mblinks}
 <li><a href="https://musicbrainz.org/artist/{$artist->mbid}">{$artist->name} on MusicBrainz</a></li>
-{foreach from=$mblinks key=k item=v}
-   <li><a href="{$v}">{$artist->name} {$k}</a></li>
+{foreach from=$mblinks item=v}
+   <li><a href="{$v[0]}">{$artist->name} {$v[1]}</a></li>
 {/foreach}
 	{/if}
 </ul>
