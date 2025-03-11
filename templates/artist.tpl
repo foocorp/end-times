@@ -74,10 +74,11 @@
 	{if $mblinks}
 
 	<ul>
-	{section name=i loop=$mblinks[0]}
-			<li>{$mblinks|@print_r}</li>
-		{/section}
-	</ul> 
+<ul>
+{foreach from=$mblinks key=k item=v}
+   <li>{$k}: {$v}</li>
+{/foreach}
+</ul>
 	{/if}
 	
 	
