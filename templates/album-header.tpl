@@ -3,6 +3,7 @@
 	     src="https://coverartarchive.org/release-group/{$album->mbid}/front-250"
 	alt="" height="250" loading="lazy" />
 {else}
+<p>No MusicBrainz ID found for {$album->name}, searching...</p>
 <img height="250" style="border: 1px solid white;" src="https://turtle.libre.fm/cover.php?album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}"  alt="" loading="lazy" />
    {/if}
 
