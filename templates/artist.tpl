@@ -77,7 +77,7 @@
 {if $mblinks}
 <li><a href="https://musicbrainz.org/artist/{$artist->mbid}">{$artist->name} on MusicBrainz</a></li>
 {foreach from=$mblinks key=k item=v}
-   <li>{$k}: {$v}</li>
+   <li><a href="{$v}">{$artist->name} {$k}</a></li>
 {/foreach}
 	{/if}
 </ul>
