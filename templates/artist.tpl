@@ -77,6 +77,7 @@
 			<li><a href='{$mblinks[i][0]}'>{$mblinks[i]}</a></li>
 		{/section}
 	</ul>
+	{/if}
 	
 	
 
