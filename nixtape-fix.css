@@ -334,6 +334,14 @@ footer p, footer h3, header p, .elsewhere {
 
 .inline-albums {padding-left: 0;}
 .inline-albums li {display: inline-table;}
+.inline-albums .missing-cover-art {
+    background: black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+}
 
 .tagcloud {
     /* display: inline-table; */
