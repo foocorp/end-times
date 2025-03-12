@@ -85,7 +85,7 @@
 <p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</a></small></p>
 {/if}
 {if $bio_summary}
-<p><small><a href="https://last.fm/artist/{$artist->name}/+wiki">Biography from Last FM wiki for {$artist->name}</a></small></p>
+<p><small>Biography: <a href="https://last.fm/artist/{$artist->name}/+wiki">Last FM wiki</a> (CC BY-SA 3.0)</a></small></p>
 {/if}
 
 	
