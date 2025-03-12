@@ -33,7 +33,7 @@
 		{section name=i loop=$albums max=250}
 		{if $albums[i]->name}
 		<li about="{$albums[i]->id}" property="dc:title" content="{$albums[i]->name|escape:'html':'UTF-8'}" typeof="mo:Record" class="haudio">
-					<a rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a>
+					<a rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a> {$albums[i]->mbid}
 		</li>{/if}
 		{/section}	
 		{if $add_album_link}<li><a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a></li>{/if}
