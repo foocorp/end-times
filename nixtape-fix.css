@@ -332,6 +332,9 @@ footer p, footer h3, header p, .elsewhere {
     text-wrap: balance;
 }
 
+.inline-albums {padding-left: 0;}
+.inline-albums li {display: inline-table;}
+
 .tagcloud {
     /* display: inline-table; */
     /* list-style: none; 
