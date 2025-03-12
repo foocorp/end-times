@@ -334,10 +334,10 @@ footer p, footer h3, header p, .elsewhere {
 
 
 .album-list {
-padding: 0; background: black; display: flex; flex-wrap: wrap;
+padding: 0; background: transparent; display: flex; flex-wrap: wrap;
 }
 
-.album-list li {display: inline-table; padding: 10px; background: black; }
+.album-list li {display: inline-table; padding: 10px; background: transparent; }
 
 .album-list-album {
  display: flex;
@@ -350,6 +350,7 @@ text-align: center;
 background: #666;
 }
 
+.album-list-album span {padding: 5px;}
 .album-list-album a {
 	color: white !important;
 	font-size: 80%;
