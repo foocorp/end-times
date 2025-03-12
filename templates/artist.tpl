@@ -36,7 +36,7 @@
                 {if $albums[i]->mbid}
 	        {$albums[i]->mbid|coverartexists:100:"{$artist->name} / {$albums[i]->name|escape:'html':'UTF-8'}":{$albums[i]->getURL()}}
 	        {else}
-	        {"404"|coverartexists:100:"{$artist->name} / {$albums[i]->name|escape:'html':'UTF-8'}":{$albums[i]->getURL()}}
+	        {"404"|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'}":{$albums[i]->getURL()}}
                 {/if}
 		</li>{/if}
 		{/section}	
