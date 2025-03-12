@@ -354,6 +354,8 @@ background: #666;
 .album-list-album a {
 	color: white !important;
 	font-size: 80%;
+         word-break: break-all;
+overflow: hidden; 
 }
 
 
