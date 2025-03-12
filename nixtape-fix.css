@@ -338,7 +338,7 @@ footer p, footer h3, header p, .elsewhere {
     padding-left: 0;
 }
 .tagcloud li {
-    display: inline-table;
+    /* display: inline-table; */
 }
 
 #tops ul {
