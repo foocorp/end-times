@@ -4,6 +4,12 @@
 
 	<div class="vcard">
 
+{if !$fastmode}
+<!-- slow mode -->
+{else}
+<!-- fast mode -->
+{/if}
+
 {* We load player in sidebar instead, see footer include at bottom of file
 		{if $streamable}
 		<div id='player-container'>
