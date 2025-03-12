@@ -34,9 +34,9 @@
 		{if $albums[i]->name}
 		<li about="{$albums[i]->id}" property="dc:title" content="{$albums[i]->name|escape:'html':'UTF-8'}" typeof="mo:Record" class="haudio">
                 {if $albums[i]->mbid}
-	        {$albums[i]->mbid|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'} page":{$albums[i]->getURL()}}
+	        {$albums[i]->mbid|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'}":{$albums[i]->getURL()}}
 	        {else}
-	        {"404"|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'} page":{$albums[i]->getURL()}}
+	        {"404"|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'}":{$albums[i]->getURL()}}
                 {/if}
 		</li>{/if}
 		{/section}	
