@@ -344,7 +344,7 @@ padding: 0; background: transparent; display: flex; flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100px;
-  outline: 1px solid white;
+  outline: 1px solid #333;
 width: 100px;
 text-align: center;
 background: #666;
