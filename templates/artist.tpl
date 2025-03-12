@@ -34,11 +34,9 @@
 		{if $albums[i]->name}
 		<li about="{$albums[i]->id}" property="dc:title" content="{$albums[i]->name|escape:'html':'UTF-8'}" typeof="mo:Record" class="haudio">
                 {if $albums[i]->mbid}
-	        {$albums[i]->mbid|coverartexists:100:"demand":{$albums[i]->getURL()}}
-
-					<a rel="foaf:page" href="{$albums[i]->getURL()}"><img src="https://coverartarchive.org/release-group/{$albums[i]->mbid}/front-250" height="100" width="100" title="{$albums[i]->name|escape:'html':'UTF-8'}" alt="Album page for {$albums[i]->name|escape:'html':'UTF-8'} by {$artist->name}"></a>
+	        {$albums[i]->mbid|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'} page":{$albums[i]->getURL()}}
 	        {else}
-					<a class="missing-cover-art" rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a>
+	        {"404"|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'} page":{$albums[i]->getURL()}}
                 {/if}
 		</li>{/if}
 		{/section}	
