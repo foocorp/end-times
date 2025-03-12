@@ -62,7 +62,7 @@
 		<h3 class="text-center">{t}Tags used to describe this track{/t}</h3>
 		<ul class="tagcloud">
 		{section name=i loop=$tagcloud}
-			<li style='font-size:{$tagcloud[i].size}'><a href='{$tagcloud[i].pageurl}' title='{t uses=$tagcloud[i].count}This tag was used %1 times{/t}' rel='tag'>{$tagcloud[i].name}</a></li>
+			<li><a href='{$tagcloud[i].pageurl}' rel='tag'>{$tagcloud[i].name} ({$tagcloud[i].count})</a></li>
 		{/section}
 		</ul>
 	{/if}
