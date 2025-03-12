@@ -4,7 +4,7 @@
 
 	<div class="vcard">
 
-{if !$fastmode}
+{if $fastmode != "1"}
 <!-- slow mode -->
 {else}
 <!-- fast mode -->
