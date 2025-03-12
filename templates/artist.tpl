@@ -45,7 +45,7 @@
 		<h3>{t}Similar free artists{/t}</h3>
 		<ul class="tagcloud">
 		{section name=i loop=$similarArtists}
-			<li style='font-size:{$similarArtists[i].size}'><a href='{$similarArtists[i].url}'>{$similarArtists[i].artist}</a></li>
+			<li><a href='{$similarArtists[i].url}'>{$similarArtists[i].artist}</a></li>
 		{/section}
 		</ul>
 	{/if}
