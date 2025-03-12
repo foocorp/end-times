@@ -36,7 +36,7 @@
                 {if $albums[i]->mbid}
 					<a rel="foaf:page" href="{$albums[i]->getURL()}"><img src="https://coverartarchive.org/release-group/{$albums[i]->mbid}/front-250" width="100" alt="Album page for {$albums[i]->name|escape:'html':'UTF-8'} by {$artist->name}"></a>
 	        {else}
-					<a rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a>
+					<a class="missing-cover-art" rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a>
                 {/if}
 		</li>{/if}
 		{/section}	
