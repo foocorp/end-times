@@ -16,9 +16,6 @@
 		<div class="note" id="bio" property="bio:olb" datatype="" style='clear: left;'>
 		<h4>{t}Biography{/t}</h4>
 		<p>{$bio_summary}</p>
-			{if $bio_content}
-				<p id='bio_content'>{$bio_content}</p>
-			{/if}
 		</div>
 		{/if}
 	</div>
@@ -87,6 +84,10 @@
 {if $image}
 <p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</a></small></p>
 {/if}
+{if $bio_summary}
+<p><small><a href="https://last.fm/artist/{$artist->name}/+wiki">Biography from Last FM wiki for {$artist->name}</a></small></p>
+{/if}
+
 	
 	<!-- 
 
