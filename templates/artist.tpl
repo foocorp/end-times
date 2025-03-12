@@ -73,7 +73,7 @@
 <li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
 {if $mblinks}
 {foreach from=$mblinks item=v}
-   <li><a href="{$v}">{$v}</a></li>
+   <li><a href="{$v}">{$artist->name} on {$v|get_domain_name_from_url}</a></li>
 {/foreach}
 	{/if}
 </ul>
