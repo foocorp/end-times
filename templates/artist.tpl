@@ -11,7 +11,7 @@
 {/if}
 
 {* We load player in sidebar instead, see footer include at bottom of file
-		{if $streamable}
+		{if $fastmode != "1" && $streamable}
 		<div id='player-container'>
 		{include file='player.tpl'}
 		</div>
@@ -38,7 +38,7 @@
 		{if $add_album_link}<li><a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a></li>{/if}
 	</ul>
 
-	{if !empty($similarArtists)}
+	{if $fastmode != "1" && !empty($similarArtists)}
 		<h3>{t}Similar free artists{/t}</h3>
 		<ul class="tagcloud">
 		{section name=i loop=$similarArtists}
@@ -48,7 +48,7 @@
 	{/if}
 
 
-	{if !empty($tagcloud)}
+	{if $fastmode != "1" && !empty($tagcloud)}
 		<h3>{t}Tags used to describe this artist{/t}</h3>
 		<ul class="tagcloud">
 		{section name=i loop=$tagcloud}
@@ -59,7 +59,7 @@
 
 	<hr>
 
-	{if $artist->getListenerCount()}
+	{if $fastmode != "1" && $artist->getListenerCount()}
 	<section class="h-feed" id="tops">
 	<h3 id="listeners">Top listeners</h3>
 	<ul>
@@ -77,7 +77,7 @@
 
 <ul>
 <li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
-{if $mblinks}
+{if $fastmode != "1" && $mblinks}
 {foreach from=$mblinks item=v}
    <li><a href="{$v}">{$artist->name} on {$v|get_domain_name_from_url}</a></li>
 {/foreach}
