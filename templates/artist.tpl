@@ -1,6 +1,4 @@
-{if $fastmode != "1"}
 {include file='header.tpl' subheader='artist-header.tpl'}
-{/if}
 
 <div about="{$id}" typeof="mo:MusicArtist">
 
@@ -27,6 +25,7 @@
 		</div>
 		{/if}
 	</div>
+{if $fastmode != "1"}
 
 	<h3>{t}Albums{/t}</h3>
 	<!-- <p><small>Limited to 25 albums</small></p> -->
@@ -39,6 +38,8 @@
 		{/section}	
 		{if $add_album_link}<li><a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a></li>{/if}
 	</ul>
+
+{/if}
 
 	{if $fastmode != "1" && !empty($similarArtists)}
 		<h3>{t}Similar free artists{/t}</h3>
@@ -74,6 +75,7 @@
 	</section>
 	{/if}
 
+{if $fastmode != "1"}
 
 <h3>Elsewhere</h3>
 
@@ -96,6 +98,7 @@
 <p><small>Biography: <a href="https://last.fm/artist/{$artist->name}/+wiki">Last FM wiki</a> (CC BY-SA 3.0)</a></small></p>
 {/if}
 
+{/if}
 	
 	<!-- 
 
