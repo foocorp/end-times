@@ -1,4 +1,6 @@
+{if $fastmode != "1"}
 {include file='header.tpl' subheader='artist-header.tpl'}
+{/if}
 
 <div about="{$id}" typeof="mo:MusicArtist">
 
@@ -102,5 +104,6 @@
 
 </div>
 
+{if $fastmode != "1"}
 {include file='footer.tpl' sideplayer=true}
-
+{/if}
