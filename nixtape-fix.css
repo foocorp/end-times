@@ -334,8 +334,8 @@ footer p, footer h3, header p, .elsewhere {
 
 .tagcloud {
     /* display: inline-table; */
-    list-style: none;
-    padding-left: 0;
+    /* list-style: none; 
+    padding-left: 0; */
 }
 .tagcloud li {
     /* display: inline-table; */
