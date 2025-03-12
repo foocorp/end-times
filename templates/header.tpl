@@ -13,7 +13,7 @@
 {section name=i loop=$extra_head_links}
 {/section}
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-{if $mattldebug = "1"}
+{if $mattldebug != "1"}
 {assign var=random_id value=10|mt_rand:2000}
     <link href="/themes/2024-end-times/nixtape-fix.css?foo=bar&cache={$random_id}" rel="stylesheet">
 {/if}
