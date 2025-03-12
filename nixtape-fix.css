@@ -341,6 +341,10 @@ footer p, footer h3, header p, .elsewhere {
     width: 100px;
     text-align: center;
     font-size: small;
+    outline: 1px solid white;
+    color: white !important;
+    padding: 10px;
+
 }
 
 .tagcloud {
