@@ -34,11 +34,10 @@
 		{if $albums[i]->name}
 		<li about="{$albums[i]->id}" property="dc:title" content="{$albums[i]->name|escape:'html':'UTF-8'}" typeof="mo:Record" class="haudio">
                 {if $albums[i]->mbid}
-					<a rel="foaf:page" href="{$albums[i]->getURL()}"><img src="https://coverartarchive.org/release-group/{$albums[i]->mbid}/front-250" alt="Album page for {$albums[i]->name|escape:'html':'UTF-8'} by {$artist->name}"></a>
-	        {else}
+					<a rel="foaf:page" href="{$albums[i]->getURL()}"><img src="https://coverartarchive.org/release-group/{$albums[i]->mbid}/front-250" width="100" alt="Album page for {$albums[i]->name|escape:'html':'UTF-8'} by {$artist->name}"></a><br>
+	        {/if}
 					<a rel="foaf:page" href="{$albums[i]->getURL()}">{$albums[i]->name|escape:'html':'UTF-8'}</a>
 
-		{/if}
 		</li>{/if}
 		{/section}	
 		{if $add_album_link}<li><a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a></li>{/if}
