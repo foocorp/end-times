@@ -337,8 +337,8 @@ footer p, footer h3, header p, .elsewhere {
 .inline-albums .missing-cover-art {
     background: black;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     text-align: center;
     font-size: small;
     outline: 1px solid white;
