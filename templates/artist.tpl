@@ -40,8 +40,9 @@
                 {/if}
 		</li>{/if}
 		{/section}	
-		{if $add_album_link}<li><a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a></li>{/if}
 	</ul>
+		{if $add_album_link}<a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a>{/if}
+
 
 {/if}
 
