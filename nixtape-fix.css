@@ -347,7 +347,8 @@ padding: 0; background: transparent; display: flex; flex-wrap: wrap;
   outline: 1px solid #333;
 width: 100px;
 text-align: center;
-background: #666;
+background: black;
+	overflow: hidden; 
 }
 
 .album-list-album span {padding: 5px;}
@@ -355,7 +356,6 @@ background: #666;
 	color: white !important;
 	font-size: 80%;
          word-break: break-all;
-overflow: hidden; 
 }
 
 
