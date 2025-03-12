@@ -334,6 +334,7 @@ footer p, footer h3, header p, .elsewhere {
 
 .inline-albums {padding-left: 0;}
 .inline-albums li {display: inline-table;}
+.inline-albums li a img {width: 100px !important; height: 100px !important; display: block;}
 .inline-albums .missing-cover-art {
     background: black;
     display: inline-block;
