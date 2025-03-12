@@ -334,38 +334,28 @@ footer p, footer h3, header p, .elsewhere {
 
 
 .album-list {
-padding: 0; background: orange; display: flex; flex-wrap: wrap;
+padding: 0; background: black; display: flex; flex-wrap: wrap;
 }
 
-.album-list li {display: inline-table; padding: 10px; background: lime; }
+.album-list li {display: inline-table; padding: 10px; background: black; }
 
 .album-list-album {
  display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
-  border: 3px solid green;
+  outline: 1px solid white;
 width: 100px;
 text-align: center;
-background: red;
+background: #666;
+}
+
+.album-list-album a {
+	color: white !important;
+	font-size: 80%;
 }
 
 
-.inline-albums {padding-left: 0;}
-.inline-albums li {display: inline-table;}
-.inline-albums li a img {width: 100px !important; height: 100px !important; display: block;}
-.inline-albums .missing-cover-art {
-    background: black;
-    display: inline-block;
-    height: 80px;
-    width: 80px;
-    text-align: center;
-    font-size: small;
-    outline: 1px solid white;
-    color: white !important;
-    padding: 10px;
-
-}
 
 .tagcloud {
     /* display: inline-table; */
