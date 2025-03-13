@@ -1,5 +1,5 @@
 {if $album->mbid}
-{$album->mbid|coverartexists:250:"":{$albums[i]->getURL()}}
+{$album->mbid|coverartexists:250:"":{$albums[i]->getURL()}
 {else}
 <p>No MusicBrainz ID found for {$album->name}. Checking now.</p>
 {
