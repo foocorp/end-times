@@ -8,11 +8,6 @@
 	    {t}Log in{/t}
 	</a>
 	</li>
-	<li>
-	  <a href="{$base_url}/about/">
-	    {t}Sign up{/t}
-	  </a>
-	</li>
 {/if}
         <li><a href="{$base_url}/popular">{t}What's Popular?{/t}</a></li>
 	<li><a href="{$base_url}/donate.php">Donate</a></li>
