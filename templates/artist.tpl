@@ -84,7 +84,7 @@
 
 <h3>Elsewhere</h3>
 
-<ul>
+<ul class="long-list">
 <li><a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></li>
 {if $fastmode != "1" && $mblinks}
 {foreach from=$mblinks item=v}
