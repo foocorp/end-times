@@ -369,7 +369,7 @@ background: black;
     /* display: inline-table; */
 }
 
-#tops ul {
+#tops ul, .long-list ul {
      columns: 3 auto;
 }
 
