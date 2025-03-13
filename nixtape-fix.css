@@ -286,6 +286,12 @@ color: lime;
     top: 2ch;
 }
 
+.logout-profile-link {
+    position: absolute;
+    right: 2ch;
+    top: 4ch;
+}
+
 .h-card ul {
   list-style: none;
   padding-left: 0;
