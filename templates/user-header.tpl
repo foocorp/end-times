@@ -1,5 +1,6 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
+<p>User #{$me->awesomenumber}</p>
 
 <img class="u-photo" src="{$me->getAvatar(90)}" alt="">
 
@@ -23,6 +24,9 @@
 	  <div class="p-note" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </div>
+
+	  <p>Last updated: {$startDate|date_format:"%Y/%m/%d"}</p>
+
 	  {/if}
 
           {if $me->getTotalTracks()}
