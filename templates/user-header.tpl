@@ -1,8 +1,8 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
-<p>User #{$awesomenumber}</p>
 
-<img class="u-photo" src="{$me->getAvatar(90)}" alt="">
+<p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
+<p>User #{$awesomenumber}</p>
 
 	  {if ($logged_in)}
 {if $me->name == $this_user->name}
@@ -25,7 +25,8 @@
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </div>
 
-	  <p>Last updated: {$lastd|date_format:"%Y/%m/%d"}</p>
+	  <hr>  
+	  <p><small>Last updated: {$lastd|date_format:"%Y/%m/%d"}</small></p>
 
 	  {/if}
 
