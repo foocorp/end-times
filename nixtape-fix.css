@@ -208,6 +208,34 @@ color: lime;
     max-width: 260px !important;
 }
 
+#popular {
+    display: flex;
+    list-style-type: none;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#popular li {
+    flex-grow: 2;
+}
+
+#popular li a {
+    color: var(--color);
+    margin: 0;
+    padding: 0.5ch 1ch 0.5ch;
+    display: block;
+    text-decoration: none;
+}
+
+#popular li.active a {
+    /* border-width: 0 0 5px 0; */
+}
+
 .nav.nav-pills {
     display: flex;
     list-style-type: none;
