@@ -370,6 +370,7 @@ footer p, footer h3, header p, .elsewhere {
     text-wrap: balance;
 }
 
+.wikipedia-profile-image {margin-bottom: 1em; outline: 1px solid white;}
 
 .album-list {
 padding: 0; background: transparent; display: flex; flex-wrap: wrap;
@@ -438,6 +439,9 @@ span.shareable {display: none; float:right;}
 th.time, td.time {
     display: none;
 }
+
+	.wikipedia-profile-image {margin-bottom: 1em; outline: 1px solid white; isplay: block;max-width: 80%; width: auto; height: auto; outline: 1px solid white; margin-bottom: 1em;}
+
 
 span.shareable {display: inline-table;}
 
