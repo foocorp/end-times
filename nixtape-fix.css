@@ -74,7 +74,7 @@
     }
 }
 
-header, footer {
+header, footer, h2 {
     text-align: center;
 }
 
@@ -230,6 +230,10 @@ color: lime;
     padding: 0.5ch 1ch 0.5ch;
     display: block;
     text-decoration: none;
+}
+
+#popular li a:hover {
+	color: lime;
 }
 
 #popular li.active a {
