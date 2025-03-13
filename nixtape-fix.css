@@ -375,7 +375,7 @@ footer p, footer h3, header p, .elsewhere {
 padding: 0; background: transparent; display: flex; flex-wrap: wrap;
 }
 
-.album-list li {display: inline-table; padding: 10px; background: transparent; }
+.album-list li {display: inline-table; padding-right: 8px; padding-bottom: 8px; background: transparent; }
 
 .album-list-album {
  display: flex;
