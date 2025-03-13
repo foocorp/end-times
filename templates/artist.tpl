@@ -48,7 +48,7 @@
 
 	{if $fastmode != "1" && !empty($similarArtists)}
 		<h3>{t}Similar free artists{/t}</h3>
-		<ul class="tagcloud">
+		<ul class="long-list">
 		{section name=i loop=$similarArtists}
 			<li><a href='{$similarArtists[i].url}'>{$similarArtists[i].artist}</a></li>
 		{/section}
@@ -58,7 +58,7 @@
 
 	{if $fastmode != "1" && !empty($tagcloud)}
 		<h3>{t}Tags used to describe this artist{/t}</h3>
-		<ul class="tagcloud">
+		<ul class="long-list">
 		{section name=i loop=$tagcloud}
 			<li><a href='{$tagcloud[i].pageurl}' rel='tag'>{$tagcloud[i].name} ({$tagcloud[i].count})</a></li>
 		{/section}
