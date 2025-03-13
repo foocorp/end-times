@@ -1,6 +1,6 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
-<p>User #{$me->awesomenumber}</p>
+<p>User #{$awesomenumber}</p>
 
 <img class="u-photo" src="{$me->getAvatar(90)}" alt="">
 
@@ -25,7 +25,7 @@
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </div>
 
-	  <p>Last updated: {$startDate|date_format:"%Y/%m/%d"}</p>
+	  <p>Last updated: {$lastd|date_format:"%Y/%m/%d"}</p>
 
 	  {/if}
 
