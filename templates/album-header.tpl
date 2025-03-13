@@ -1,8 +1,7 @@
 {if $album->mbid}
-{$album->mbid|coverartexists:250:"":{$albums[i]->getURL()}
+{$album->mbid|coverartexists:250:"":{$albums[i]->getURL()}}
 {else}
 <p>No MusicBrainz ID found for {$album->name}. Checking now.</p>
-{
 <img height="250" style="border: 1px solid white;" src="https://turtle.libre.fm/cover.php?album={$album->name|escape:'url'}&artist={$artist->name|escape:'url'}"  alt="" loading="lazy" />
    {/if}
 
