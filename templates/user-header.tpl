@@ -26,7 +26,7 @@
 	  </div>
 
 	  <hr>  
-	  <p><small>Last updated: {$lastd|date_format:"%Y/%m/%d"}</small></p>
+	  <p><small>Last updated: {$lastd|date_format:"%Y-%m-%d"}</small></p>
 
 	  {/if}
 
