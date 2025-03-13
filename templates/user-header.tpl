@@ -5,7 +5,8 @@
 
 	  {if ($logged_in)}
 {if $me->name == $this_user->name}
-<a class="edit-profile-link" href="/user-edit.php">Edit my profile</a>
+<p><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></p>
+<p><a class="edit-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></p>
 {/if}
 {/if}
 
