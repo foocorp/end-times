@@ -21,7 +21,7 @@
 </p>
 <p>
         <label class="checkbox">
-          <input type="checkbox" required value="remember-me" name="foo-check"> {t}I read this form carefully, and double-checked my email address first, honest.{/t}
+          <input type="checkbox" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address and agree to the terms and conditions and privacy policy below. I am over 18 years of age.
         </label>
 </p>
 <p>
