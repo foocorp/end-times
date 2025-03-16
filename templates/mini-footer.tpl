@@ -3,12 +3,15 @@
 
 <ul>
 <li>You must be at least 18 years old to use Libre.fm</li>
+<li>By using Libre.fm you agree that your listening data is provided to Libre.fm under the terms of the Creative Commons Attribution 4.0 license with attribution given to your chosen username.</li>
+<li>Libre.fm is hosted in the United Kingdom.</li>
+<li>Libre.fm is provided as a non-commercial, non-essential service as a public benefit to internet users.</li>
 <li>Creating a Libre.fm account requires you provide a valid email address.</li>
 <li>Entering any additional information on your profile is entirely voluntary and not required in any way.</li>
 <li>No part of this website may be used or reproduced in any manner for the purpose of training artificial intelligence technologies or systems.</li>
-<li>By using Libre.fm you agree that your listening data is provided to Libre.fm under the terms of the Creative Commons Attribution 4.0 license with attribution given to your chosen username.</li>
 <li>If you choose to manually request your account be deleted, all listening data will be retained with attribution granted to a placeholder user to anonymize the data.</li>
 <li>Use a Virtual Private Network (VPN) provider to access Libre.fm if you want to, but bear in mind that not all VPNs are created equally. Some VPN providers use cheap web hosting companies that are used by scammers to send large amounts of traffic to websites. When we identify one of these, we block the entire hosting provider's AS number with Cloudflare. We really wish this wasn't necessary.</li>
+<li>Please do not send large amounts of automated traffic to Libre.fm.</li>
 <li>Album artwork shown on Libre.fm is hosted by the Internet Archive and provided to Libre.fm by https://coverartarchive.org and we have no control over the content of album artwork.</li>
 <li>Artist profile photos shown on Libre.fm are hosted by the Wikimedia Foundation and we have no control over the content of artist profile photos.</li>
 <li>Artist biography data is taken from Last.fm under the terms of <a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY SA 3.0</a>.</li>
@@ -35,9 +38,12 @@
 
 <p>If you are unhappy with any of the items in the privacy policy, please email <a href="mailto:support@libre.fm">support@libre.fm</a> and we can help you export your data and close your account.</p>
 
+<h6>General tips</h6>
+
 <ul>
-<li>Using email privacy/relay services is encouraged. The less we know about you the better (said in the nicest of ways)</li>
-<li>Use an ad-blocker on every browser and device you use. We don't show ads but others do.</li>
+<li>Please consier using email privacy/relay services where possible. The less we know about you the better (said in the nicest of ways)</li>
+<li>Please consier using an ad-blocker on every browser and device you use. We don't show ads but others do.</li>
+<li>Please consier using websites which are not run by people who do not have your best interests at heart.</li>
 </ul>
 
 <nav>
