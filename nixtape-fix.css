@@ -333,7 +333,7 @@ nav li {list-style: none;}
 /* Element | https://libre.fm/login.php */
 
 .form-group input, .form-group textarea{
-  width: 100%;
+  width: 98%;
   font-size: x-large;
 }
 
