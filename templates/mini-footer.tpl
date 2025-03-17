@@ -3,10 +3,11 @@
 
 <ul>
 <li>You must be at least 18 years old to use Libre.fm</li>
-<li>By using Libre.fm you agree that your listening data is provided to Libre.fm under the terms of the Creative Commons Attribution 4.0 license with attribution given to your chosen username.</li>
+<li>By using Libre.fm you agree that your listening data is provided to Libre.fm under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0</a> license with attribution given to your chosen username.</li>
 <li>Libre.fm is hosted in the United Kingdom.</li>
 <li>Libre.fm is provided as a non-commercial, non-essential service as a public benefit to internet users.</li>
 <li>Creating a Libre.fm account requires you provide a valid email address.</li>
+<li>You agree to provide an email address which can receive email from us in order to make an account. Providing a mis-typed email address or using an email address which cannot receive email from us is not permitted.</li>
 <li>Entering any additional information on your profile is entirely voluntary and not required in any way.</li>
 <li>No part of this website may be used or reproduced in any manner for the purpose of training artificial intelligence technologies or systems.</li>
 <li>If you choose to manually request your account be deleted, all listening data will be retained with attribution granted to a placeholder user to anonymize the data.</li>
