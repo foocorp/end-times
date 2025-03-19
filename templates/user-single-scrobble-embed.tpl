@@ -8,6 +8,8 @@
 
 <time datetime="{$stamp}">{$stomp}</time>
 
+<p><small><a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a> &middot; {$me->name}/Libre.fm</small></p>
+
 </div>
 </blockquote>
 
