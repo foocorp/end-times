@@ -22,7 +22,7 @@ function smarty_function_userscrobbles($params, $template) {
 	$limit = $params['limit'] ? $params['limit'] : 20;
 	$offset = $params['offset'] ? $params['offset'] : 0;
 	
-	$query = 'SELECT s.artist, s.track, s.time, lt.userid as loved, a.image_small as image, t.streamable FROM Scrobbles s LEFT JOIN Scrobble_Track st ON (s.stid=st.id) LEFT JOIN Track t ON (st.track=t.id) LEFT JOIN Artist a ON (t.artist_name=a.name) LEFT JOIN Loved_Tracks lt ON (s.artist=lt.artist AND s.track=lt.track AND s.userid=lt.userid) WHERE s.userid=?';
+	$query = 'SELECT distinct(s.time), s.artist, s.track, s.time, lt.userid as loved, a.image_small as image, t.streamable FROM Scrobbles s LEFT JOIN Scrobble_Track st ON (s.stid=st.id) LEFT JOIN Track t ON (st.track=t.id) LEFT JOIN Artist a ON (t.artist_name=a.name) LEFT JOIN Loved_Tracks lt ON (s.artist=lt.artist AND s.track=lt.track AND s.userid=lt.userid) WHERE s.userid=?';
 	$qparams = array($userid);
 		
 	$query .= ' ORDER BY time DESC LIMIT ? OFFSET ?';
@@ -30,7 +30,7 @@ function smarty_function_userscrobbles($params, $template) {
 	$qparams[] = (int) $offset;
 
 	$adodb->SetFetchMode(ADODB_FETCH_ASSOC);
-	$data = $adodb->CacheGetAll(600, $query, $qparams);
+	$data = $adodb->CacheGetAll(6000, $query, $qparams);
 
 	foreach($data as &$item) {
 		$item['artisturl'] = Server::getArtistURL($item['artist']);
