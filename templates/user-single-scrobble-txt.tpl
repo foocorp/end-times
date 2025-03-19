@@ -3,5 +3,6 @@
 
 Listened to {$track} {if $artist}by {$artist}{/if}{if $album} on {$album}{/if}
 
+
 {$stomp}
 {/if}
