@@ -37,20 +37,10 @@
 {/section}
 </ul>
 
-<details>
-<fieldset>
+
 <p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
 <p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature</a></p>
-
-{if ($logged_in)}
-{if $this_user->uniqueid == $me->uniqueid}
-
-<p><small>This is a scrobble you made, so you should be able to delete it from here. Coming soon.</small></p>
-{/if}
-{/if}
-</fieldset>
-</details>
 
 {/if}
 
