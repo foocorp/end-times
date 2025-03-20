@@ -335,6 +335,7 @@ nav li {list-style: none;}
 textarea:not([cols]) {
 width: 100%;
 font-size: 12pt;
+height: 5em;
 }
 
 
