@@ -37,6 +37,13 @@
 	<li><a href="https://shareopenly.org/share/?url=https://libre.fm/user/{$me->name}/scrobble/{$scrobble}&text={$me->name} {if $me->laconica_profile}({$me->laconica_profile}){/if} listened to {$track|escape:'html':'UTF-8'} {if $artist}by {$artist|escape:'html':'UTF-8'}{/if}{if $album} on {$album|escape:'html':'UTF-8'}{/if}%0A%0A%23LibreFM %23indieweb %23music %23listening %23ShareOpenly%0A%0A">Share this on social media</a></li>
 </ul>
 
+<h3>Embed this anywhere</h3>
+
+<p>Embed this scrobble as an image on another website.</p>
+
+<textarea>
+&lt;a href="{$bob}"&gt;&lt;img src="{$bob}/image" width="480" height="90" alt="{$me-&gt;name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"&gt;
+</textarea>
 
 <p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
