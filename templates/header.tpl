@@ -8,8 +8,12 @@
 	{else}
 	<title>{$pagetitle|escape:'html':'UTF-8'} &middot; {$site_name}</title>
 	{/if}
-	<script type="text/javascript" src="{$base_url}/js/player.js"></script>
+	<!-- <script type="text/javascript" src="{$base_url}/js/player.js"></script> -->
 	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
+
+{section name=i loop=$og_head_links}
+{/section}
+
 {section name=i loop=$extra_head_links}
 {/section}
 <meta name="viewport" content="width=device-width,initial-scale=1" />
