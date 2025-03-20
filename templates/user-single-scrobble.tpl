@@ -41,18 +41,23 @@
 
 <p>Embed this scrobble as an image on another website.</p>
 
+<h4>HTML</h4>
+
 <textarea>
-<a href="{$bob}"><img src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})">
+<a href="{$bob}"><img src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"></a>
 </textarea>
+
+<h4>BBCode</h4>
+
+<textarea>
+[url={$bob}][img width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"]{$bob}/image[/img][/url]
+</textarea>
+
 
 <p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
 
-<p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature</a></p>
+<p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature or request a new format</a></p>
 
-{/if}
-
-{if $wikipedia}
-<p><small>Image credit: <a href="https://en.wikipedia.org/wiki/{$artist->name}">{$artist->name} at Wikipedia</a></small></p>
 {/if}
 
 {include file='footer.tpl'}
