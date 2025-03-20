@@ -2,6 +2,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--
+
+Dear Mr McGee,
+
+Please find enclosed the latest demo from Liquid Greek.
+
+Derided by the mainstream as ‘shoegazing also-rans’, the band
+have nevertheless persevered with their off-kilter-or-nothing
+policy in the hope that someone like your good self will
+eventually realise, and thus promote, this violent yet
+ultimately beautiful genre which we have dubbed ‘new noise’.
+
+The first track is based upon the high-pitched lamentations of
+an unbalanced Lincoln woman, who nurses injured buzzards back
+to health inside her dead child’s wardrobe.
+
+We hope you like it.
+
+Yours sincerely,
+
+Liquid Greek
+
+P.S. – We don’t like sport of any kind, and friends at school
+were very much thin on the ground
+
+-->
 	<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	{if !($pagetitle)}
