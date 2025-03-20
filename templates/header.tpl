@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 	{if !($pagetitle)}
 	<title>{$site_name}</title>
 	{else}
@@ -11,8 +12,17 @@
 	<!-- <script type="text/javascript" src="{$base_url}/js/player.js"></script> -->
 	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
 
+{if $og_head_links}
 {section name=i loop=$og_head_links}
 {/section}
+{else}
+     <meta property="og:title" content="Libre.fm">
+     <meta property="og:description" content="Libre.fm lets you keep track of your music listening habits.">
+     <meta property="og:type" content="website">
+     <meta property="og:site_name" content="Libre.fm">
+     <meta property="og:url" content="https://libre.fm">
+     <meta property="og:image" content="https://libre.fm/themes/2024-end-times/social.png">
+{/if}
 
 {section name=i loop=$extra_head_links}
 {/section}
