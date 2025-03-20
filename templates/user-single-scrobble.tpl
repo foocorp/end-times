@@ -42,7 +42,7 @@
 <p>Embed this scrobble as an image on another website.</p>
 
 <textarea>
-&lt;a href="{$bob}"&gt;&lt;img src="{$bob}/image" width="480" height="90" alt="{$me-&gt;name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"&gt;
+<a href="{$bob}"><img src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})">
 </textarea>
 
 <p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
