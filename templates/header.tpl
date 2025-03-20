@@ -14,6 +14,7 @@
 
 {if $og_head_links}
 {section name=i loop=$og_head_links}
+	<meta property="{$og_head_links[i].property|escape:'html':'UTF-8'}" content="{$extra_head_links[i].content|escape:'UTF-8'}">
 {/section}
 {else}
      <meta property="og:title" content="Libre.fm">
