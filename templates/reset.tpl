@@ -18,7 +18,7 @@
     </div>
     {elseif isset($sent)}
     <div class="alert alert-info alert-dismissable">
-      <p>{t}An email with further information has been sent to the email address associated with your profile.{/t}</p>
+      <p>If we have an account that matches, {t}an email with further information has been sent to the email address associated with your profile.{/t}</p>
     </div>
 
     {else}
