@@ -25,7 +25,8 @@
     <div id='invite'>
 
       <p>{t}Enter your username or e-mail address and we'll email you a link to reset your password. All passwords are encrypted in our database.{/t}</p>
-      
+
+      <p class="text-center">Need help? <a href="mailto:support@libre.fm">support@libre.fm</a></p>
       
       <div class="form-group">
 	<label for='username'>{t}Username{/t}</label>
