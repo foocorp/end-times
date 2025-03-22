@@ -96,6 +96,11 @@
 
 
     <div class="form-group">
+
+	<h3>Changing your password</h3>
+
+	<p>Enter your new password in the following two fields:</p>
+
     <p><label for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
     </label></p>
