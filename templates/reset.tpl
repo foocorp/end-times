@@ -3,9 +3,6 @@
     <h1 class="text-center">{t}Reset my password{/t}</h1>
 </div>
 
-<form action="{$base_url}/reset.php" method='post' role='form' class="form-signin">
-  <fieldset>
-
     {if isset($errors)}
     <div class="alert alert-danger alert-dismissable">
       <p id='errors'>{$errors}</p>
@@ -22,6 +19,8 @@
     </div>
 
     {else}
+<form action="{$base_url}/reset.php" method='post' role='form' class="form-signin">
+  <fieldset>
     <div id='invite'>
 
       <p>{t}Enter your username or e-mail address and we'll email you a link to reset your password. All passwords are encrypted in our database.{/t}</p>
