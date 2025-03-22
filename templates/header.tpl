@@ -64,7 +64,7 @@ were very much thin on the ground
   <header>
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
-	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></a></h1>
+	  <h1><a id="title" class="navbar-brand" href="/"><img src="/themes/2024-end-times/Libre.fm_logo.png" alt="{$site_name}"></a></h1>
 
 
 	<nav>
