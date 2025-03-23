@@ -66,9 +66,7 @@
 <div id="tops"{if ($logged_in)}class="logged-in"{/if}>
 {if ($tops)}
 <h3 class="text-center">Check out what some of our existing users are listening to</h3>
-<ul>
 {$tops}
-</ul>
 {/if}
 </div>
 
