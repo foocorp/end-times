@@ -40,13 +40,6 @@
 
 <div style="background-color: #221f1f; border: 1px solid #eee; padding: 1em;">
 
-{if ($recents)}
-<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
-<ul>
-{$recents}
-</ul>
-{/if}
-
 <div id="tops"{if ($logged_in)}class="logged-in"{/if}>
 {if ($tops)}
 <h3 class="text-center">Check out what some of our existing users are listening to</h3>
@@ -55,6 +48,14 @@
 </ul>
 {/if}
 </div>
+
+{if ($recents)}
+<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
+<ul>
+{$recents}
+</ul>
+{/if}
+
 
 </div>
 
