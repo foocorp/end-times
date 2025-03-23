@@ -22,16 +22,11 @@
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
 <header style="padding-bottom: 0; margin-bottom: 0">
-{if ($logged_in)}
 	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile for {t name=$this_user->name}%1{/t}"></a></h1>
-{else}
-	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
-{/if}
   </header>
 
   <main id="main" style="padding: 0">
 
-{if ($logged_in)}
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
 <p class="text-center"><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">See your 2024 music recap</a></p>
 
@@ -42,17 +37,6 @@
 {/if}
 <p class="text-center">See what's coming soon in the <a href="https://roadmap.libre.fm/">Libre.fm roadmap</a></p>
 <p class="text-center">Bug report? Feature request? <a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
-
-{else}
-<h2 class="text-center" style="font-size: 300%; margin: 0; padding: 0;">Libre.fm lets you keep track of your music listening habits.</h2>
-{if ($totals)}
-<div id="user-totals">
-{$totals}
-</div>
-{/if}
-<p class="text-center"><a class="btn" href="/about/">Sign up now (it's free!)</a></p>
-<p class="text-center"><a href="https://libre.fm/login.php">Sign in to an existing account</a></p>
-{/if}
 
 <div style="background-color: #221f1f; border: 1px solid #eee; padding: 1em;">
 
