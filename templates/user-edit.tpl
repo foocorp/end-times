@@ -104,12 +104,12 @@
     <p><label for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
     </label></p>
-    <p><input class="form-control" name='password_1' id='password_1' size="40" maxlength="40" type='password' autocomplete="off" value='' />
+    <p><input class="form-control" name='password_1' id='password_1' size="32" maxlength="32" type='password' autocomplete="off" value='' />
  </p>
 </div>
 <div class="form-group">
     <p><label for='password_2'>{t}Confirm Password:{/t}</label></p>
-    <p><input class="form-control" name='password_2' id='password_2' size="40" maxlength="40" type='password' autocomplete="off" value='' /></p>
+    <p><input class="form-control" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
   </div>
 
   <p class="end-times-alert"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
