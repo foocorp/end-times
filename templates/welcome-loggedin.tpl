@@ -51,9 +51,7 @@
 
 {if ($recents)}
 <h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
-<ul>
 {$recents}
-</ul>
 {/if}
 
 
