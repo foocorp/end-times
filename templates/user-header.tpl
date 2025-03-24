@@ -17,7 +17,7 @@
 	      <strong>{total-tracks}</strong> tracks played
 	  </p>
 	  {else}
-	  {if ($logged_in)}
+	  {if $isme}
 	  <p>Welcome to Libre.fm! Have you seen <a href="https://web-scrobbler.com" target="_blank">Web Scrobbler</a>? Try listening to some music in your web browser once you've installed it.</p>
 	  {/if}
 	  {/if}
@@ -48,7 +48,7 @@
           </ul>
 	  {else}
 	  {if ($logged_in)}
-{if $same-user}
+{if $isme}
 	  <p>Join the IndieWeb revolution and <a href="/user-edit.php">add your personal website</a> to your Libre.fm profile.</p>
 	  {/if}
 	  {/if}
