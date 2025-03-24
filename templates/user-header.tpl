@@ -2,7 +2,7 @@
 <h2 class="p-name">{$me->name}</h2>
 
 {assign var="total-tracks" value=$me->getTotalTracks()}
-{if $me->name = $this_user->name}
+{if $me->name == $this_user->name}
 {assign var="same-user" value="1"}
 {/if}
 
