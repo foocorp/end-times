@@ -2,13 +2,6 @@
 <h2 class="p-name">{$me->name}</h2>
 
 {assign var="total-tracks" value=$me->getTotalTracks()}
-{assign var="me-name" value=$me->name}
-{assign var="this-name" value=$this_user->name}
-{assign var="same-user" value=$me-name == $this_name}
-
-<h1>su{$same-user}</h1>
-<h1>{$me->name}</h1>
-<h1>{$this_user->name}</h1>
 
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
 <p>User #{$awesomenumber}</p>
