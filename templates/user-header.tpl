@@ -12,16 +12,18 @@
 {/if}
 {/if}
 
-	  {if $total-tracks}
+<h1>{$totaltracks}</h1>
+
+	  {if $totaltracks}
 	  <p>
-	      <strong>{$total-tracks}</strong> tracks played
+	      <strong>{$totaltracks}</strong> tracks played
 	  </p>
 	  {else}
 	  {if $isme}
 	  <p>Welcome to Libre.fm! Have you seen <a href="https://web-scrobbler.com" target="_blank">Web Scrobbler</a>? Try listening to some music in your web browser once you've installed it.</p>
 	  {/if}
 	  {/if}
-	                    {if $total-tracks}
+	                    {if $totaltracks}
 	  <div class="p-note" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </div>
@@ -31,7 +33,7 @@
 
 	  {/if}
 
-          {if $total-tracks}
+          {if $totaltracks}
 	  {if $me->homepage}
 	  <ul>
 	  <li><a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
@@ -56,7 +58,7 @@
 
 
 	  {if ($logged_in)}
-                  {if $total-tracks}
+                  {if $totaltracks}
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
 {if $isme}
