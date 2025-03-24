@@ -6,6 +6,8 @@
 {assign var="same-user" value="1"}
 {/if}
 
+<h1>su{$same-user}</h1>
+
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
 <p>User #{$awesomenumber}</p>
 
