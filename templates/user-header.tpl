@@ -1,7 +1,6 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
 
-{assign var="total-tracks" value=$me->getTotalTracks()}
 
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
 <p>User #{$awesomenumber}</p>
