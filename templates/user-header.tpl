@@ -1,6 +1,8 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
 
+{assign var="total-tracks" value=$me->getTotalTracks()}
+
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
 <p>User #{$awesomenumber}</p>
 
@@ -11,16 +13,16 @@
 {/if}
 {/if}
 
-	  {if $me->getTotalTracks()}
+	  {if $total-tracks}
 	  <p>
-	      <strong>{$me->getTotalTracks()}</strong> tracks played
+	      <strong>{total-tracks}</strong> tracks played
 	  </p>
 	  {else}
 	  {if ($logged_in)}
 	  <p>Welcome to Libre.fm! Have you seen <a href="https://web-scrobbler.com" target="_blank">Web Scrobbler</a>? Try listening to some music in your web browser once you've installed it.</p>
 	  {/if}
 	  {/if}
-	                    {if $me->getTotalTracks()}
+	                    {if total-tracks}
 	  <div class="p-note" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </div>
@@ -30,7 +32,7 @@
 
 	  {/if}
 
-          {if $me->getTotalTracks()}
+          {if total-tracks}
 	  {if $me->homepage}
 	  <ul>
 	  <li><a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
@@ -55,7 +57,7 @@
 
 
 	  {if ($logged_in)}
-                  {if $me->getTotalTracks()}
+                  {if total-tracks}
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
 {if $me->name == $this_user->name}
