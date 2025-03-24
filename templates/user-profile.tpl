@@ -17,9 +17,8 @@
 </p>
 {/if}
 
-{userscrobbles userid=$me->uniqueid  limit=50}
 <h2>Recent plays</h2>
-{include file="tracklist.tpl" class=#table# items=$userscrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
+{include file="tracklist.tpl" class=#table# items=$scrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
 
 <!-- 
 {if !empty($lovedArtists)}
