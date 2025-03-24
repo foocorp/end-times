@@ -10,7 +10,7 @@
 <p>User #{$awesomenumber}</p>
 
 	  {if ($logged_in)}
-{if same-user}
+{if $same-user}
 <p><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></p>
 <p><a class="logout-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></p>
 {/if}
@@ -44,7 +44,7 @@
 	  <li><a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
 	  {else}
 	  {if ($logged_in)}
-{if same-user}
+{if $same-user}
 	  <p>Do you have an account on the social web? <a href="/user-edit.php">Add your fediverse profile</a> to your Libre.fm profile.</p>
 	  {/if}
 	  {/if}
@@ -52,7 +52,7 @@
           </ul>
 	  {else}
 	  {if ($logged_in)}
-{if same-user}
+{if $same-user}
 	  <p>Join the IndieWeb revolution and <a href="/user-edit.php">add your personal website</a> to your Libre.fm profile.</p>
 	  {/if}
 	  {/if}
@@ -63,7 +63,7 @@
                   {if total-tracks}
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
-{if same-user}
+{if $same-user}
 	<p class="end-times-alert">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Please consider adding your name to <a href="https://github.com/foocorp/hacienda/issues/39">this list of users</a>.</p>
  {/if}
 	  {/if}
