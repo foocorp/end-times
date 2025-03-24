@@ -17,7 +17,7 @@
 </p>
 {/if}
 
-{userscrobbles userid=$me->uniqueid  limit=10}
+{userscrobbles userid=$me->uniqueid  limit=2000}
 <h2>Recent plays</h2>
 {include file="tracklist.tpl" class=#table# items=$userscrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
 
