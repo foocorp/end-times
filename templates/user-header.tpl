@@ -7,6 +7,8 @@
 {/if}
 
 <h1>su{$same-user}</h1>
+<h1>{$me->name}}</h1>
+<h1>{$this_user->name}</h1>
 
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
 <p>User #{$awesomenumber}</p>
