@@ -12,8 +12,6 @@
 {/if}
 {/if}
 
-<h1>{$totaltracks}</h1>
-
 	  {if $totaltracks}
 	  <p>
 	      <strong>{$totaltracks}</strong> tracks played
