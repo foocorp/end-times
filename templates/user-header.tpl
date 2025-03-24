@@ -14,7 +14,7 @@
 
 	  {if $total-tracks}
 	  <p>
-	      <strong>{total-tracks}</strong> tracks played
+	      <strong>{$total-tracks}</strong> tracks played
 	  </p>
 	  {else}
 	  {if $isme}
