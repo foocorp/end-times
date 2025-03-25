@@ -23,9 +23,9 @@
 
 <header style="padding-bottom: 0; margin-bottom: 0">
 {if ($logged_in)}
-	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile for {t name=$this_user->name}%1{/t}"></a></h1>
+	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.png" alt="{$site_name} profile for {t name=$this_user->name}%1{/t}"></a></h1>
 {else}
-	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
+	  <h1><a href="/"><img src="/themes/2024-end-times/Libre.fm_logo.png" alt="{$site_name} home"></a></h1>
 {/if}
   </header>
 
