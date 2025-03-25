@@ -22,7 +22,7 @@
 	{foreach from=$items item=i}
 	<li>
     {if $me->uniqueid}
-     <a aria-label="Share listening to {$i.track} by {$i.artist}, {$i.timehuman}" title="Share {$i.track} by {$i.artist}" href="/user/{$me->name}/scrobble/{$i.time}">{$i.track}{if $fartist} by {$i.artist}</a>
+     <a aria-label="Share listening to {$i.track} by {$i.artist}, {$i.timehuman}" title="Share {$i.track} by {$i.artist}" href="/user/{$me->name}/scrobble/{$i.time}">{$i.track}{if $fartist} by {$i.artist}{/if}</a>
     {else}
 			{if $i.tracklibraryurl}
 				<a href="{$i.tracklibraryurl|escape:'html'}">{$i.track}</a>
