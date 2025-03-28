@@ -18,7 +18,11 @@
 {/if}
 
 <h2>Recent plays</h2>
+{if $me->name == "mattl"}
+{include file="tracklistish-v2.tpl" class=#table# items=$scrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
+{else}
 {include file="tracklistish.tpl" class=#table# items=$scrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
+{/if}
 
 <!-- 
 {if !empty($lovedArtists)}
