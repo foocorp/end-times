@@ -18,7 +18,7 @@
 	@param string url_sort_count  URL string to toggle sort order by count
 	@param string type            Type of list, 'tagged' (used to show correct button)
 *}
-	<dl class="{$class}">
+	<dl class="mattl-dl-tracklist">
 	{foreach from=$items item=i}
 	<dt>{$i.artist}</dt>
   <dd>
