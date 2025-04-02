@@ -66,7 +66,7 @@ were very much thin on the ground
 
 	  <h1><a href="/"><img src="/themes/2024-end-times/Libre.fm_logo.png" alt="{$site_name} home"></a></h1>
 
-<p class="text-centered"<a href="https://blog.libre.fm/2025/04/libre-fm-turns-16-updates-for-march/">Libre.fm turns 16, album art and more!</a></p>
+<p class="text-centered"><a href="https://blog.libre.fm/2025/04/libre-fm-turns-16-updates-for-march/">Libre.fm turns 16, album art and more!</a></p>
 <nav>
 	  {include file='menu.tpl'}
 	</nav>
