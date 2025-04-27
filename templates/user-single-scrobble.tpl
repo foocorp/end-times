@@ -70,7 +70,7 @@
 <input type="hidden" name="scrobble" value="{$scrobble}">
 <input type="hidden" name="isme" value="{$isme}">
 <input type="hidden" name="username" value="{$me->name}">
-<input type="checkbox name="check">
+<input type="checkbox" name="check">
 <input type="submit" name="submit" value="Delete this scrobble">
 </form>
 </details>
