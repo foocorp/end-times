@@ -32,7 +32,9 @@
 
 {if ($logged_in)}
 {if $isme}
+<details>
 &middot;
+</details>
 {/if}
 {/if}
 
