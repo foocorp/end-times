@@ -30,14 +30,6 @@
 </fieldset>
 </div>
 
-{if ($logged_in)}
-{if $isme}
-<details>
-&middot;
-</details>
-{/if}
-{/if}
-
 <ul>
 {section name=i loop=$extra_head_links}
 	<li><a rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}">{$extra_head_links[i].title|escape:'html':'UTF-8'}</a></li>
@@ -66,6 +58,22 @@
 
 <p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature or request a new format</a></p>
 
+{/if}
+
+{if ($logged_in)}
+{if $isme}
+<details>
+<summary>
+&middot;
+</summary>
+<form action="/delete-a-scrobble.php" method="post">
+<input type="hidden" name="scrobble" value="{$scrobble}">
+<input type="hidden" name="isme" value="{$isme}">
+<input type="hidden" name="username" value="{$me->name}">
+<input type="submit" value="Delete this scrobble">
+</form>
+</details>
+{/if}
 {/if}
 
 {include file='footer.tpl'}
