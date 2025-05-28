@@ -50,7 +50,6 @@
 {$totals}
 </div>
 {/if}
-<p class="text-center"><a class="btn" href="/about/">Sign up now (it's free!)</a></p>
 <p class="text-center"><a href="https://libre.fm/login.php">Sign in to an existing account</a></p>
 {/if}
 
