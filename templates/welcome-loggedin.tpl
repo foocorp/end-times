@@ -28,36 +28,7 @@
   <main id="main" style="padding: 0">
 
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
-<p class="text-center"><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">See your 2024 music recap</a></p>
 
-{if ($totals)}
-<div id="user-totals-small">
-{$totals}
-</div>
-{/if}
-<p class="text-center">See what's coming soon in the <a href="https://roadmap.libre.fm/">Libre.fm roadmap</a></p>
-<p class="text-center">Bug report? Feature request? <a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
-
-<div style="background-color: #221f1f; border: 1px solid #eee; padding: 1em;">
-
-<div id="tops"{if ($logged_in)}class="logged-in"{/if}>
-{if ($tops)}
-<h3 class="text-center">Check out what some of our existing users are listening to</h3>
-<ul>
-{$tops}
-</ul>
-{/if}
-</div>
-
-{if ($recents)}
-<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
-{$recents}
-{/if}
-
-
-</div>
-
-<p class="text-center">This page generated in {$page_time} seconds.</p>
 
 
 </main>
