@@ -66,7 +66,7 @@ were very much thin on the ground
 
 	  <h1><a href="/"><img src="/themes/2024-end-times/Libre.fm_logo.png" alt="{$site_name} home"></a></h1>
 
-<p class="text-centered">Libre.fm is closed to new registrations and the project is concluded.</p> 
+<p class="text-centered"><a href="https://github.com/foocorp/hacienda/discussions/117" target="_blank">Libre.fm is closed to new registrations and the project is in maintainence mode</a>.</p> 
 
 <nav>
 	  {include file='menu.tpl'}
