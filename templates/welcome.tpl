@@ -29,47 +29,7 @@
 {/if}
   </header>
 
-  <main id="main" style="padding: 0">
 
-{if ($logged_in)}
-<h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
-<p class="text-center"><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">See your 2024 music recap</a></p>
-
-{if ($totals)}
-<div id="user-totals-small">
-{$totals}
-</div>
-{/if}
-<p class="text-center">See what's coming soon in the <a href="https://roadmap.libre.fm/">Libre.fm roadmap</a></p>
-<p class="text-center">Bug report? Feature request? <a href="https://github.com/foocorp/hacienda/issues">File an issue</a></p>
-
-{else}
-<h2 class="text-center" style="font-size: 300%; margin: 0; padding: 0;">Libre.fm lets you keep track of your music listening habits.</h2>
-{if ($totals)}
-<div id="user-totals">
-{$totals}
-</div>
-{/if}
-<p class="text-center"><a href="https://libre.fm/login.php">Sign in to an existing account</a></p>
-{/if}
-
-<div style="background-color: #221f1f; border: 1px solid #eee; padding: 1em;">
-
-{if ($recents)}
-<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
-{$recents}
-{/if}
-
-<div id="tops"{if ($logged_in)}class="logged-in"{/if}>
-{if ($tops)}
-<h3 class="text-center">Check out what some of our existing users are listening to</h3>
-<ul>
-{$tops}
-</ul>
-{/if}
-</div>
-
-</div>
 
 <p class="text-center">This page generated in {$page_time} seconds.</p>
 
