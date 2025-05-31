@@ -31,13 +31,15 @@
 
 <p class="text-center"><a href="/login.php">Sign in to your existing account</a> or <a href="https://github.com/foocorp/hacienda/discussions/117">read the closure announcement</a></p>
 
+<p class="text-center">Please note: Libre.fm is not for sale. Libre.fm will continue to operate as long as there are active users.</p>
+
 {if ($totals)}
 <div id="user-totals-small">
+<h3>Active user stats</h3>
 {$totals}
 </div>
 {/if}
 
-<p class="text-center">Please note: Libre.fm is not for sale. Libre.fm will continue to operate as long as there are active users.</p>
 
 </main>
 </body>
