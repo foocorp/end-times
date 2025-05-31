@@ -26,6 +26,11 @@
 
   <main id="main" style="padding: 0">
 
+<p class="text-center">Libre.fm is closed for new registration</p>
+
+<p class="text-center"><a href="https://github.com/foocorp/hacienda/discussions/117">Read the closure announcement</a></p>
+
+
 <h2 class="text-center">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a></h2>
 <p class="text-center"><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">See your 2024 music recap</a></p>
 
