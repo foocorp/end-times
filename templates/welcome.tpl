@@ -34,7 +34,7 @@
 <p class="text-center">Please note: Libre.fm is not for sale. Libre.fm will continue to operate as long as there are active users.</p>
 
 {if ($totals)}
-<div id="user-totals-small">
+<div id="user-totals-small" style="border: 1px solid lime; padding: 1em; max-width: 90%;">
 <h3>Active user stats</h3>
 {$totals}
 </div>
