@@ -22,16 +22,10 @@
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
 <header style="padding-bottom: 0; margin-bottom: 0">
-	  <h1><a id="title" class="navbar-brand" href="/user/{t name=$this_user->name}%1{/t}"><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name} profile for {t name=$this_user->name}%1{/t}"></a></h1>
+	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
   </header>
 
   <main id="main" style="padding: 0">
-
-<h2 class="text-center">Libre.fm is closed for new registration</h2>
-
-<p class="text-center"><a href="/login.php">Sign in to your existing account</a> or <a href="https://github.com/foocorp/hacienda/discussions/117">read the closure announcement</a></p>
-
-<p class="text-center">Please note: Libre.fm is not for sale. Libre.fm will continue to operate as long as there are active users.</p>
 
 {if ($totals)}
 <div id="user-totals-small" style="border: 1px solid lime; padding: 1em; max-width: 50%; margin: 0 auto;">
@@ -40,6 +34,17 @@
 </div>
 {/if}
 
+<h2 class="text-center">Libre.fm is currently closed for new registration</h2>
+
+<p>After 16 years, it's time to do something else. Libre.fm is no longer accepting new users for scrobbling music listening habits.</p>
+
+<p class="text-center"><a href="/login.php">Sign in to your existing account</a></p>
+
+<p class="text-center">Libre.fm will continue to support our existing scrobbling users as long as there are active users.</p>
+
+<h2>What's next?</h2>
+
+<p>Project Next by Libre.fm. Libre.fm's second act.<br />No AI. Ever. Coming soon.</p>
 
 </main>
 </body>
