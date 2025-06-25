@@ -35,7 +35,7 @@
 </div>
 {/if}
 
-<h2>Libre.fm is currently closed for new registration</h2>
+<h2 style="text-align: left">Libre.fm is currently closed for new registration</h2>
 
 <p>After 16 years, it's time to do something else. Libre.fm is no longer accepting new users for scrobbling music listening habits.</p>
 
@@ -43,7 +43,7 @@
 
 <p>Libre.fm will continue to support our existing scrobbling users as long as there are active users. Data exports and more coming soon.</p>
 
-<h2>What's next?</h2>
+<h2 style="text-align: left">What's next?</h2>
 
 <p>Project Next by Libre.fm. Libre.fm's second act.<br />No AI. Ever. Coming soon.</p>
 
