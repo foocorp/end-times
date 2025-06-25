@@ -34,13 +34,13 @@
 </div>
 {/if}
 
-<h2 class="text-center">Libre.fm is currently closed for new registration</h2>
+<h2>Libre.fm is currently closed for new registration</h2>
 
 <p>After 16 years, it's time to do something else. Libre.fm is no longer accepting new users for scrobbling music listening habits.</p>
 
-<p class="text-center"><a href="/login.php">Sign in to your existing account</a></p>
+<p><a href="/login.php">Sign in to your existing account</a></p>
 
-<p class="text-center">Libre.fm will continue to support our existing scrobbling users as long as there are active users.</p>
+<p>Libre.fm will continue to support our existing scrobbling users as long as there are active users. Data exports and more coming soon.</p>
 
 <h2>What's next?</h2>
 
