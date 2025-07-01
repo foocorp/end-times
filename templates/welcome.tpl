@@ -33,7 +33,7 @@
 
           <p><small>If you have an existing Libre.fm account, you're already registered when we launch.<br>A waitlist will be available for people who missed the initial 14+ year registration window.</small></p>
 
-	  <p>Libre.fm <a href="/login.php">Classic Libre.fm login</a></p>
+	  <p><a href="/login.php">Classic Libre.fm login</a></p>
 
 	  {$totals}
 
