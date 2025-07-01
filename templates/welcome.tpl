@@ -1,54 +1,79 @@
 {config_load file='theme.conf' scope='global'}
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	{if !($pagetitle)}
-	<title>{$site_name}</title>
-	{else}
-	<title>{$pagetitle|escape:'html':'UTF-8'} &mdash; {$site_name}</title>
-	{/if}
-	<script type="text/javascript" src="{$base_url}/js/player.js"></script>
-	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
-{section name=i loop=$extra_head_links}
-	<link rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}" title="{$extra_head_links[i].title|escape:'html':'UTF-8'}"  />
-{/section}
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-    {assign var=random_id value=10|mt_rand:2000}
-    <link href="/themes/2024-end-times/nixtape-fix.css?foo=bar&cache={$random_id}" rel="stylesheet">
+<html>
+  <head>
+    <title>Project Next by Libre.fm</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <style type="text/css">
+     body{font-size: 18pt; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      margin: 1.5em; line-height: 1.8em; color: #666;}
+    a{font-weight: bold;}
+    a:hover{color: red; background-color: yellow;}
+    html,body {
+      height:100%;
+      width:100%;
+      margin:0;
+    }
+    body, body {
+      display:flex;
+    }
 
-</head>
+    div {
+      margin:auto;
+      text-align: left;
+      padding: 1em;
+    }
 
-<body>
-	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
+    h1,h2,h3,h4,h5,h6 {color: black;}
 
-<header style="padding-bottom: 0; margin-bottom: 0">
-	  <h1><img src="/themes/2024-end-times/Libre.fm_logo.svg" alt="{$site_name}"></h1>
-  </header>
+    blockquote {margin: 0; font-style: italic;}
 
-  <main id="main" style="padding: 0">
+    @media (min-width: 1000px) {
 
-{if ($totals)}
-<div id="user-totals-small" style="border: 1px solid lime; padding: 1em; max-width: 50%; margin: 0 auto;">
-<h3>Active user stats</h3>
-{$totals}
-</div>
-{/if}
+    div {  width: 70%;}
 
-<h2 style="text-align: left">Libre.fm is currently closed for new registration</h2>
 
-<p>After 16 years, it's time to do something else. Libre.fm is no longer accepting new users for scrobbling music listening habits.</p>
 
-<p><a href="/login.php">Sign in to your existing account</a></p>
+    }
 
-<p>Libre.fm will continue to support our existing scrobbling users as long as there are active users. Data exports and more coming soon.</p>
 
-<h2 style="text-align: left">What's next?</h2>
+    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
 
-<p>Project Next by Libre.fm. Libre.fm's second act.<br />No AI. Ever. Coming soon.</p>
+          <h1>Time is running out.</h1>
 
-</main>
-</body>
+          <p>The web is being destroyed from within by companies harvesting the creative work of others.</p>
+
+          <blockquote>Most websites don't have second acts.<br />
+          Not here. We do things differently here. </blockquote>
+
+          <h2>This is Libre.fm's second act.</h2>
+
+          <p>No AI. Ever.</p>
+
+          <p>LLMs need not apply. Bots not welcome. Closed to crawlers.</p>
+
+          <h3>Save the web before it's too late.</h3>
+
+          <p>A creative workspace for creative humans.</p>
+
+          <hr>
+
+          <p><small>If you have an existing Libre.fm account, you're already registered when we launch.<br>A waitlist will be available for people who missed the initial 14+ year registration window.</small></p>
+
+	  <p>Libre.fm <a href="/login.php">Classic Libre.fm login</a></p>
+
+	  {$totals}
+
+
+      </div>
+    </main>
+  </body>
 </html>
+
 
 
