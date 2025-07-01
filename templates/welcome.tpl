@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link rel="stylesheet" href="/style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link href="/themes/2024-end-times/next.css?foo=bar&cache=1955" rel="stylesheet">
+<link href="/themes/2024-end-times/next.css?foo=bar&cache=1955&fsdssadasads" rel="stylesheet">
   </head>
   <body>
     <main>
