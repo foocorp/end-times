@@ -4,40 +4,7 @@
   <head>
     <title>Project Next by Libre.fm</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <style type="text/css">
-     body{font-size: 18pt; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      margin: 1.5em; line-height: 1.8em; color: #666;}
-    a{font-weight: bold;}
-    a:hover{color: red; background-color: yellow;}
-    html,body {
-      height:100%;
-      width:100%;
-      margin:0;
-    }
-    body, body {
-      display:flex;
-    }
-
-    div {
-      margin:auto;
-      text-align: left;
-      padding: 1em;
-    }
-
-    h1,h2,h3,h4,h5,h6 {color: black;}
-
-    blockquote {margin: 0; font-style: italic;}
-
-    @media (min-width: 1000px) {
-
-    div {  width: 70%;}
-
-
-
-    }
-
-
-    </style>
+    <link rel="stylesheet" href="/style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body>
