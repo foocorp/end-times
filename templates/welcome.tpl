@@ -27,7 +27,7 @@
 
           <h3>Save the web before it's too late.</h3>
 
-          <p>A creative workspace for creative humans.</p>
+          <p><a href="https://1800www.com">A creative workspace for creative humans</a>.</p>
 
           <hr>
 
