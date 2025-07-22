@@ -31,7 +31,7 @@
 
           <hr>
 
-          <p><small>If you have an existing Libre.fm account, you're already registered when we launch.<br>A waitlist will be available for people who missed the initial 14+ year registration window.</small></p>
+          <p><small>If you have an existing Libre.fm account, you're already registered when we launch.<br><a href="http://nofuckingai.com">A waitlist is available</a> for people who missed the initial 14+ year registration window: </small></p>
 
 	  <p><a href="/login.php">Classic Libre.fm login</a></p>
 
