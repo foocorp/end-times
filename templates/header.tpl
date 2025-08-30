@@ -72,7 +72,7 @@ were very much thin on the ground
 	  {include file='menu.tpl'}
 	</nav>
 
-<div style="background-color: red; color: white; text-align: center; border: 1px solid orange;"><a href="https://hireme.fyi" target="_blank">Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</a></div>
+<div style="background-color: red; color: white; text-align: center; border: 1px solid orange; padding: 0.5em;"><a style="color: white !important;" href="https://hireme.fyi" target="_blank">Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</a></div>
 
   </header>
 
