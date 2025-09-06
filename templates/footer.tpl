@@ -24,6 +24,8 @@
 
      <p><a href="https://bored.city">We are bored in the city, there is no longer any Temple of the Sun.</a></p>
 
+	<p><a href="https://bugsrock.online">buy candles</a> | <a href="https://alexandragallant.itch.io">buy comics and zines</a> | <a href="https://tedium.co">tedium</a>
+
 <!-- <p><small><a href="https://halfmanhalfbiscuit.uk/mcintyre-treadmore-and-davitt-1991/prag-vec-at-the-melkweg/">In the town where I was born / Lived a man who went to work / And he told us of his life / Building space ships on forty pounds a week</a></small></p> -->
 
 <p>This page generated in {$page_time} seconds.</p>
