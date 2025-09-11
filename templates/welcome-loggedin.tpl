@@ -21,9 +21,7 @@
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
 <header style="padding-bottom: 0; margin-bottom: 0">
-	  <h1><a title="Your profile" href="/user/{t name=$this_user->name}%1{/t}">
-Libre.fm
-</a> by <a href="https://1800www.com">1800www.com</a></h1>
+	  <h1><a title="Your profile" href="/user/{t name=$this_user->name}%1{/t}">Libre.fm</a> by <a href="https://1800www.com">1800www.com</a></h1>
   </header>
 
   <main id="main">
