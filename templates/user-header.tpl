@@ -5,12 +5,7 @@
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
 <p>User #{$awesomenumber}</p>
 
-	  {if ($logged_in)}
-{if $isme}
-<p><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></p>
-<p><a class="logout-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></p>
-{/if}
-{/if}
+	 
 
 	  {if $totaltracks}
 	  <p>
