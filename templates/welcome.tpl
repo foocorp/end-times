@@ -37,6 +37,11 @@
 
 	  {$totals}
 
+	{if ($recents)}
+<h2 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h2>
+{$recents}
+{/if}
+
 
       </div>
     </main>
