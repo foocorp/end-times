@@ -52,6 +52,8 @@ Libre.fm
 
 <footer>
 
+<hr>
+
 <address><a href="mailto:support@libre.fm">support@libre.fm</a></address>
 
 <p>This page generated in {$page_time} seconds.</p>
