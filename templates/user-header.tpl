@@ -1,8 +1,8 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
+<p><img class="u-photo" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></p>
 
 <ul>
-<li><img class="u-photo" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></li>
 
 {if $totaltracks}
 	  <li>
