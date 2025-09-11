@@ -1,0 +1,16 @@
+ body{font-size: 16pt; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 1.5em; line-height: 1.8em;}
+a{font-weight: bold;}
+a:hover{color: red; background-color: yellow;}
+
+h1, h1 a {color: maroon !important;}
+
+@media (prefers-color-scheme: dark) {
+  body {
+background: #111;
+color: whitesmoke;
+}
+
+a {color: lime;}
+
+}
