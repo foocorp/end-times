@@ -6,11 +6,21 @@ a:hover{color: red; background-color: yellow;}
 
 h1 a {color: red !important;}
 
+textarea:not([cols]) {
+width: 95%;
+font-size: 12pt;
+height: 5em;
+	display: block;
+	margin: 0 auto;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
 background: #111;
 color: whitesmoke;
 }
+
+ 
 
 a {color: lime;}
 
