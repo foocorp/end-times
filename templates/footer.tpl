@@ -20,7 +20,6 @@
 	<p><a href="https://bugsrock.online">buy candles</a> | <a href="https://alexandragallant.itch.io">buy comics and zines</a> | <a href="https://tedium.co">tedium</a> | <a href="https://github.com/foocorp/gnu-fm">Source Code</a></p>
 
 <p>This page generated in {$page_time} seconds.</p>
-<p>This page generated: {$nownownow}.</p>
 
 </footer>
 </body>
