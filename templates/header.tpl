@@ -66,9 +66,7 @@ were very much thin on the ground
 
 <h1><a href="/">Libre.fm</a></h1>
 
-<nav>
 	  {include file='menu.tpl'}
-	</nav>
 
 <p><a href="https://hireme.fyi" target="_blank">Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</a></p>
 
