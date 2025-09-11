@@ -15,16 +15,19 @@
 
 	 <h3>Friends of Libre.fm</h3>
 
-	<p><a href="https://bugsrock.online">Buy candles</a></p>
-    <p><a href="https://alexandragallant.itch.io">Buy comics and zines</a></p>
-    <p><a href="https://tedium.co">Tedium</a></p>
+	<ul>
+	<li><a href="https://bugsrock.online">Buy candles</a></li>
+    <li><a href="https://alexandragallant.itch.io">Buy comics and zines</a></li>
+    <li><a href="https://tedium.co">Tedium</a></li>
+    </ul>
 
 <h4>Compliance</h4>
 
-<p><a href="https://github.com/foocorp/gnu-fm">Source Code</a></p>
-<p><a href="https://github.com/foocorp/hacienda/issues/73" target="_blank">Privacy policy and terms and conditions of use</a> (March 2025). Use of Libre.fm indicates acceptance of these terms and conditions.</p>
-<p>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of the good people at MusicBrainz and the Internet Archive.</p>
-
+<ul>
+<li><a href="https://github.com/foocorp/gnu-fm">Source Code</a></li>
+<li><a href="https://github.com/foocorp/hacienda/issues/73" target="_blank">Privacy policy and terms and conditions of use</a> (March 2025). Use of Libre.fm indicates acceptance of these terms and conditions.</li>
+<li>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of the good people at MusicBrainz and the Internet Archive.</li>
+</ul>
 
 <p>This page generated in {$page_time} seconds.</p>
 
