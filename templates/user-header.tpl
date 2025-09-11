@@ -2,7 +2,7 @@
 <h2 class="p-name">{$me->name}</h2>
 
 
-<p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
+<p><img class="u-photo" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></p>
 {if $awesomenumber}
 <p>User #{$awesomenumber}</p>
 {/if}
