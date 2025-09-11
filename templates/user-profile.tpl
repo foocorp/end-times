@@ -18,7 +18,7 @@
 {/if}
 
 <h2>Recent plays</h2>
-{include file="tracklistish.tpl" class=#table# items=10 fimage=false fstream=true fartist=true flove=true ftime=true}
+{include file="tracklistish.tpl" class=#table# items=$scrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
 
 <!-- 
 {if !empty($lovedArtists)}
