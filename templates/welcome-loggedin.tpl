@@ -36,15 +36,8 @@ Libre.fm
 </div>
 {/if}
 
-{if ($tops)}
-<h3 class="text-center">Check out what some of our existing users are listening to</h3>
-<ul>
-{$tops}
-</ul>
-{/if}
-
 {if ($recents)}
-<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
+<h2 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h2>
 {$recents}
 {/if}
 
