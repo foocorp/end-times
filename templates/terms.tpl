@@ -12,6 +12,7 @@
 <li>If you choose to manually request your account be deleted, all listening data will be retained with attribution granted to a placeholder user to anonymize the data.</li>
 <li>Use a Virtual Private Network (VPN) provider to access Libre.fm if you want to, but bear in mind that not all VPNs are created equally. Some VPN providers use cheap web hosting companies that are used by scammers to send large amounts of traffic to websites. When we identify one of these, we block the entire hosting provider's AS number with Cloudflare. We really wish this wasn't necessary.</li>
 <li>Please do not send large amounts of automated traffic to Libre.fm.</li>
+<li>Not reporting someone you know for sexual harrassment is something you should feel bad about.</li>
 <li>Album artwork shown on Libre.fm is hosted by the Internet Archive and provided to Libre.fm by https://coverartarchive.org and we have no control over the content of album artwork.</li>
 <li>Artist profile photos shown on Libre.fm are hosted by the Wikimedia Foundation and we have no control over the content of artist profile photos.</li>
 <li>Artist biography data is taken from Last.fm under the terms of <a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY SA 3.0</a>.</li>
@@ -44,4 +45,5 @@
 <li>Please consider using email privacy/relay services where possible. The less we know about you the better (said in the nicest of ways)</li>
 <li>Please consider using an ad-blocker on every browser and device you use. We don't show ads but others do.</li>
 <li>Please consider using websites which are not run by people who do not have your best interests at heart.</li>
+<li>Please consider if a short cultural fit interview is an appropriate way to evaluate the skills of someone who has been doing something for 30 years.</li>
 </ul>
