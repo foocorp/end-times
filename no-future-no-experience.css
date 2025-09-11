@@ -3,7 +3,7 @@
 a{font-weight: bold;}
 a:hover{color: red; background-color: yellow;}
 
-h1, h1 a {color: maroon !important;}
+h1 a {color: red !important;}
 
 @media (prefers-color-scheme: dark) {
   body {
