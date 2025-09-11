@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	{if !($pagetitle)}
-	<title>{$site_name}</title>
+	<title>{$site_name} by 1800www.com</title>
 	{else}
 	<title>{$pagetitle|escape:'html':'UTF-8'} &mdash; {$site_name}</title>
 	{/if}
@@ -23,7 +23,7 @@
 <header style="padding-bottom: 0; margin-bottom: 0">
 	  <h1><a title="Your profile" href="/user/{t name=$this_user->name}%1{/t}">
 Libre.fm
-</a></h1>
+</a> by <a href="https://1800www.com">1800www.com</a></h1>
   </header>
 
   <main id="main">
