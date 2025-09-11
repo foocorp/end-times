@@ -56,7 +56,7 @@ were very much thin on the ground
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 {if $mattldebug != "1"}
 {assign var=random_id value=10|mt_rand:2000}
-    <link href="/themes/2024-end-times/nixtape-fix.css?foo=bar&cache={$random_id}" rel="stylesheet">
+    <link href="/themes/2024-end-times/no-future-no-experience.css?foo=bar&cache={$random_id}" rel="stylesheet">
 {/if}
 </head>
 
@@ -64,22 +64,17 @@ were very much thin on the ground
   <header>
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
-	  <h1><a href="/"><img src="/themes/2024-end-times/Libre.fm_logo.png" alt="{$site_name} home"></a></h1>
-
-<p class="text-centered"><a href="https://github.com/foocorp/hacienda/discussions/117" target="_blank">Libre.fm is closed to new registrations and the project is in maintainence mode</a>.</p> 
+	  <h1><a href="/">Libre.fm</a></h1>
 
 <nav>
 	  {include file='menu.tpl'}
 	</nav>
 
-<div style="background-color: red; color: white; text-align: center; border: 1px solid orange; padding: 0.5em;"><a style="color: white !important;" href="https://hireme.fyi" target="_blank">Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</a></div>
+<p><a href="https://hireme.fyi" target="_blank">Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</a></p>
 
   </header>
 
   <main id="main">
-
-
-
 
 				{if $nosidebar}
                                 <!-- nosb -->
