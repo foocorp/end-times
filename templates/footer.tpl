@@ -6,8 +6,6 @@
 		{/if}
 	</main>
 
-<p class="text-center"><small>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of MusicBrainz and the Internet Archive.</small></p>
-
 <footer>
 
 <hr>
@@ -20,6 +18,8 @@
 	<p><a href="https://bugsrock.online">buy candles</a> | <a href="https://alexandragallant.itch.io">buy comics and zines</a> | <a href="https://tedium.co">tedium</a> | <a href="https://github.com/foocorp/gnu-fm">Source Code</a></p>
 
 <p>This page generated in {$page_time} seconds.</p>
+
+<p class="text-center"><small>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of MusicBrainz and the Internet Archive.</small></p>
 
 </footer>
 </body>
