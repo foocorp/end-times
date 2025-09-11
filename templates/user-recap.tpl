@@ -21,7 +21,7 @@
 {/if}
  {if ($logged_in)}
 {if $me->name == $this_user->name}
-<p><a href="https://shareopenly.org/share/?url=https://libre.fm/user/{$me->name}/recap/{$year}&text=I listened to {$scrobblecount} songs in {$year}. Favorite song? {$topsongs[0].track} by {$topsongs[0].artist}%0A%0A%23LibreFM %23indieweb %23music %23listening %23ShareOpenly%0A%0A">Share this on social media</a></p>
+<!-- <p><a href="#/share/?url=https://libre.fm/user/{$me->name}/recap/{$year}&text=I listened to {$scrobblecount} songs in {$year}. Favorite song? {$topsongs[0].track} by {$topsongs[0].artist}%0A%0A%23LibreFM %23indieweb %23music %23listening">Share this on social media</a></p> -->
 {/if}
 {/if}
 
