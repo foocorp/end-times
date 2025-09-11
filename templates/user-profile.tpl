@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="text-center elsewhere"><a href="/user/{$me->name}/recap/2024">See {$me->name}'s 2024 recap</a></p>
+<p><a href="/user/{$me->name}/recap/2024">See {$me->name}'s 2024 recap</a></p>
 
 {if $nowplaying}
 <p class="text-center elsewhere"><strong>{t name=$me->name}%1{/t} is currently listening to: </strong></p>
@@ -18,11 +18,7 @@
 {/if}
 
 <h2>Recent plays</h2>
-{if $me->name == "mattl"}
-{include file="tracklistish-v2.tpl" class=#table# items=$scrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
-{else}
-{include file="tracklistish.tpl" class=#table# items=$scrobbles fimage=true fstream=true fartist=true flove=true ftime=true}
-{/if}
+{include file="tracklistish.tpl" class=#table# items=10 fimage=false fstream=true fartist=true flove=true ftime=true}
 
 <!-- 
 {if !empty($lovedArtists)}
