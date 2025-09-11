@@ -31,9 +31,9 @@ were very much thin on the ground
 	<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	{if !($pagetitle)}
-	<title>{$site_name}</title>
+	<title>{$site_name} powered by 1800www.com</title>
 	{else}
-	<title>{$pagetitle|escape:'html':'UTF-8'} &middot; {$site_name}</title>
+	<title>{$pagetitle|escape:'html':'UTF-8'} &middot; {$site_name} powered by 1800www.com</title>
 	{/if}
 	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
 
@@ -62,7 +62,7 @@ were very much thin on the ground
   <header>
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
-<h1><a href="/">Libre.fm</a></h1>
+<h1><a href="/">Libre.fm</a> by <a href="https://1800www.com">1800www.com</a></h1>
 
 	  {include file='menu.tpl'}
 
