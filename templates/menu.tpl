@@ -1,7 +1,8 @@
 {if ($logged_in)}
-&nbsp;
+<p><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></p>
+<p><a class="logout-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></p>
 {else}
-	  <a href="{$base_url}/login.php">
+	  <p><a href="{$base_url}/login.php">
 	    {t}Log in{/t}
-	</a>
+	</a></p>
 {/if}
