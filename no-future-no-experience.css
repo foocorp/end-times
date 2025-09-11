@@ -1,5 +1,5 @@
  body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin: 1.5em; background: whitesmoke; color: black;}
+  margin: 1.5em; background: #ccc; color: black;}
 
 p, li { line-height: 1.8em;}
 a{font-weight: bold;}
@@ -8,6 +8,7 @@ a:hover{color: red; background-color: yellow;}
 h1 a {color: red !important;}
 
 textarea:not([cols]) {
+	font-family: monospace;
 width: 95%;
 font-size: 12pt;
 height: 5em;
