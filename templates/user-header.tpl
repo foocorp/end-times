@@ -11,9 +11,11 @@
 	  {/if}
 
 {if $totaltracks}
+{if $me->bio}
 	  <li class="p-note" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </li>
+{/if}
 
 	  {if $me->homepage}
 	  <li>Personal website: <a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
