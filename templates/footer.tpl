@@ -29,7 +29,7 @@
 <li>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of the good people at MusicBrainz and the Internet Archive.</li>
 </ul>
 
-<p>This page generated in {$page_time} seconds.</p>
+<p>This page generated in {$page_time} seconds by <a href="https://mat.tl">mattl</a>.</p>
 
 </footer>
 </body>
