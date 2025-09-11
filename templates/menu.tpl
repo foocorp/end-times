@@ -1,8 +1,10 @@
+<nav><ul>
 {if ($logged_in)}
-<p><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></p>
-<p><a class="logout-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></p>
+<li><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></li>
+<li><a class="logout-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></li>
 {else}
-	  <p><a href="{$base_url}/login.php">
+	  <li><a href="{$base_url}/login.php">
 	    {t}Log in{/t}
-	</a></p>
-{/if}
+	</a></li>
+{/if}</ul>
+</nav>
