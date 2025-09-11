@@ -1,31 +1,29 @@
 <div class="h-card">
 <h2 class="p-name">{$me->name}</h2>
 
-
-<p><img class="u-photo" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></p>
-{if $awesomenumber}
-<p>User #{$awesomenumber}</p>
-{/if}
+<ul>
+<li><img class="u-photo" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></li>
 
 {if $totaltracks}
-	  <p>
+	  <li>
 	      <strong>{$totaltracks}</strong> tracks played
-	  </p>
+	  </li>
 	  {/if}
 
 {if $totaltracks}
-	  <blockquote class="p-note" id="bio">
+	  <li class="p-note" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
-	  </blockquote>
+	  </li>
 
 	  {if $me->homepage}
-	  <p>Personal website: <a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></p>
+	  <li>Personal website: <a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
 	  {/if}
 	  {if $me->laconica_profile}
-	  <p>Fediverse profile: <a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></p>
+	  <li>Fediverse profile: <a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
 	  {/if}
 
 	  {/if}
+</ul>
 
 </div>
 
