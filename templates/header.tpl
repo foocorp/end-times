@@ -35,7 +35,6 @@ were very much thin on the ground
 	{else}
 	<title>{$pagetitle|escape:'html':'UTF-8'} &middot; {$site_name}</title>
 	{/if}
-	<!-- <script type="text/javascript" src="{$base_url}/js/player.js"></script> -->
 	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
 
 {if $og_head_links}
@@ -53,7 +52,6 @@ were very much thin on the ground
 
 {section name=i loop=$extra_head_links}
 {/section}
-<meta name="viewport" content="width=device-width,initial-scale=1" />
 {if $mattldebug != "1"}
 {assign var=random_id value=10|mt_rand:2000}
     <link href="/themes/2024-end-times/no-future-no-experience.css?foo=bar&cache={$random_id}" rel="stylesheet">
@@ -68,7 +66,7 @@ were very much thin on the ground
 
 	  {include file='menu.tpl'}
 
-<p><a href="https://hireme.fyi" target="_blank">Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</a></p>
+<p><a href="https://hireme.fyi" target="_blank"><strong>Libre.fm co-founder Matt Lee is looking for work in Boston, MA (US) or remote</strong></a></p>
 
   </header>
 
