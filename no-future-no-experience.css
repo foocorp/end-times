@@ -7,6 +7,8 @@ a:hover{color: red; background-color: yellow;}
 
 h1 a {color: red !important;}
 
+.form-group {margin-bottom: 1em;}
+
 textarea:not([cols]) {
 	font-family: monospace;
 width: 95%;
