@@ -3,11 +3,11 @@
 
 
 <p><img class="u-photo" src="{$me->getAvatar(90)}" alt=""></p>
+{if $awesomenumber}
 <p>User #{$awesomenumber}</p>
+{/if}
 
-	 
-
-	  {if $totaltracks}
+{if $totaltracks}
 	  <p>
 	      <strong>{$totaltracks}</strong> tracks played
 	  </p>
@@ -21,8 +21,6 @@
 	  <blockquote class="p-note" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </blockquote>
- 
-	  <p><small>Last updated: {$lastd|date_format:"%Y-%m-%d"}</small></p>
 
 	  {/if}
 
