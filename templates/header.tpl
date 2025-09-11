@@ -64,7 +64,7 @@ were very much thin on the ground
   <header>
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
-	  <h1><a href="/">Libre.fm</a></h1>
+<h1><a href="/">Libre.fm</a></h1>
 
 <nav>
 	  {include file='menu.tpl'}
