@@ -1,6 +1,8 @@
  body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin: 1.5em; background: #ccc; color: black; max-width: 768px; margin: 0 auto;}
 
+header, footer {text-align: center;}
+
 p, li { line-height: 1.8em;}
 a{font-weight: bold;}
 a:hover{color: red; background-color: yellow;}
