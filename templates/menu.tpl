@@ -6,7 +6,10 @@
 	  <li><a href="{$base_url}/login.php">
 	    {t}Log in{/t}
 	</a></li>
-{/if}</ul>
+{/if}
+<li><mark>New!</mark> <a target="_blank" href="https://status.libre.fm">Server Status</a></li>
+<li><a target="_blank" href="https://libre.fm/donate.php">Donate</a></li>
+</ul>
 
 {if {$logged_in}}
 </nav>
