@@ -28,7 +28,7 @@
 
 <p>Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>! &mdash; <a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">see your 2024 music recap</a></p>
 
-<p><mark>I quit social media, so I made <a href="https://status.libre.fm">status.libre.fm</a> for server status.</mark></p>
+<p><mark>I quit social media</mark>, so I made <a href="https://status.libre.fm">status.libre.fm</a> for server status.</p>
 
 <p>Libre.fm has a <a href="https://libre.fm/donate.php">donations page</a>.</p>
 
