@@ -55,7 +55,9 @@ were very much thin on the ground
 
 <p>Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>! &mdash; <a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">see your 2024 music recap</a></p>
 
-<p><mark>I quit social media</mark>, so I made <a target="_blank" href="https://status.libre.fm">status.libre.fm</a> for server status.</p>
+
+<p><a href="https://libre.fm/feed.xml">We have an RSS feed!</a></p>
+<p><a href="https://mat.tl">I quit social media</a>, so I made <a target="_blank" href="https://status.libre.fm">status.libre.fm</a> for server status.</p>
 
 <p>Libre.fm has a <a target="_blank" href="https://libre.fm/donate.php">donations page</a>.</p>
 
