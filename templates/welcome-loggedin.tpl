@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--
+
+Dear Mr McGee,
+
+Please find enclosed the latest demo from Liquid Greek.
+
+Derided by the mainstream as ‘shoegazing also-rans’, the band
+have nevertheless persevered with their off-kilter-or-nothing
+policy in the hope that someone like your good self will
+eventually realise, and thus promote, this violent yet
+ultimately beautiful genre which we have dubbed ‘new noise’.
+
+The first track is based upon the high-pitched lamentations of
+an unbalanced Lincoln woman, who nurses injured buzzards back
+to health inside her dead child’s wardrobe.
+
+We hope you like it.
+
+Yours sincerely,
+
+Liquid Greek
+
+P.S. – We don’t like sport of any kind, and friends at school
+were very much thin on the ground
+
+-->
 	<meta charset="utf-8">
 	{if !($pagetitle)}
 	<title>{$site_name} by 1800www.com</title>
@@ -13,6 +39,7 @@
 	<link rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}" title="{$extra_head_links[i].title|escape:'html':'UTF-8'}"  />
 {/section}
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://libre.fm/feed.xml">
     {assign var=random_id value=10|mt_rand:2000}
     <link href="/themes/2024-end-times/no-future-no-experience.css?foo=bar&cache={$random_id}" rel="stylesheet">
 </head>
