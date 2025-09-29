@@ -7,7 +7,8 @@
 	    {t}Log in{/t}
 	</a></li>
 {/if}
-<li><mark>New!</mark> <a target="_blank" href="https://status.libre.fm">Server Status</a></li>
+<li><mark>New!</mark> <a href="https://libre.fm/feed.xml">RSS feed</a></li>
+<li><a target="_blank" href="https://status.libre.fm">Server Status</a></li>
 <li><a target="_blank" href="https://libre.fm/donate.php">Donate</a></li>
 </ul>
 
