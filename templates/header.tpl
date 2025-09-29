@@ -36,6 +36,8 @@ were very much thin on the ground
 	<title>{$pagetitle|escape:'html':'UTF-8'} &middot; {$site_name} powered by 1800www.com</title>
 	{/if}
 	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://libre.fm/feed.xml">
+
 
 {if $og_head_links}
 {section name=i loop=$og_head_links}
