@@ -5,6 +5,7 @@
     <title>Project Next by Libre.fm</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link rel="stylesheet" href="/style.css">
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://libre.fm/feed.xml">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link href="/themes/2024-end-times/next.css?foo=bar&cache=1955&fsdssadasads" rel="stylesheet">
   </head>
