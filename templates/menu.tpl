@@ -16,7 +16,7 @@
 </nav>
 {else}
 </nav>
-<div style="border: 1px; padding: 12px;">
+<div style="border: 1px solid red; padding: 12px;">
 <p>A message from <a href="https://1800www.com">1800www.com</a>...</p>
 <h2>We're on a mission to save the web</h2>
 
