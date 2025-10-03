@@ -16,6 +16,7 @@
 </nav>
 {else}
 </nav>
+<div style="border: 1px; padding: 12px;">
 <p>A message from <a href="https://1800www.com">1800www.com</a>...</p>
 <h2>We're on a mission to save the web</h2>
 
@@ -25,5 +26,6 @@
 
 <p>We're bringing that back, without AI crawlers and billionaires ruining all the fun.</p>
 
-<p>Time is running out. The web is being destroyed from within by companies harvesting the creative work of others.</p>
+<p><a href="https://1800www.com">Time is running out</a>. The web is being destroyed from within by companies harvesting the creative work of others.</p>
+</div>
 {/if}
