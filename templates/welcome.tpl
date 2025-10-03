@@ -39,6 +39,8 @@ were very much thin on the ground
     <main>
       <div class="container">
 
+	  <p><a href="/login.php">Classic Libre.fm login</a></p>
+
           <h1>Time is running out.</h1>
 
           <p>The web is being destroyed from within by companies harvesting the creative work of others.</p>
@@ -68,7 +70,6 @@ were very much thin on the ground
 <h2 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h2>
 {$recents}
 {/if}
-
 
       </div>
     </main>
