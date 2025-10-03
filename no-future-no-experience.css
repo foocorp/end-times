@@ -1,5 +1,11 @@
  body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin: 1.5em; background: #ccc; color: black; max-width: 768px; margin: 0 auto;}
+  margin: 1.5em; max-width: 768px; margin: 0 auto;
+	 
+	 background: #111;
+color: whitesmoke;
+
+	 
+	 }
 
 header h1 {text-align: center;}
 
@@ -61,11 +67,6 @@ height: 5em;
 	margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-background: #111;
-color: whitesmoke;
-}
 
 a {color: lime;}
 
