@@ -7,39 +7,7 @@
     <link rel="stylesheet" href="/style.css">
 	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://libre.fm/feed.xml">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-<style>
-  body{font-size: 18pt; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      margin: 1.5em; line-height: 1.8em; color: whitesmoke; background: #111;}
-    a{font-weight: bold;}
-a:link {color: lime;}
-    a:hover{color: red; background-color: yellow;}
-    html,body {
-      height:100%;
-      width:100%;
-      margin:0;
-    }
-    body, body {
-      display:flex;
-    }
 
-    div {
-      margin:auto;
-      text-align: left;
-      padding: 1em;
-    }
-
-    h1,h2,h3,h4,h5,h6 {color: white;}
-
-    blockquote {margin: 0; font-style: italic;}
-
-    @media (min-width: 1000px) {
-
-    div {  width: 70%;}
-
-
-
-    }
-</style>
 <!--
 
 Dear Mr McGee,
@@ -97,11 +65,6 @@ were very much thin on the ground
 	  <p><a href="/login.php">Classic Libre.fm login</a></p>
 
 	  {$totals}
-
-	{if ($recents)}
-<h2 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h2>
-{$recents}
-{/if}
 
       </div>
     </main>
