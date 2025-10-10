@@ -32,8 +32,7 @@
 		{/if}
 		{if $fcount}
 		&mdash;
-		    <span>{$i.freq}</span>
-			<progress value="{$i.freq}" max="{$totaltracks}">
+			<progress value="{$i.freq}" max="{$totaltracks}"><span>{$i.freq}</span></progress>
 		{/if}
 		{if $ftime}
 		  {$i.time}
