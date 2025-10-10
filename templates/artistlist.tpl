@@ -33,6 +33,7 @@
 		{if $fcount}
 		&mdash;
 		    <span>{$i.freq}</span>
+			<progress value="{$i.freq}" max="10000">
 		{/if}
 		{if $ftime}
 		  {$i.time}
