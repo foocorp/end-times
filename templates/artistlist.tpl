@@ -14,92 +14,29 @@
 	@param boot   ftime           Show timestamp field, used by $i.time)
 	@param string type            Type of list, 'tagged' (used to show correct button)
 *}
-<table class="{$class} artistlist">
-{if $thead}
-	<thead><tr>
-		{if $fstream}
-			<th></th>
-		{/if}
-		{if $fimage}
-			<th></th>
-		{/if}
-			<th class="title"><a href="{$page->urls.sort_name}">Title</a></th>
-		{if $ftag}
-			<th></th>
-		{/if}
-		{if $fbutton}
-			<th></th>
-		{/if}
-		{if $fcount}
-			<th><a href="{$page->urls.sort_count}">Plays</a></th>
-		{/if}
-		{if $ftime}
-			<th></th>
-		{/if}
-	</tr></thead>
-{/if}
+<ul class="{$class} artistlist">
 	{foreach from=$items item=i}
-	<tr>
+	<li>
 		{if $fstream}
 		 {if $i.streamable}
-		  <td class="icon" title="Artist has streamable tracks">
+		  <!-- <td class="icon" title="Artist has streamable tracks">
 		    <span class="glyphicon glyphicon-music">
 		    </span>
-		  </td>
-                 {else}
-		   <td>
-		   </td>
+		  </td> -->
 		 {/if}
 		{/if}
-		{if $fimage}
-		  <td class="image">
-		    <img class="img-responsive" src="{$i.image}" alt="[ Artist Image ]"/>
-		  </td>
-		{/if}
-		<td class="name">
 		{if $i.artistlibraryurl}
 		  <a href="{$i.artistlibraryurl}">{$i.artist}</a>
-		</td>
 		{else}
 		<a href="{$i.artisturl}">{$i.artist}</a>
-                </td>
-		{/if}
-		{if $ftag}
-		{if $i.tagged}
-                  <td class="icon" title="{$page->user->name} has tagged this artist">
-		    <span class="glyphicon glyphicon-tag"></span>
-		  </td>
-                {else}
-                  <td class="icon">
-                  </td>
-                {/if}
-		{/if}
-		{if $fbutton}
-		  <td class="buttons">
-			{if $page->ownedbyme}
-				{if $type == 'tagged'}
-					<form method='post' action=''>
-					  <input type=hidden name='removeartist' value="{$i.artist}" />
-					  <input type=hidden name='removetag' value="{$i.tag}" />
-					  <button class="btn btn-danger btn-xs" 
-						  name='artistremovetag' type='submit'>
-					    remove
-					  </button>
-					</form>
-				{/if}
-			{/if}
-		  </td>
 		{/if}
 		{if $fcount}
-		  <td class="count">
+		&mdash;
 		    <span>{$i.freq}</span>
-		  </td>
 		{/if}
 		{if $ftime}
-		<td class="time">
 		  {$i.time}
-		</td>
 		{/if}
-	</tr>
+	</li>
 	{/foreach}
-</table>
+</ul>
