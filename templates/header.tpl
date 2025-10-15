@@ -64,6 +64,12 @@ were very much thin on the ground
   <header>
 	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
 
+{if ($logged_in)}
+<div style='background-color: lime; color: white; height: 3px;'>&nbsp;</div>
+{else}
+<div style='background-color: red; color: white; height: 3px;'>&nbsp;</div>
+{/if}
+
 <h1><a href="/">Libre.fm</a> by <a href="https://1800www.com">1800www.com</a></h1>
 
 	  {include file='menu.tpl'}
