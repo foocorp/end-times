@@ -35,9 +35,9 @@
 	{/if}
 	{/if}
 
-	<h3>Love this track?</h3>
 
 	{if $logged_in}
+	<h3>Love this track?</h3>
 	   {if $isloved}
                <form action='' method='post'>
 		 <button class="btn btn-danger btn-xs"
