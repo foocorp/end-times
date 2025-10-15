@@ -31,6 +31,12 @@
 
 <p>This page generated in {$page_time} seconds at {$smarty.now|date_format:"%Y-%m-%d %T"} by <a href="https://mat.tl">mattl</a>.</p>
 
+{if ($logged_in)}
+<div style='background-color: lime; color: white; height: 3px;'>&nbsp;</div>
+{else}
+<div style='background-color: red; color: white; height: 3px;'>&nbsp;</div>
+{/if}
+
 </footer>
 </body>
 </html>
