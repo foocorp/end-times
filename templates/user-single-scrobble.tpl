@@ -7,10 +7,10 @@
 
 <h2 class="text-center"class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-	<p class="text-center"><img class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
+	<p class="text-center"><img loading="lazy" class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
 
 {if $album}
-<p class="text-center"><a href="{$url}"><img src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" height="250" alt=""></a></p>
+<p class="text-center"><a href="{$url}"><img loading="lazy" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" height="250" alt=""></a></p>
 
 <p class="text-center">Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
 
@@ -43,7 +43,7 @@
 <h4>HTML</h4>
 
 <textarea>
-<a href="{$bob}"><img src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"></a>
+<a href="{$bob}"><img loading="lazy" src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"></a>
 </textarea>
 
 <h4>BBCode</h4>
