@@ -1,5 +1,5 @@
 {if $image}
-<p><img style="max-height: 250px !important; width: auto;" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
+<p><img style="width: 100%; max-width: 250px !important;" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
 {/if}
 
 
