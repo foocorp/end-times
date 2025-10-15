@@ -2,7 +2,7 @@
 
 <h4>Tracks</h4>
 {artisttracks artist=$album->artist_name album=$album->name}
-{include file='tracklist.tpl' class=#table# items=$artisttracks fstream=true}
+{include file='tracklistish.tpl' class=#table# items=$artisttracks fstream=true}
 {if $add_track_link}<a href='{$add_track_link}'><strong>{t}Add new track{/t}</strong></a>{/if}
 
 {* Hack to get an album player for now, $album->isStreamable() would be better *}
