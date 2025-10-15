@@ -1,5 +1,5 @@
 {if $image}
-<p><img height="250" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
+<p><img style="max-height: 250px !important; width: auto;" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
 {/if}
 
 <h2>{$artist->name}</h2>
