@@ -2,6 +2,8 @@
 <p><img style="max-height: 250px !important; width: auto;" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
 {/if}
 
+
+
 <h2>{$artist->name}</h2>
 
       {if $artist->getListenerCount()}
