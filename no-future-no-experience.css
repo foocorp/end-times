@@ -7,6 +7,32 @@ color: whitesmoke;
 	 
 	 }
 
+.album-list {
+padding: 0; background: transparent; display: flex; flex-wrap: wrap;
+}
+
+.album-list li {display: inline-table; padding-right: 8px; padding-bottom: 8px; background: transparent; }
+
+.album-list-album {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  outline: 1px solid #333;
+width: 100px;
+text-align: center;
+background: black;
+	overflow: hidden; 
+}
+
+.album-list-album span {padding: 5px;}
+.album-list-album a {
+	color: white !important;
+	font-size: 80%;
+         word-break: break-all;
+}
+
+
 header h1 {text-align: center;}
 
 .a11y-helper {
