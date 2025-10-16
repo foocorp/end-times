@@ -1,5 +1,5 @@
 {if $image}
-<p><img style="width: 100%; max-width: 250px !important; background: #666; url(https://turtle.libre.fm/spinner.gif)" loading="lazy" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
+<p><img style="width: 100%; max-width: 250px !important; background: #666; url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " loading="lazy" class="wikipedia-profile-image" src="{$image}" alt=""/></p>
 {/if}
 
 
