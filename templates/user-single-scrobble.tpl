@@ -10,7 +10,7 @@
 	<p class="text-center"><img loading="lazy" class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
 
 {if $album}
-<p class="text-center"><a href="{$url}"><img loading="lazy" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" style="background: #666;" width="250" height="250" alt=""></a></p>
+<p class="text-center"><a href="{$url}"><img loading="lazy" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" style="background: #666; url(https://turtle.libre.fm/spinner.gif)" width="250" height="250" alt=""></a></p>
 
 <p class="text-center">Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
 
