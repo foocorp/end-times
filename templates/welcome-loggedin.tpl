@@ -70,7 +70,7 @@ were very much thin on the ground
 {/if}
 
 {if ($recents)}
-<h2 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h2>
+<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
 {$recents}
 {/if}
 
