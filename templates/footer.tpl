@@ -29,7 +29,7 @@
 <li>Cover Art provided by <a href="https://coverartarchive.org/">Cover Art Archive</a>, a project of the good people at MusicBrainz and the Internet Archive.</li>
 </ul>
 
-<p>This page generated in {$page_time} seconds at {$smarty.now|date_format:"%Y-%m-%d %T"} by <a href="https://mat.tl">mattl</a>.</p>
+<p>This page generated in {$page_time} seconds at {$smarty.now|date_format:"%Y-%m-%d %T"} by <a rel="me" href="https://mat.tl">mattl</a> (<a href="https://www.youtube.com/@mattl_">mattl on YouTube</a>)</p>
 
 {if ($logged_in)}
 <div style='background-color: lime; color: white; height: 3px;'>&nbsp;</div>
