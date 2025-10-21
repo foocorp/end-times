@@ -1,6 +1,6 @@
 {if isset($activated)}
 {$nosidebar=true}
-{include file='header.tpl'}
+{include file='mini-header.tpl'}
         <h2>{t}You're in!{/t}</h2>
 	<p>{t escape=no}Your account has been activated! You are now on the waitlist.{/t}</p>
 
@@ -9,12 +9,12 @@
 
 {elseif isset($registered)}
 {$nosidebar=true}
-{include file='header.tpl'}
+{include file='mini-header.tpl'}
         <h2>{t}Check your email now{/t}</h2>
 	<p>{t}Please follow the link in your email to activate your account!{/t}</p>
 
 </main>
-{include file='footer.tpl'}
+{include file='mini-footer.tpl'}
 {else}
 {include file='mini-header.tpl'}
 
