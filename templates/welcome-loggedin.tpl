@@ -64,7 +64,7 @@ were very much thin on the ground
 <hr>
 
 {if ($totals)}
-<div id="user-totals-small">
+<div id="user-totals-small" style="text-align: center;">
 {$totals}
 </div>
 {/if}
