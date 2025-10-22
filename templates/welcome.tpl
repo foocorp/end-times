@@ -40,7 +40,9 @@ were very much thin on the ground
     <main>
       <div class="container">
 
-	  <p><a href="/login.php">Classic Libre.fm login</a></p>
+	  <p><a href="/login.php">Classic Libre.fm login</a> or <a href="/waitlist.php">join the waitlist</a> for an account.</p>
+
+	  {$totals}
 
           <h1>Time is running out.</h1>
 
