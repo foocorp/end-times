@@ -18,6 +18,8 @@
 	<ul>
 	<li><a href="https://bugsrock.online">Buy candles</a></li>
     <li><a href="https://alexandragallant.itch.io">Buy comics and zines</a></li>
+	<li><a href="https://crippledgiraffdecals.bigcartel.com/category/snipe-wib">Wargames related stickers</a></li>
+    <li><a href="https://www.lulu.com/spotlight/benbakerpresents">Quiz books about old TV</a></li>
     <li><a href="https://tedium.co">Tedium</a></li>
     </ul>
 
