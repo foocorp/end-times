@@ -11,6 +11,8 @@
 <hr>
 <address><a href="mailto:support@libre.fm">support@libre.fm</a></address>
 
+<p><a href="https://liberapay.com/libre.fm/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></p>
+
      <p><a href="https://hireme.fyi">Looking for a web expert for your company? Hire me!</a></p>
 
 	 <h3>Friends of Libre.fm</h3>
