@@ -1,6 +1,6 @@
 {config_load file='theme.conf' scope='global'}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
 <!--
 
@@ -54,6 +54,10 @@ were very much thin on the ground
 
 {section name=i loop=$extra_head_links}
 {/section}
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 {if $mattldebug != "1"}
 {assign var=random_id value=10|mt_rand:2000}
     <link href="/themes/2024-end-times/no-future-no-experience.css?foo=bar&cache={$random_id}" rel="stylesheet">
