@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="638.601"
+   viewBox="0 0 494.836 638.601"
+   width="494.836"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="about-left-shape.svg"
+   inkscape:version="1.3-dev (77bc73e, 2022-05-18)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.2191689"
+     inkscape:cx="220.232"
+     inkscape:cy="188.24299"
+     inkscape:window-width="1676"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <clipPath
+     id="a">
+    <path
+       d="m319.3 0c176.345 0-67.066 208.923 88.593 319.3s87.752 319.3-88.593 319.3-319.3-142.955-319.3-319.3 142.956-319.3 319.3-319.3z"
+       transform="translate(297.858 1341)"
+       id="path1" />
+  </clipPath>
+  <linearGradient
+     id="b"
+     gradientUnits="objectBoundingBox"
+     x1=".5"
+     x2=".5"
+     y2="1">
+    <stop
+       offset="0"
+       stop-color="#dddff9"
+       id="stop1" />
+    <stop
+       offset="1"
+       stop-color="#5864ff"
+       id="stop2" />
+  </linearGradient>
+  <path
+     d="m319.3 0c176.345 0-67.066 208.923 88.593 319.3s87.752 319.3-88.593 319.3-319.3-142.955-319.3-319.3 142.956-319.3 319.3-319.3z"
+     fill="#5864ff"
+     id="path2"
+     style="fill:#d40000" />
+  <g
+     clip-path="url(#a)"
+     transform="translate(-297.858 -1341)"
+     id="g3">
+    <path
+       d="m319.3 0c176.345 0-67.066 208.923 88.593 319.3s87.752 319.3-88.593 319.3-319.3-142.955-319.3-319.3 142.956-319.3 319.3-319.3z"
+       fill="url(#b)"
+       opacity=".3"
+       transform="matrix(-1 0 0 -1 792.694 1979.601)"
+       id="path3" />
+  </g>
+</svg>
