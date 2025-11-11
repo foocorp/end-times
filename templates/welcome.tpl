@@ -114,7 +114,7 @@
                 Track your listening habits, discover new music
               </h1>
               <p>
-                Since 2009, {$totals}. We think that's something to be proud of.
+                Since 2009, {$totals} We think that's something to be proud of.
               </p>
 
 
