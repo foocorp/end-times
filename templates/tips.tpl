@@ -5,6 +5,6 @@
 <li>Have you tried <a href="https://webscrobbler.com" target="_blank">Web Scrobbler</a>? It helps you scrobble from streaming services like Spotify and Apple Music</li>
 <li>Please consider using email privacy/relay services where possible. The less we know about you the better (said in the nicest of ways)</li>
 <li>Please consider using an ad-blocker on every browser and device you use. We don't show ads but others do.</li>
-<li>Please consider avoiding websites which are not run by people who do not have your best interests at heart.</li>
+<li>A handful of websites run by a few people is not a good thing and it makes us sad</li>
 <li>PHP? Postgres? <a href="https://github.com/foocorp/gnu-fm/archive/refs/tags/2022-final.zip">Download the source code to run your own server</a></li>
 </ul>
