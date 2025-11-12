@@ -42,20 +42,23 @@
 
 <h4>HTML</h4>
 
-<textarea>
+<div class="mb-3">
+<textarea class="form-control">
 <a href="{$bob}"><img loading="lazy" src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"></a>
 </textarea>
+</div>
 
 <h4>BBCode</h4>
 
-<textarea>
+<div class="mb-3">
+<textarea class="form-control">
 [url={$bob}][img width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"]{$bob}/image[/img][/url]
 </textarea>
+</div>
 
-
-<p><small>This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.</small></p>
-
-<p><a href="https://github.com/foocorp/hacienda/issues/53">Report a bug with this feature or request a new format</a></p>
+<div class="alert alert-warning">
+This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.
+</div>
 
 {/if}
 
