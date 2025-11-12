@@ -68,7 +68,10 @@ This is a new feature that gives you a unique URL for each song you've ever list
 <input type="hidden" name="isme" value="{$isme}">
 <input type="hidden" name="username" value="{$me->name}">
 <input type="hidden" name="sid" value="{$me->uniqueid}">
-<input type="checkbox" name="check" value="1">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" name="check" id="cb" value="1">
+<label for="cb" class="form-check-label">You must check this box to delete the scrobble</label>
+</div>
 <input type="submit" name="submit" value="Delete this scrobble">
 </form>
 </div>
