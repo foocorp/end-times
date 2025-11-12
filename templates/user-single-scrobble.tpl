@@ -61,6 +61,7 @@ This is a new feature that gives you a unique URL for each song you've ever list
 {if ($logged_in)}
 {if $isme}
 <div class="alert alert-danger">
+<h4>Delete this scrobble?</h4>
 <form action="/delete-a-scrobble.php" method="post">
 <input type="hidden" name="scrobble" value="{$scrobble}">
 <input type="hidden" name="isme" value="{$isme}">
@@ -70,7 +71,9 @@ This is a new feature that gives you a unique URL for each song you've ever list
 <input class="form-check-input" type="checkbox" name="check" id="cb" value="1">
 <label for="cb" class="form-check-label">You must check this box to delete the scrobble</label>
 </div>
+<div class="mb-3">
 <input type="submit" name="submit" value="Delete this scrobble">
+</div>
 </form>
 </div>
 {/if}
