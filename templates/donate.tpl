@@ -1,15 +1,7 @@
 {$nosidebar=true}
 {include file='header.tpl'}
-<div class="container">
-      <div class="row">
-        <div class="col-md-3">
-	&nbsp;
-	</div>
-	<div class="col-md-6">
-	
-	  <h2>Please donate to keep Libre.fm alive</h2>
 
-	  <h3>PayPal</h3>
+	  <h2>Please donate to keep Libre.fm alive</h2>
 
 	  <p>You can make a one-time donation or set up a monthly recurring donation to Libre.fm.</p>
 
@@ -20,7 +12,7 @@
 	    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 	  </form>
 
-	  <h4>Monthly recurring donation</h4>
+	  <h3>Monthly recurring donation</h3>
 
 	  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 	    <input type="hidden" name="cmd" value="_s-xclick">
@@ -37,15 +29,4 @@
 	    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 	  </form>
 
-        </div>
-
-	<div class="col-md-3">
-	&nbsp;
-	</div>
-      </div>
-
-      <hr class="featurette-divider">
-
-    <p><a class="btn btn-success btn-lg" href="register.php">Sign up for your free Libre.fm account &raquo;</a></p>
-
-      <!-- /END THE FEATURETTES -->
+       
