@@ -1,7 +1,7 @@
 <div class="h-card alert alert-dark">
 {if $me->fullname}
 <h2 class="p-name card-title">{$me->fullname}</h2>
-<h3 class="card-title">{$me->name}</h3>
+<p class="lead">{$me->name}</p>
 {else}
 <h2 class="p-name card-title">{$me->name}</h2>
 {/if}
