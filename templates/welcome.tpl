@@ -138,7 +138,7 @@
     <!-- ======== hero-section end ======== -->
 
     <!-- ======== feature-section start ======== -->
-    <section id="how" class="feature-section pt-120">
+    <section id="how" class="feature-section pt-70">
       <div class="container">
         <div class="row justify-content-center">
                 <h2 class="text-center">
