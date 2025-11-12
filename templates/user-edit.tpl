@@ -63,7 +63,7 @@
   </div>
 
     <div class="form-group">
-      <p><label class="form-label" for='laconica_profile'>{t}Fediverse Profile:{/t}</label></p>
+      <p><label class="form-label" for='laconica_profile'>{t}Fediverse/social web (ie. Mastodon, GNU social, etc.) profile:{/t}</label></p>
       <p><input class="form-control" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
