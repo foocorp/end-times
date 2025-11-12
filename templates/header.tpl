@@ -102,18 +102,7 @@
 
     <!-- ======== hero-section start ======== -->
     <section id="home" class="hero-section" style="padding: 0px 0 70px">
-      {if $nosidebar}
-                                      <!-- nosb -->
-              {else}
-      {if isset($subheader)}
-                <header>
-                  
-                    {include file="$subheader"}
-                
-                </header>	
-      {/if}
-                <section>
-              {/if}
+&nbsp;
     </section>
     <!-- ======== hero-section end ======== -->
 
