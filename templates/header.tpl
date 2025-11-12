@@ -106,6 +106,19 @@
     </section>
     <!-- ======== hero-section end ======== -->
 
+{if ($logged_in)}
+{if $isme}
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12 col-xs-12 mt-20 alert alert-danger">
+
+Please configure your music client to post to Libre.fm or use <a href="https://webscrobbler.com">Web Scrobbler</a>
+</div>
+</div>
+</div>
+	  {/if}
+	  {/if}
+
     <!-- ======== feature-section start ======== -->
     <section id="how" class="feature-section pt-40">
       <div class="container">
