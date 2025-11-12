@@ -9,15 +9,13 @@
 	<p<img loading="lazy" class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
 
 {if $album}
-<p><a href="{$url}"><img loading="lazy" class="img-thumbnail" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " width="250" height="250" alt=""></a></p>
+<p><a href="{$url}"><img loading="lazy" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " width="250" height="250" alt=""></a></p>
 
-<p>Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
-
-
+<p class="lead">Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
 
 {else}
 {if $image}
-<p class="text-center"><img height="250" class="img-thumbnail" style="outline: 1px solid white;" src="{$image}" alt=""/></p>
+<p class="text-center"><img height="250" style="outline: 1px solid white;" src="{$image}" alt=""/></p>
 {/if}
 <p class="text-center">Listened to <span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist"><a href="/artist/{$artist|escape:'html':'UTF-8'}">{$artist|escape:'html':'UTF-8'}</a></span>{/if}</p>
 
