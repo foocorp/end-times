@@ -1,5 +1,5 @@
 {$nosidebar=true}
-{include file='header.tpl'}
+{include file='mini-header.tpl'}
 
 	  <h2>Please donate to keep Libre.fm alive</h2>
 
