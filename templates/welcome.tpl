@@ -4,8 +4,17 @@
   <head>
     <meta charset="utf-8" />
     <title>Libre.fm</title>
-    <meta name="description" content="" />
+    <meta name="description" content="Libre.fm lets you keep track of your music listening habits." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://libre.fm/feed.xml">
+    
+    <meta property="og:title" content="Libre.fm">
+    <meta property="og:description" content="Libre.fm lets you keep track of your music listening habits.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Libre.fm">
+    <meta property="og:url" content="https://libre.fm">
+    <meta property="og:image" content="https://libre.fm/themes/2024-end-times/social.png">
 
 <!--
 
