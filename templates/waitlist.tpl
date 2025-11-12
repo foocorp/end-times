@@ -38,7 +38,7 @@
 
 <p>
         <label class="checkbox">
-          <input type="checkbox" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address. I understand this is a waitlist for a future project. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
+          <input type="checkbox" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
         </label>
 </p>
 <p>
