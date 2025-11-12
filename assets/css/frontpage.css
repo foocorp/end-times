@@ -61,11 +61,11 @@ a:hover {
   text-decoration: none;
 }
 
-i,
+/* i,
 span,
-a {
+a{
   display: inline-block;
-}
+} */
 
 audio,
 canvas,
