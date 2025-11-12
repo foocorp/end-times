@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="pt-10 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+<p class="callout-info"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 
 <hr />
 
@@ -8,7 +8,7 @@
 
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
-	<p class="end-times-alert">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join us on the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
+	<p class="callout-info">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join us on the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
  	  {/if}
 	  {/if}
 
@@ -82,7 +82,7 @@
     <p><input class="form-control" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
   </div>
 
-  <p class="pt-10 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
+  <p class="callout-warning"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
 <hr />
 
