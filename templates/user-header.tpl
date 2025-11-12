@@ -13,6 +13,19 @@
 	  <p class="card-subtitle mb-2 text-body-secondary">
 	      <strong>{$totaltracks}</strong> tracks played
 	  </p>
+{else}
+{if ($logged_in)}
+{if $isme}
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12 col-xs-12 mt-20 alert alert-danger">
+
+Please configure your music client to post to Libre.fm or use <a href="https://webscrobbler.com">Web Scrobbler</a>
+</div>
+</div>
+</div>
+	  {/if}
+	  {/if}
 	  {/if}
 
 {if $totaltracks}
