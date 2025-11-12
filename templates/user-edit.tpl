@@ -1,6 +1,8 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="bd-callout bd-callout-info"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+<div class="bd-callout bd-callout-info">
+<p><strong>Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+</div>
 
 <hr />
 
