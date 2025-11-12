@@ -1,5 +1,6 @@
 <ul id="nav" class="navbar-nav ms-auto">
 {if ($logged_in)}
+<li class="nav-item"><a class="edit-profile-link" href="/user/{$me->name}">{$me->name}</a></li>
 <li class="nav-item"><a class="edit-profile-link" href="/user-edit.php">Edit my profile</a></li>
 <li class="nav-item"><a class="logout-profile-link" href="{$base_url}/login.php?action=logout">{t}Logout{/t}</a></li>
 {else}
