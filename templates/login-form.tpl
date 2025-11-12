@@ -1,13 +1,13 @@
   <fieldset>
-<div class="form-group">
+<div class="mb-3">
   <label class="form-label" for='username'>{t}Username{/t}</label>
   <input class="form-control" id='username' name='username' type='text' value='{$username}' required autofocus>
 </div>
-<div class="form-group">
+<div class="mb-3">
   <label class="form-label" for='password'>{t}Password{/t}</label>
   <input class="form-control" id='password' name='password' type='password' value='' required>
 </div>
-<div class="form-group">
+<div class="form-check">
   <input class="form-check-input" type='checkbox' name='remember' id='remember' />
   <label class="form-check-label" for='remember'> {t}Remember my login{/t}</label>
 </div>
