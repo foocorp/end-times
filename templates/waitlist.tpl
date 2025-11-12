@@ -20,9 +20,9 @@
 
       <h2 class="mb-3">Join the waitlist</h2>
 
-      <p class="lead">This is a waitlist for <a href="https://1800www.com">1800www.com</a> amd Libre.fm. In future you will be invited to join 1800www.com, which will also grant you access to Libre.fm.</p>
+      <p class="lead">This is a waitlist for <a href="https://1800www.com">1800www.com</a> and Libre.fm. In future you will be invited to join 1800www.com, which will also grant you access to Libre.fm.</p>
 
-      <form class="form-signin" method="post" action=''>
+      <form class="form-signin mt-1" method="post" action=''>
 
       	{if isset($errors)}
             <div class="alert alert-danger alert-dismissable">
