@@ -110,7 +110,7 @@
     <section id="how" class="feature-section pt-40">
       <div class="container">
         <div class="row justify-content-center">
-<div class="col align-self-center mt-20">
+<div class="col-md-6 offset-md-3 mt-20">
 
 {if $nosidebar}
                                       <!-- nosb -->
