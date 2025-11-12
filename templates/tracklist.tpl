@@ -21,8 +21,8 @@
 <table class="endtimes-table {$class} tracklist">
 	<thead>
 	  <tr>
-		<th class="title">Title</th>
-		<th class="time">Time</th>
+		<th class="title" scope="col" class="w-75">Track</th>
+		<th class="time" scope="col" class="w-25">Time</th>
 	  </tr>
 	</thead>
 	<tbody>
