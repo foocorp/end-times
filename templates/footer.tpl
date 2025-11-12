@@ -5,6 +5,7 @@
             {/if}
           </main>
       </div>
+</div>
     </section>
     <!-- ======== feature-section end ======== -->
 
