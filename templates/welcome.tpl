@@ -204,7 +204,7 @@
                   Why use Libre.fm over something else?
                 </h2>
                 <p>
-                  Over 380,000 users have submitted over 320,000,000 songs to Libre.fm over the last 16 years.
+                  {daily}
                 </p>
               </div>
             </div>
