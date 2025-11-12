@@ -1,8 +1,8 @@
 {if isset($submenu)}
-	<ul class="nav nav-pills">
+<ul class="nav justify-content-center">
 	{foreach $submenu as $i}
-		<li {if $i.active}class='nav-item active'{/if}>
-			<a class="nav-link" href='{$i.url|escape:'html'}'>{$i.name}</a>
+		<li class='nav-item'>
+			<a class="nav-link{if $i.active} active{/if}" {if $i.active}aria-current="page"{/if} href='{$i.url|escape:'html'}'>{$i.name}</a>
 		</li>
 	{/foreach}
 	</ul>
