@@ -110,3 +110,16 @@
     <section id="how" class="feature-section pt-40">
       <div class="container">
         <div class="row justify-content-center">
+
+{if $nosidebar}
+                                      <!-- nosb -->
+              {else}
+      {if isset($subheader)}
+                <header>
+                  
+                    {include file="$subheader"}
+                
+                </header>	
+      {/if}
+                <section>
+              {/if}
