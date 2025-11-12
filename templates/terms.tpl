@@ -1,4 +1,5 @@
-<h6>Terms and conditions for Libre.fm (Last updated: March 16th 2025)</h6>
+{include file='mini-header.tpl'}
+<h2>Terms and conditions for Libre.fm (Last updated: March 16th 2025)</h2>
 
 <ul>
 <li>You must be at least 18 years old to use Libre.fm</li>
@@ -18,31 +19,4 @@
 </ul>
 
 <p>If you are unhappy with any of the items in the terms and conditions, please do not create an account and existing users can email <a href="mailto:support@libre.fm">support@libre.fm</a> and we can help you export your data and close your account.</p>
-
-<h6>Privacy policy for Libre.fm (Last updated: March 16th 2025)</h6>
-
-<ul>
-<li>Your avatar is taken from libravatar.org. You cannot upload a profile image on our website.</li>
-<li>Any information based on songs you listen to is provided to Libre.fm by connecting a third-party client. You cannot manually enter listening information on our website.</li>
-<li>We will never share your email address or other personal information with anyone without your permission.</li>
-<li>We use cookies to retain your session while logged into the website.</li>
-<li>Libre.fm runs no advertising on the website whatsoever.</li>
-<li>Libre.fm links to third-party websites including the personal websites of users, social networking profiles of users and websites relevant to musical acts.</li>
-<li>If you wish to delete your account you may do so by editing your profile when logged in. This requires you being able to receive an email at the email address you provided. If you have no access to the email address in question, please contact us at <a href="mailto:support@libre.fm">support@libre.fm</a>, we may be able to help you if you are able to successfully provide the email address on file.</li>
-<li>Amazon Web Services is used to send email related to your account including registration and password reset emails. AWS may log things.</li>
-<li>Cloudflare is used as both a cache (for performance reasons) and a web application firewall to ensure our little website isn't attacked by bots. Cloudflare may log things.</li>
-<li>Libre.fm does not store user IP addresses in web server log files if the website is accessed via HTTPS. All HTTPS traffic is routed via our HAProxy server, and we only see the IP address of the HAproxy server.</li>
-<li>Libre.fm does not store any log files from our HAProxy server.</li>
-<li>You may request a copy of your data by emailing <a href="mailto:support@libre.fm">support@libre.fm</a> from your registered email address and providing your username. This is a manual process. We endeavor to handle requests in 72 hours.</li>
-</ul>
-
-<p>If you are unhappy with any of the items in the privacy policy, please email <a href="mailto:support@libre.fm">support@libre.fm</a> and we can help you export your data and close your account.</p>
-
-<h6>General tips</h6>
-
-<ul>
-<li>Please consider using email privacy/relay services where possible. The less we know about you the better (said in the nicest of ways)</li>
-<li>Please consider using an ad-blocker on every browser and device you use. We don't show ads but others do.</li>
-<li>Please consider using websites which are not run by people who do not have your best interests at heart.</li>
-<li>Please consider if a short cultural fit interview is an appropriate way to evaluate the skills of someone who has been doing something for 30 years.</li>
-</ul>
+{include file='mini-footer.tpl'}
