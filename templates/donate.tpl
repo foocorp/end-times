@@ -5,7 +5,7 @@
 
 	  <p class="pt-20">You can make a one-time donation or set up a monthly recurring donation to Libre.fm.</p>
 
-	  <form  class="mb-3" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	  <form class="pt-20 mb-3" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 	    <input type="hidden" name="cmd" value="_s-xclick">
 	    <input type="hidden" name="hosted_button_id" value="9PTTFVFY4ETFE">
 	    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
@@ -14,7 +14,7 @@
 
 	  <h3 class="pt-20">Monthly recurring donation</h3>
 
-	  <form class="mb-3" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	  <form class="pt-20 mb-3" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 	    <input type="hidden" name="cmd" value="_s-xclick">
 	    <input type="hidden" name="hosted_button_id" value="Q5PEP4MQWPY3J">
 	    <table>
