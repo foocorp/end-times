@@ -37,7 +37,8 @@
   </div>
 
 <div class="form-group" id="email">
-<p><label class="form-label" >Email address:</label><span>{$email}</span></p>
+<p><label class="form-label">Email address:</label></p>
+<p><tt>{$email}</tt></p>
 <p>If you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
 </div>
 
