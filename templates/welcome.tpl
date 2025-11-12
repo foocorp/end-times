@@ -44,6 +44,7 @@
     -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/themes/2024-end-times/assets/css/lineicons.css" />
+    <link rel="stylesheet" href="/themes/2024-end-times/assets/css/frontpage.css" />
     <link rel="stylesheet" href="/themes/2024-end-times/assets/css/main.css" />
 	<link rel="stylesheet" href="/themes/2024-end-times/assets/css/librefm.css" />
   </head>
