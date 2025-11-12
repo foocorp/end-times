@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="end-times-alert"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+<p class="pt-10 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 
 <hr />
 
@@ -42,7 +42,7 @@
 <div class="form-group">
     <p><label for='location'>{t}Location:{/t}</label></p>
     <p><input size="40" maxlength="40" type="text" class="form-label" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
-    <p class="help-block">{t}Where do you live?{/t}</p>
+    <p class="form-text">{t}Where do you live?{/t}</p>
 </div>
 
 <div class="form-group">
@@ -82,7 +82,7 @@
     <p><input class="form-control" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
   </div>
 
-  <p class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
+  <p class="pt-10 p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
 <hr />
 
