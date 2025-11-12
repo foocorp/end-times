@@ -43,7 +43,7 @@
 <h4>HTML</h4>
 
 <div class="mb-3">
-<textarea class="form-control">
+<textarea class="form-control" rows="6">
 <a href="{$bob}"><img loading="lazy" src="{$bob}/image" width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"></a>
 </textarea>
 </div>
@@ -51,7 +51,7 @@
 <h4>BBCode</h4>
 
 <div class="mb-3">
-<textarea class="form-control">
+<textarea class="form-control" rows="6">
 [url={$bob}][img width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"]{$bob}/image[/img][/url]
 </textarea>
 </div>
