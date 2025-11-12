@@ -204,7 +204,7 @@
                   Why use Libre.fm over something else?
                 </h2>
                 <p>
-                  {daily}
+                  {$daily}
                 </p>
               </div>
             </div>
