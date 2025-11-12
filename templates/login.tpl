@@ -16,4 +16,6 @@
       {include file='login-form.tpl'}
     </form>
 
+{include file='tips.tpl'}
+
 {include file='mini-footer.tpl'}
