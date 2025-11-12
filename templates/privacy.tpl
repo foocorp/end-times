@@ -20,4 +20,4 @@
 
 {include file='tips.tpl'}
 
-{include file='mini-header.tpl'}
+{include file='mini-footer.tpl'}
