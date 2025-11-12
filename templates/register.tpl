@@ -19,7 +19,7 @@
 {else}
 {include file='mini-header.tpl'}
 
-      <h2 class="text-center">Sign up for a free account</h1>
+      <h2>Sign up for a free account</h1>
 
       <form class="form-signin" method="post" action=''>
 
@@ -37,7 +37,7 @@
       	{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}
 		</div>
 
-{include file='terms.tpl'}
+{include file='tips.tpl'}
 {include file='mini-footer.tpl'}
 {/if}
 
