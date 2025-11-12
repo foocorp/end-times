@@ -21,7 +21,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
               <div class="footer-widget">
                 <div class="logo mb-30">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="/themes/2024-end-times/assets/img/logo/logo.svg" alt="Libre.fm" />
                   </a>
                 </div>
