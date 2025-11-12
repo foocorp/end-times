@@ -1,5 +1,6 @@
 <div class="h-card card">
-<h2 class="p-name">{$me->name}</h2>
+<div class="card-body">
+<h2 class="p-name card-title">{$me->name}</h2>
 <p><img class="u-photo img-thumbnail" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " loading="lazy" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></p>
 
 <ul>
@@ -27,6 +28,7 @@
 	  {/if}
 </ul>
 
+</div>
 </div>
 
       {include file='submenu.tpl'}
