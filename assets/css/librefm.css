@@ -2,7 +2,7 @@
     #contact a, footer a {color: white; text-decoration: underline !important;}
     #contact .main-btn {text-decoration: none !important; }
 
-textarea {font-family: monospace;}
+textarea {font-family: monospace !important;}
 
 .album-list {
 padding: 0; background: transparent; display: flex; flex-wrap: wrap;
