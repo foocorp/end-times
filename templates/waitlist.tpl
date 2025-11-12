@@ -51,6 +51,8 @@
       	{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}
         </div>
 
+{include file='tips.tpl'}
+
 {include file='mini-footer.tpl'}
 {/if}
 
