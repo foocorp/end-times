@@ -29,6 +29,8 @@
                   Since 2009. Made with love in New England. Libre.fm is supported by <a href="https://www.bytemark.co.uk/company/sponsorships/">Bytemark</a>, <a href="https://corehost.us/">Corehost</a> and <a href="https://archive.org/">The Internet Archive</a>. With thanks to <a href="https://musicbrainz.org/">MusicBrainz</a>, <a href="https://themewagon.com">ThemeWagon</a>, <a href="https://crowdsec.net">Crowdsec</a>, <a href="https://coverartarchive.org/">Cover Art Archive</a> and our <a href="/donate.php">donors</a>.
                 </p>
 
+                <p>This page generated in {$page_time} seconds by <a rel="me" href="https://mat.tl">mattl</a></p>
+
               </div>
             </div>
 
