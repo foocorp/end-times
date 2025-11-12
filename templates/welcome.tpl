@@ -40,6 +40,8 @@
   </head>
   <body>
 
+    <a href="#hero" class="a11y-helper" tabindex="0">Skip to main content</a>
+
     <!-- ======== header start ======== -->
     <header class="header">
       <div class="navbar-area">
