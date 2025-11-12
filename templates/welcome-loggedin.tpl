@@ -1,58 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!--
-
-Dear Mr McGee,
-
-Please find enclosed the latest demo from Liquid Greek.
-
-Derided by the mainstream as ‘shoegazing also-rans’, the band
-have nevertheless persevered with their off-kilter-or-nothing
-policy in the hope that someone like your good self will
-eventually realise, and thus promote, this violent yet
-ultimately beautiful genre which we have dubbed ‘new noise’.
-
-The first track is based upon the high-pitched lamentations of
-an unbalanced Lincoln woman, who nurses injured buzzards back
-to health inside her dead child’s wardrobe.
-
-We hope you like it.
-
-Yours sincerely,
-
-Liquid Greek
-
-P.S. – We don’t like sport of any kind, and friends at school
-were very much thin on the ground
-
--->
-	<meta charset="utf-8">
-	{if !($pagetitle)}
-	<title>{$site_name} by 1800www.com</title>
-	{else}
-	<title>{$pagetitle|escape:'html':'UTF-8'} &mdash; {$site_name}</title>
-	{/if}
-	<script type="text/javascript" src="{$base_url}/js/player.js"></script>
-	<meta name="author" content="FooCorp catalogue number FOO200 and contributors" />
-{section name=i loop=$extra_head_links}
-	<link rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}" title="{$extra_head_links[i].title|escape:'html':'UTF-8'}"  />
-{/section}
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://libre.fm/feed.xml">
-    {assign var=random_id value=10|mt_rand:2000}
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="/themes/2024-end-times/no-future-no-experience.css?foo=bar&cache={$random_id}" rel="stylesheet">
-</head>
-
-<body>
-	<a href="#main" class="a11y-helper" tabindex="0">Skip to main content</a>
-
-<header style="padding-bottom: 0; margin-bottom: 0">
-	  <h1><a title="Your profile" href="/user/{t name=$this_user->name}%1{/t}">Libre.fm</a> by <a href="https://1800www.com">1800www.com</a></h1>
-  </header>
-
-  <main id="main">
+{include file='header.tpl'}
 
 <h2 style="text-align: center;">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>! &mdash; <a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">see your 2024 music recap</a></h2>
 
@@ -75,16 +21,4 @@ were very much thin on the ground
 {$recents}
 {/if}
 
-</main>
-
-<footer>
-
-<hr>
-
-<address><a href="mailto:support@libre.fm">support@libre.fm</a></address>
-
-<p>This page generated in {$page_time} seconds.</p>
-
-</footer>
-</body>
-</html>
+{include file='footer.tpl'}
