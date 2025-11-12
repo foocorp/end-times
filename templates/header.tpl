@@ -101,7 +101,7 @@
     <!-- ======== header end ======== -->
 
     <!-- ======== hero-section start ======== -->
-    <section id="home" class="hero-section" style="padding: 0px 0 70px">
+    <section id="home" class="hero-section" style="padding: 0px 0 50px">
 &nbsp;
     </section>
     <!-- ======== hero-section end ======== -->
