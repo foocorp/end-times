@@ -1,5 +1,10 @@
 <div class="h-card alert alert-dark">
+{if $me->fullname}
+<h2 class="p-name card-title">{$me->fullname}</h2>
+<h3 class="card-title">{$me->name}</h3>
+{else}
 <h2 class="p-name card-title">{$me->name}</h2>
+{/if}
 <p><img class="u-photo img-thumbnail" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " loading="lazy" height="90" width="90" src="{$me->getAvatar(90)}" alt=""></p>
 
 
