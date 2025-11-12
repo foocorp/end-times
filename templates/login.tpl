@@ -2,7 +2,7 @@
 
       <h2 class="text-center">Welcome back!</h1>
 
-	<p class="pt-20">Please note that we are required to have a privacy policy and terms and conditions posted now. By logging in you agree to these terms.</p>
+	<p class="pt-20">Please note that we are required to have a <a href="/privacy">privacy policy</a> and <a href="/terms">terms and conditions</a> posted now. <strong>By logging in you agree to these terms.</strong></p>
 
     {if isset($errors)}
     <div class="alert alert-danger alert-dismissable">
