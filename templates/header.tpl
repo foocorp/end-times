@@ -123,7 +123,7 @@ Please configure your music client to post to Libre.fm or use <a href="https://w
     <section id="how" class="feature-section pt-40">
       <div class="container">
         <div class="row justify-content-center">
-<div class="col-10 col-xs-10 mt-20">
+<div class="col-10 col-xs-12 mt-20">
 
 {if $nosidebar}
                                       <!-- nosb -->
