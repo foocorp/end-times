@@ -34,9 +34,9 @@
 
     -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://turtle.libre.fm/assets/css/lineicons.css" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://turtle.libre.fm/assets/css/main.css" />
-	<link rel="stylesheet" href="https://turtle.libre.fm/assets/css/librefm.css" />
+    <link rel="stylesheet" href="/themes/2024-end-times/assets/css/lineicons.css" />
+    <link rel="stylesheet" href="/themes/2024-end-times/assets/css/main.css" />
+	<link rel="stylesheet" href="/themes/2024-end-timesassets/css/librefm.css" />
   </head>
   <body>
 
@@ -48,7 +48,7 @@
             <div class="col-lg-12">
               <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="/">
-                  <img src="https://turtle.libre.fm/assets/img/logo/logo.svg" alt="Libre.fm" />
+                  <img src="/themes/2024-end-times/assets/img/logo/logo.svg" alt="Libre.fm" />
                 </a>
                 <button
                   class="navbar-toggler"
@@ -118,7 +118,7 @@
           </div>
           <div class="col-lg-6">
             <div class="hero-img">
-              <img src="https://turtle.libre.fm/scrobble.png" style="max-width: 800px;" alt="" />
+              <img src="/themes/2024-end-times/scrobble.png" style="max-width: 800px;" alt="" />
             </div>
           </div>
         </div>
@@ -320,7 +320,7 @@
               <div class="footer-widget">
                 <div class="logo mb-30">
                   <a href="index.html">
-                    <img src="https://turtle.libre.fm/assets/img/logo/logo.svg" alt="Libre.fm" />
+                    <img src="/themes/2024-end-times/assets/img/logo/logo.svg" alt="Libre.fm" />
                   </a>
                 </div>
                 <p class="desc mb-30 text-white">
