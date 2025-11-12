@@ -69,6 +69,8 @@ background: black;
 			transition: box-shadow 0.6s ease;
 		}
 
+		.form-label, .form-check-label {font-weight: bold;}
+
     @media (prefers-color-scheme: dark) {
         body {
             background: #222;
@@ -82,8 +84,6 @@ background: black;
         .feature-section .single-feature .icon  {
           background: #eee;
         }
-
-		.form-label, .form-check-label {font-weight: bold;}
 
     }
 
