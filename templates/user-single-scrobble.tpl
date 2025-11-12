@@ -32,6 +32,10 @@
 {/section}
 </ul>
 
+<div class="alert alert-warning">
+This is a new feature that gives you a unique URL for each song you've ever listened to. You can share it elsewhere and it can also be embedded on another website.
+</div>
+
 <h3>Embed this anywhere</h3>
 
 <p class="lead">Embed this scrobble as an image on another website.</p>
@@ -50,10 +54,6 @@
 <textarea class="form-control" rows="6">
 [url={$bob}][img width="480" height="90" alt="{$me->name} listened to {$track|escape:'html':'UTF-8'} by {$artist|escape:'html':'UTF-8'} ({$album|escape:'html':'UTF-8'})"]{$bob}/image[/img][/url]
 </textarea>
-</div>
-
-<div class="alert alert-warning">
-This is a new feature that gives you a unique URL for each song you've ever listened to. It can also be embedded in another page.
 </div>
 
 {/if}
