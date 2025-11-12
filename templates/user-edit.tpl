@@ -42,8 +42,8 @@
 </div>
 
 <div class="form-group">
-    <p><label for='location'>{t}Location:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="text" class="form-label" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
+    <p><label class="form-label" for='location'>{t}Location:{/t}</label></p>
+    <p><input size="40" maxlength="40" type="text" class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
     <p class="form-text">{t}Where do you live?{/t}</p>
 </div>
 
