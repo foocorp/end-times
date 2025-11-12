@@ -2,30 +2,30 @@
 
 {if $track}
 
-<div class="h-entry">
+<div class="h-entry alert alert-dark">
 <fieldset>
 
-<h2 class="text-center"class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
+<h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
-	<p class="text-center"><img loading="lazy" class="u-photo" src="{$me->getAvatar(158)}" alt=""></p>
+	<p<img loading="lazy" class="u-photo img-thumbnail" src="{$me->getAvatar(158)}" alt=""></p>
 
 {if $album}
-<p class="text-center"><a href="{$url}"><img loading="lazy" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " width="250" height="250" alt=""></a></p>
+<p><a href="{$url}"><img loading="lazy" class="img-thumbnail" src="https://turtle.libre.fm/cover.php?artist={$artist}&album={$album}" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " width="250" height="250" alt=""></a></p>
 
-<p class="text-center">Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
+<p>Listened to <a href="{$url}"><span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist">{$artist|escape:'html':'UTF-8'}</span>{/if}{if $album} on <span class="p-music-album">{$album|escape:'html':'UTF-8'}</span>{/if}</a></p>
 
 
 
 {else}
 {if $image}
-<p class="text-center"><img height="250" style="outline: 1px solid white;" src="{$image}" alt=""/></p>
+<p class="text-center"><img height="250" class="img-thumbnail" style="outline: 1px solid white;" src="{$image}" alt=""/></p>
 {/if}
 <p class="text-center">Listened to <span class="p-music-track">{$track|escape:'html':'UTF-8'}</span> {if $artist}by <span class="p-music-artist"><a href="/artist/{$artist|escape:'html':'UTF-8'}">{$artist|escape:'html':'UTF-8'}</a></span>{/if}</p>
 
 
 {/if}
 
-<p class="text-center"><time class="text-center" datetime="{$stamp}">{$stomp}</time></p>
+<p><time datetime="{$stamp}">{$stomp}</time></p>
 
 </fieldset>
 </div>
@@ -38,7 +38,7 @@
 
 <h3>Embed this anywhere</h3>
 
-<p>Embed this scrobble as an image on another website.</p>
+<p class="lead">Embed this scrobble as an image on another website.</p>
 
 <h4>HTML</h4>
 
