@@ -3,7 +3,6 @@
 {if $track}
 
 <div class="h-entry alert alert-dark">
-<fieldset>
 
 <h2 class="p-name"><a href="/user/{$me->name}">{$me->name}</a></h2>
 
@@ -27,7 +26,6 @@
 
 <p><time datetime="{$stamp}">{$stomp}</time></p>
 
-</fieldset>
 </div>
 
 <ul>
