@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="callout callout-info"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+<p class="bd-callout bd-callout-info"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 
 <hr />
 
@@ -8,7 +8,7 @@
 
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
-	<p class="callout-info">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join us on the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
+	<p class="bd-callout bd-callout-info">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join us on the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
  	  {/if}
 	  {/if}
 
