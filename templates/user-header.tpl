@@ -20,6 +20,9 @@
 	  <p class="p-note alert alert-primary" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </p>
+      <p class="h-geo">
+        {$me->location}
+      </p>
 {/if}
 
 <ul>
