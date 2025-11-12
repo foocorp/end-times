@@ -1,28 +1,29 @@
 <div class="h-card card">
 <div class="card-body">
 <h2 class="p-name card-title">{$me->name}</h2>
-<p><img class="u-photo img-thumbnail" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " loading="lazy" height="90" width="90" border="1" src="{$me->getAvatar(90)}" alt=""></p>
+<p><img class="u-photo img-thumbnail" style="background: whitesmoke url(https://turtle.libre.fm/spinner.gif); background-position: center center; background-repeat: no-repeat; " loading="lazy" height="90" width="90" src="{$me->getAvatar(90)}" alt=""></p>
 
-<ul>
+
 
 {if $totaltracks}
-	  <li>
+	  <p class="card-subtitle mb-2 text-body-secondary">
 	      <strong>{$totaltracks}</strong> tracks played
-	  </li>
+	  </p>
 	  {/if}
 
 {if $totaltracks}
 {if $me->bio}
-	  <li class="p-note" id="bio">
+	  <p class="p-note card-text" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
-	  </li>
+	  </p>
 {/if}
 
+<ul>
 	  {if $me->homepage}
-	  <li>Personal website: <a class="u-url" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
+	  <li class="card-text">Personal website: <a class="u-url card-link" rel="me nofollow" href="{$me->homepage}">{$me->homepage}</a></li>
 	  {/if}
 	  {if $me->laconica_profile}
-	  <li>Fediverse profile: <a class="u-url" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
+	  <li class="card-text">Fediverse profile: <a class="u-url card-link" rel="me nofollow" href="{$me->laconica_profile}">{$me->laconica_profile}</a></li>
 	  {/if}
 
 	  {/if}
