@@ -2,7 +2,7 @@
 {$nosidebar=true}
 {include file='header.tpl'}
         <h2>{t}You're in!{/t}</h2>
-	<p>{t escape=no}Your account has been activated! You may now login!{/t}</p>
+	<p class="lead">{t escape=no}Your account has been activated! You may now login!{/t}</p>
         <p><a class="btn btn-primary btn-lg" href="{$base_url}/login.php">login!</a></p>
 
 </main>
@@ -12,7 +12,7 @@
 {$nosidebar=true}
 {include file='header.tpl'}
         <h2>{t}Check your email now{/t}</h2>
-	<p>{t}Please follow the link in your email to activate your account!{/t}</p>
+	<p class="lead">{t}Please follow the link in your email to activate your account!{/t}</p>
 
 </main>
 {include file='footer.tpl'}
@@ -33,7 +33,9 @@
 
       </form>
 
-      	<p class="text-center"><small>{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}</small></p>
+		<div class="alert alert-info" role="alert">
+      	{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}
+		</div>
 
 {include file='terms.tpl'}
 {include file='mini-footer.tpl'}
