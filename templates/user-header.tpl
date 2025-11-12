@@ -12,7 +12,7 @@
 
 {if $totaltracks}
 {if $me->bio}
-	  <p class="p-note card-text" id="bio">
+	  <p class="p-note alert alert-primary" id="bio">
 	    {$me->bio|escape:'html':'UTF-8'}
 	  </p>
 {/if}
