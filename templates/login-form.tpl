@@ -8,8 +8,8 @@
   <input class="form-control" id='password' name='password' type='password' value='' required>
 </div>
 <div class="checkbox">
-  <label class="form-label" for='remember'>
-    <input class="form-check" type='checkbox' name='remember' id='remember' /> {t}Remember my login{/t}
+  <label class="form-check-label for='remember'>
+    <input class="form-check-input type='checkbox' name='remember' id='remember' /> {t}Remember my login{/t}
   </label>
 </div>
 <input name="return" type="hidden" value="{$return|htmlentities}" />
