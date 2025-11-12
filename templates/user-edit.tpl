@@ -86,14 +86,12 @@
 
   <p class="callout callout-warning"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
-<hr />
-
-<details>
-<summary>{t}Delete my account{/t}</summary>
-<p class="checkbox">
-      <label for='delete_account' style="color: red; font-weight: bold; border: 1px solid red; padding: 1em; ">Danger Zone: 
-	<input type='checkbox' id='delete_account_broken' name='delete_account' style='width: auto;' />
-	{t}Delete my account{/t}
+<div class="alert alert-danger">
+<h3>Delete your account?</h3>
+<p class="form-check">
+	<input type='checkbox' class="form-check-input" id='delete_account_broken' name='delete_account' id='delete' />
+	      <label for='delete' class="form-check-label alert-danger">Danger Zone: 
+		{t}Delete my account{/t}
       </label>
    </p>
 </details>
