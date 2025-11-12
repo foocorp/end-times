@@ -19,8 +19,7 @@
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-12 col-xs-12 mt-20 alert alert-danger">
-
-Please configure your music client to post to Libre.fm or use <a href="https://webscrobbler.com">Web Scrobbler</a>
+Please configure your <a href="https://wiki.libre.fm/Clients">music client</a> to post to Libre.fm or use <a href="https://webscrobbler.com">Web Scrobbler</a>. Need help? <a href="mailto:support@libre.fm">support@libre.fm</a>.
 </div>
 </div>
 </div>
