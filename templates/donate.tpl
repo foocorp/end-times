@@ -18,7 +18,7 @@
 	    <input type="hidden" name="cmd" value="_s-xclick">
 	    <input type="hidden" name="hosted_button_id" value="Q5PEP4MQWPY3J">
 	    <table>
-	      <tr><td><input type="hidden" name="on0" value=""></td></tr><tr><td><select name="os0">
+	      <tr><td><input type="hidden" name="on0" value=""></td></tr><tr><td><select class="form-select" name="os0">
 		<option value="$5">$5 : $5.00 USD - monthly</option>
 		<option value="$10">$10 : $10.00 USD - monthly</option>
 		<option value="$25">$25 : $25.00 USD - monthly</option>
