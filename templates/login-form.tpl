@@ -7,6 +7,7 @@
   <label class="form-label" for='password'>{t}Password{/t}</label>
   <input class="form-control" id='password' name='password' type='password' value='' required>
 </div>
+
 <div class="mb-3 form-check">
   <input class="form-check-input" type='checkbox' name='remember' id='remember' />
   <label class="form-check-label" for='remember'> {t}Remember my login{/t}</label>
