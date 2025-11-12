@@ -23,11 +23,20 @@ div {
 
 }
 
+@media (min-width: 1000px) {
+
+div {  width: 30%;}
+
+
+
+}
+
+@media (prefers-color-scheme: dark) {
   body {
 background: #111;
 color: whitesmoke;
 }
 
-a {color: white;}
+a {color: lime;}
 
 }
