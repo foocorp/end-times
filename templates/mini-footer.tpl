@@ -3,6 +3,9 @@
             {include file="sidebar.tpl" player=$sideplayer}
         </aside>
             {/if}
+
+<p class="text-center">This page generated in {$page_time} seconds by <a href="https://mat.tl">mattl</a></p>
+
           </main>
       </div>
 </div>
