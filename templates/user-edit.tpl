@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<p class="callout-info"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+<p class="callout callout-info"><strong>Got Last.fm? <a style="font-weight: bold" href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 
 <hr />
 
@@ -31,7 +31,7 @@
   <div class="form-group">
     <p><label class="form-label" for='fullname'>{t}Full name:{/t}</label></p>
     <p><input size="40" maxlength="40" type="text" class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' /></p>
-    <p class="help-block">{t}Enter your name here, if you want to.{/t}</p>
+    <p class="form-text">{t}Enter your name here, if you want to.{/t}</p>
   </div>
 
 <div class="form-group" id="email">
@@ -82,7 +82,7 @@
     <p><input class="form-control" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
   </div>
 
-  <p class="callout-warning"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
+  <p class="callout callout-warning"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
 
 <hr />
 
