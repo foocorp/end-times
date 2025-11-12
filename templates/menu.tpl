@@ -6,6 +6,9 @@
 	  <li class="nav-item"><a href="{$base_url}/login.php">
 	    {t}Log in{/t}
 	</a></li>
+<li class="nav-item"><a href="{$base_url}/wishlist.php">
+	    {t}Join waitlist{/t}
+	</a></li>
 {/if}
 <li class="nav-item"><a target="_blank" href="https://libre.fm/donate.php">Donate</a></li>
 
