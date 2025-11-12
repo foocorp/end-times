@@ -38,7 +38,7 @@
 
 <div class="mb-3">
         <label class="form-check-label">
-          <input type="form-check" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
+          <input class="form-check" type="checkbox" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
         </label>
 </div>
 <div class="mb-3">
