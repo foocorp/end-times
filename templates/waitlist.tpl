@@ -37,7 +37,7 @@
 </div>
 
 <div class="mb-3">
-          <input class="form-check" type="checkbox" required value="remember-me" id="foo-check" name="foo-check"> 
+          <input class="form-check-input" type="checkbox" required value="remember-me" id="foo-check" name="foo-check"> 
         <label class="form-check-label" for="foo-check">I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
         </label>
 </div>
