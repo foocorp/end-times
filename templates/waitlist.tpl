@@ -1,7 +1,7 @@
 {if isset($activated)}
 {$nosidebar=true}
 {include file='mini-header.tpl'}
-        <h2>{t}You're in!{/t}</h2>
+        <h2 class="mb-3">{t}You're in!{/t}</h2>
 	<p>{t escape=no}Your account has been activated! You are now on the waitlist.{/t}</p>
 
 </main>
@@ -10,7 +10,7 @@
 {elseif isset($registered)}
 {$nosidebar=true}
 {include file='mini-header.tpl'}
-        <h2>{t}Check your email now{/t}</h2>
+        <h2 class="mb-3">{t}Check your email now{/t}</h2>
 	<p>{t}Please follow the link in your email to activate your account!{/t}</p>
 
 </main>
@@ -18,9 +18,9 @@
 {else}
 {include file='mini-header.tpl'}
 
-      <h2 class="text-center">Join the waitlist</h2>
+      <h2 class="mb-3">Join the waitlist</h2>
 
-      <p>This is a waitlist for <a href="https://1800www.com">1800www.com</a> amd Libre.fm. In future you will be invited to join 1800www.com, which will also grant you access to Libre.fm.</p>
+      <p class="lead">This is a waitlist for <a href="https://1800www.com">1800www.com</a> amd Libre.fm. In future you will be invited to join 1800www.com, which will also grant you access to Libre.fm.</p>
 
       <form class="form-signin" method="post" action=''>
 
@@ -31,24 +31,26 @@
 	{/if}
 
 <fieldset>
-<p class="form-group">
-  <label for='email'>{t}Email address{/t}</label>
+<div class="mb-3">
+  <label class="form-label" for='email'>{t}Email address{/t}</label>
         <input type="email" class="form-control" placeholder="{t}Your e-mail address:{/t}" id="email" name="email" required />
-</p>
+</div>
 
-<p>
-        <label class="checkbox">
-          <input type="checkbox" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
+<div class="mb-3">
+        <label class="form-check-label">
+          <input type="form-check" required value="remember-me" name="foo-check"> I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.
         </label>
-</p>
-<p>
+</div>
+<div class="mb-3">
         <button class="btn btn-lg btn-success" name="register" type="submit" value="{t}Join waitlist{/t}">Join waitlist</button>
-</p>
+</div>
 </fieldset>
 
       </form>
 
-      	<p class="text-center"><small>{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}</small></p>
+	    <div class="alert alert-warning">
+      	{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}
+        </div>
 
 {include file='mini-footer.tpl'}
 {/if}
