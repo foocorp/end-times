@@ -19,4 +19,6 @@
 </ul>
 
 <p>If you are unhappy with any of the items in the terms and conditions, please do not create an account and existing users can email <a href="mailto:support@libre.fm">support@libre.fm</a> and we can help you export your data and close your account.</p>
+{include file='tips.tpl'}
+
 {include file='mini-footer.tpl'}
