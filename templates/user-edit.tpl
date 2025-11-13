@@ -1,7 +1,7 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
 <div class="alert alert-warning" role="alert">
-<p><strong>Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
 </div>
 
 <hr />
@@ -33,29 +33,32 @@
   <div class="form-group">
     <p><label class="form-label" for='fullname'>{t}Full name:{/t}</label></p>
     <p><input size="40" maxlength="40" type="text" class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' /></p>
-    <p class="form-text">{t}Enter your name here, if you want to.{/t}</p>
+    <p class="form-text">{t}Enter a name here, if you want to. It'll appear on your profile.{/t}</p>
   </div>
 
+<div class="alert alert-info">
 <div class="form-group" id="email">
 <p><label class="form-label">Email address:</label></p>
 <p><tt>{$email}</tt></p>
 <p>If you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
 </div>
+</div>
 
 <div class="form-group">
     <p><label class="form-label" for='location'>{t}Location:{/t}</label></p>
     <p><input size="40" maxlength="40" type="text" class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
-    <p class="form-text">{t}Where do you live?{/t}</p>
+    <p class="form-text">{t}Where do you live? (or want to live){/t}</p>
 </div>
 
 <div class="form-group">
     <p><label class="form-label" for='homepage'>{t}Website address:{/t}</label></p>
     <p><input size="40" maxlength="255" type="url" class="form-control" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
+    <p class="form-text">{t}Got a website? Tell the world!{/t}</p>
   </div>
 
-  <p class="end-times-alert"><strong>Shows up on your profile once you start listening to music</strong></p>
+  <div class="alert alert-info">Shows up on your profile once you start listening to music</div>
 
-<div class="form-group">
+<div class="alert alert-success">
 <p>We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for avatars. You can sign up there and make sure you use the same email address so it'll show up here too.</p>
 </div>
 
