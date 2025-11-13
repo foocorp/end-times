@@ -1,23 +1,32 @@
 {include file='header.tpl'}
 
-<h2 style="text-align: center;">Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>! &mdash; <a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">see your 2024 music recap</a></h2>
+<div class="alert alert-dark">
 
+<h2>Welcome back, <a href="/user/{t name=$this_user->name}%1{/t}">{t name=$this_user->name}%1{/t}</a>!</h2>
 
-<p style="text-align: center;"><a href="https://libre.fm/feed.xml">We have an RSS feed!</a></p>
-<p style="text-align: center;"><a href="https://mat.tl">I quit social media</a>, so I made <a target="_blank" href="https://status.libre.fm">status.libre.fm</a> for server status.</p>
+<p><a href="/user/{t name=$this_user->name}%1{/t}/recap/2024">see your 2024 music recap</a></p>
 
-<p style="text-align: center;">Libre.fm has a <a target="_blank" href="https://libre.fm/donate.php">donations page</a>.</p>
+</div>
+
+<h3>What's new?</h3>
+
+<ul>
+<li>New design!</li>
+<li><a href="https://libre.fm/feed.xml">We have an RSS feed!</a>
+<li><a href="https://mat.tl">I quit social media</a>, so I made <a target="_blank" href="https://status.libre.fm">status.libre.fm</a> for server status.</li>
+<li>Libre.fm has a <a target="_blank" href="https://libre.fm/donate.php">donations page</a>.</li>
+</ul>
 
 <hr>
 
 {if ($totals)}
-<div id="user-totals-small" style="text-align: center;">
+<div id="user-totals-small">
 {$totals}
 </div>
 {/if}
 
 {if ($recents)}
-<h3 class="text-center">Recently listened to by the Libre.fm community (and it is a community)</h3>
+<h3>Recently listened to by the Libre.fm community (and it is a community)</h3>
 {$recents}
 {/if}
 
