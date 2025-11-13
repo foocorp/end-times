@@ -20,6 +20,12 @@
 
       <h2 class="mb-3">Join the waitlist</h2>
 
+{if (!$logged_in)}
+<div class="alert alert-info">
+Expected time to get an account after joining the waitlist is currently 1-2 weeks. New accounts are being added daily.
+</div>
+{/if}
+
       <p class="lead">This is a waitlist for <a href="https://1800www.com">1800www.com</a> and Libre.fm. In future you will be invited to join 1800www.com, which will also grant you access to Libre.fm.</p>
 
       <form class="form-signin mt-1" method="post" action=''>
