@@ -102,9 +102,7 @@
 
     <!-- ======== hero-section start ======== -->
     <section id="home" class="hero-section" style="padding: 0px 0 50px">
-{if (!$logged_in)}
-Libre.fm is not closing. Please <a href="/waitlist.php">join the waitlist</a> and consider <a href="/donate.php">making a donation</a> to help keep the lights on.
-{/if}
+&nbsp;
     </section>
     <!-- ======== hero-section end ======== -->
 
