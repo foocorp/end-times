@@ -124,3 +124,10 @@
       {/if}
                 <section>
               {/if}
+
+{if (!$logged_in)}
+<div class="alert alert-info">
+Libre.fm is not closing. Please <a href="/waitlist.php">join the waitlist</a> and consider <a href="/donate.php">making a donation</a> to help keep the lights on.
+</div>
+{/if}
+
