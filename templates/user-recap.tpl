@@ -26,7 +26,7 @@
 
 <ul>
 {for $var=2024 to $user_first_year}
- <li><a href="/user/{t name=$me->name}/recap/{$var}">{$var} recap</a></li>
+ <li><a href="/user/{t name=$me->name}%1{/t}/recap/{$var}">{$var} recap</a></li>
 {/for}
 </ul>
 
