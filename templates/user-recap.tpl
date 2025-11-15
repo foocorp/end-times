@@ -7,21 +7,33 @@
 	<span class="lead"><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> listened to {$scrobblecount} songs in {$year}</span>
 	<p>(That's approximately {$scrobblemins} hours of music!)</p>
 </div>
+{else}
+<div class="alert alert-error">
+<span class="lead">No listening data for {$year}</span>
+</div>
 {/if}
 
 {if !empty($topsongs)}
 <div class="alert alert-secondary">
 	<span class="lead">{t name=$me->name}%1{/t} had one favorite song in {$year}: <a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist}</a> with {$topsongs[0].freq} plays</span>
 </div>
+{else}
+<div class="alert alert-error">
+<span class="lead">No top song data for {$year}</span>
+</div>
 {/if}
 
+	<h3>Top artists for {$year}</h3>
 {if !empty($topartists)}
-	<h3><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> top artists for {$year}</h3>
 	<ol class="list-group">
 		{section name=i loop=$topartists}
 			<li class="list-group-item">{$topartists[i].artist} ({$topartists[i].freq} plays)</li>
 		{/section}
 	</ol>
+{else}
+<div class="alert alert-error">
+<span class="lead">No top artist data for {$year}</span>
+</div>
 {/if}
 
 {if ($user_first_year < 2024)}
