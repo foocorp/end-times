@@ -166,9 +166,9 @@
                 <i class="lni lni-php"></i>
               </div>
               <div class="content">
-                <h3>Free &amp; Open</h3>
+                <h3>Open Source</h3>
                 <p>
-                  Your device reports what you're listening to. Libre.fm is 100% open source/free software so you can use our server, or run your own FM server (PHP, PostgreSQL)
+                  Your device reports what you're listening to. Libre.fm is 100% open source so you can use our server, or run your own FM server (PHP, PostgreSQL)
                 </p>
               </div>
             </div>
@@ -245,7 +245,7 @@
                 <div class="content">
                   <h3>Human support</h3>
                   <p>
-                    When you <a href="mailto:support@libre.fm">email us for support</a>, you're speaking to <a href="https://mat.tl">Matt Lee</a>, the co-founder of Libre.fm. Matt cares deeply about the indieweb, accessibility, standards and free/open software.
+                    When you <a href="mailto:support@libre.fm">email us for support</a>, you're speaking to <a href="https://mat.tl">Matt Lee</a>, the co-founder of Libre.fm. Matt cares deeply about the indieweb, accessibility, standards and open source software.
                   </p>
                 </div>
               </div>
