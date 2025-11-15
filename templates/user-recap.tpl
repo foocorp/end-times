@@ -24,12 +24,14 @@
 	</ol>
 {/if}
 
-{$user_first_year}
+{if ($user_first_year < 2024)}
 
 <ul>
 {for $var=$user_first_year to 2024}
  <li><a href="/user/{t name=$me->name}%1{/t}/recap/{$var}">{$var} recap</a></li>
 {/for}
 </ul>
+
+{/if}
 
 {include file='footer.tpl'}
