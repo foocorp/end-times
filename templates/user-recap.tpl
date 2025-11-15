@@ -5,7 +5,7 @@
 {if !empty($scrobblecount)}
    <div class="alert alert-info">
 	<span class="lead"><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> listened to {$scrobblecount} songs in {$year}</span>
-	<p>(That's approximately {$scrobblemins} hours of music!)</p>
+	&nbsp;(That's approximately {$scrobblemins} hours of music!)
 </div>
 {else}
 <div class="alert alert-danger">
