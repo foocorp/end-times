@@ -8,7 +8,7 @@
 	<p>(That's approximately {$scrobblemins} hours of music!)</p>
 </div>
 {else}
-<div class="alert alert-error">
+<div class="alert alert-danger">
 <span class="lead">No listening data for {$year}</span>
 </div>
 {/if}
@@ -18,7 +18,7 @@
 	<span class="lead">{t name=$me->name}%1{/t} had one favorite song in {$year}: <a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist}</a> with {$topsongs[0].freq} plays</span>
 </div>
 {else}
-<div class="alert alert-error">
+<div class="alert alert-danger">
 <span class="lead">No top song data for {$year}</span>
 </div>
 {/if}
@@ -31,7 +31,7 @@
 		{/section}
 	</ol>
 {else}
-<div class="alert alert-error">
+<div class="alert alert-danger">
 <span class="lead">No top artist data for {$year}</span>
 </div>
 {/if}
