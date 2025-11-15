@@ -27,7 +27,9 @@
 {if !empty($topartists)}
 	<ol class="list-group">
 		{section name=i loop=$topartists}
+            {if ($topartists[i].freq > 1)}
 			<li class="list-group-item">{$topartists[i].artist} ({$topartists[i].freq} plays)</li>
+	        {/if}
 		{/section}
 	</ol>
 {else}
