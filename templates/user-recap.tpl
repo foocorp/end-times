@@ -4,14 +4,14 @@
 
 {if !empty($scrobblecount)}
    <div class="alert alert-info">
-	<p class="lead"><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> listened to {$scrobblecount} songs in {$year}</p>
+	<span class="lead"><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> listened to {$scrobblecount} songs in {$year}</span>
 	<p>(That's approximately {$scrobblemins} hours of music!)</p>
 </div>
 {/if}
 
 {if !empty($topsongs)}
 <div class="alert alert-secondary">
-	<p class="lead">{t name=$me->name}%1{/t} had one favorite song in {$year}: <a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist}</a> with {$topsongs[0].freq} plays</p>
+	<span class="lead">{t name=$me->name}%1{/t} had one favorite song in {$year}: <a href="{$topsongs[0].trackurl}">{$topsongs[0].track} by {$topsongs[0].artist}</a> with {$topsongs[0].freq} plays</span>
 </div>
 {/if}
 
