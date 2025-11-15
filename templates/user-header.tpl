@@ -11,7 +11,7 @@
 
 {if $totaltracks}
 	  <p class="card-subtitle mb-2 text-body-secondary">
-	      <strong>{$totaltracks}</strong> tracks played since {$this_user_first_year}
+	      <strong>{$totaltracks}</strong> tracks recorded
 	  </p>
 {else}
 {if ($logged_in)}
