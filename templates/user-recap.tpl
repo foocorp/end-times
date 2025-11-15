@@ -16,7 +16,7 @@
 {/if}
 
 {if !empty($topartists)}
-	<h2><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> top artists for {$year}</h2>
+	<h3><a href="/user/{t name=$me->name}%1{/t}">{t name=$me->name}%1{/t}</a> top artists for {$year}</h3>
 	<ol class="list-group">
 		{section name=i loop=$topartists}
 			<li class="list-group-item">{$topartists[i].artist} ({$topartists[i].freq} plays)</li>
@@ -25,6 +25,8 @@
 {/if}
 
 {if ($user_first_year < 2024)}
+
+<h3>Previous year recaps</h3>
 
 <ul>
 {for $var=$user_first_year to 2024}
