@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
-<h2>{t name=$me->name}%1{/t}'s Libre.fm recap for {$year}</h2>
+<h2>Libre.fm recap for {$year}</h2>
 
 {if !empty($scrobblecount)}
    <div class="alert alert-info">
@@ -24,6 +24,10 @@
 	</ol>
 {/if}
 
-
+<ul>
+{for $var=2024 to $user_first_year}
+ <li><a href="/user/{t name=$me->name}/recap/{$var}">{$var} recap</a></li>
+{/for}
+</ul>
 
 {include file='footer.tpl'}
