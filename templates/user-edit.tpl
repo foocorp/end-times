@@ -32,7 +32,7 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
 
   <div class="form-group">
     <p><label class="form-label" for='fullname'>{t}Full name:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="text" class="form-control" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' /></p>
+    <p><input size="40" maxlength="40" type="text" class="form-control form-control-lg" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' /></p>
     <p class="form-text">{t}Enter a name here, if you want to. It'll appear on your profile.{/t}</p>
   </div>
 
@@ -46,13 +46,13 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
 
 <div class="form-group">
     <p><label class="form-label" for='location'>{t}Location:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="text" class="form-control" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
+    <p><input size="40" maxlength="40" type="text" class="form-control form-control-lg" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
     <p class="form-text">{t}Where do you live? (or want to live){/t}</p>
 </div>
 
 <div class="form-group">
     <p><label class="form-label" for='homepage'>{t}Website address:{/t}</label></p>
-    <p><input size="40" maxlength="255" type="url" class="form-control" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
+    <p><input size="40" maxlength="255" type="url" class="form-control form-control-lg" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
     <p class="form-text">{t}Got a website? Tell the world!{/t}</p>
   </div>
 
@@ -63,12 +63,12 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
 </div>
 
   <div class="form-group"><p><label class="form-label" for='bio'>{t}Mini Biography:{/t}</label></p>
-    <p><textarea cols="40" rows="5" class="form-control" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
+    <p><textarea cols="40" rows="5" class="form-control form-control-lg" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
   </div>
 
     <div class="form-group">
       <p><label class="form-label" for='laconica_profile'>{t}Fediverse/social web (ie. Mastodon, GNU social, etc.) profile:{/t}</label></p>
-      <p><input class="form-control" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <p><input class="form-control form-control-lg" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <div class="form-group">
@@ -80,12 +80,12 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
     <p><label class="form-label" for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
     </label></p>
-    <p><input class="form-control" name='password_1' id='password_1' size="32" maxlength="32" type='password' autocomplete="off" value='' />
+    <p><input class="form-control form-control-lg" name='password_1' id='password_1' size="32" maxlength="32" type='password' autocomplete="off" value='' />
  </p>
 </div>
 <div class="form-group">
     <p><label class="form-label" for='password_2'>{t}Confirm Password:{/t}</label></p>
-    <p><input class="form-control" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
+    <p><input class="form-control form-control-lg" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
   </div>
 
   <p class="callout callout-warning"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
