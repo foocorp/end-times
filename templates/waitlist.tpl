@@ -56,7 +56,7 @@ You'll get an email inviting you to pick a username later
 
       </form>
 
-	    <div class="alert alert-warning">
+	    <div class="alert alert-info">
       	{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}
         </div>
 
