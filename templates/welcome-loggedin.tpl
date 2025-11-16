@@ -13,11 +13,10 @@
 <li><a href="https://mat.tl">I quit social media</a>, so I made <a target="_blank" href="https://status.libre.fm">status.libre.fm</a> for server status.</li>
 <li>Libre.fm has a <a target="_blank" href="https://libre.fm/donate.php">donations page</a>.</li>
 </ul>
-
-<hr>
+</div>
 
 {if ($totals)}
-<div id="user-totals-small">
+<div class="alert alert-primary">
 {$totals}
 </div>
 {/if}
