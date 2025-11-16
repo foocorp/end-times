@@ -17,7 +17,7 @@
 </p>
 <p class="mb-3">
   <label for='password-repeat'>{t}Your password again:{/t}</label>
-        <input type="password" class="form-control form-control-lg" id="password-repeat" name="password-repeat" required />
+        <input type="password" class="form-control" id="password-repeat" name="password-repeat" required />
 </p>
 <p>
         <label class="checkbox">
