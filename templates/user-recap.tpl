@@ -43,7 +43,7 @@
 <h3>Previous year recaps</h3>
 
 <ul>
-{for $var=$user_first_year to 2024}
+{for $var=2024 to $user_first_year}
  <li><a href="/user/{t name=$me->name}%1{/t}/recap/{$var}">{$var} recap</a></li>
 {/for}
 </ul>
