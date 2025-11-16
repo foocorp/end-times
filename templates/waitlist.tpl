@@ -21,7 +21,7 @@
       <h2 class="mb-3">Join the waitlist</h2>
 
 {if (!$logged_in)}
-<div class="alert alert-info">
+<div class="alert alert-secondary">
 Expected time to get an account after joining the waitlist is currently 1-2 weeks. New accounts are being added daily.
 </div>
 {/if}
