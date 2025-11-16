@@ -37,13 +37,16 @@ Expected time to get an account after joining the waitlist is currently 1-2 week
 	{/if}
 
 <fieldset>
+<div class="alert alert-warning">
+You'll get an email inviting you to pick a username later
+</div>
 <div class="mb-3">
   <label class="form-label" for='email'>{t}Email address{/t}</label>
-        <input type="email" class="form-control" placeholder="{t}Your e-mail address:{/t}" id="email" name="email" required />
+        <input type="email" class="form-control form-control-lg" placeholder="{t}Your e-mail address:{/t}" id="email" name="email" required />
 </div>
 
 <div class="mb-3 form-check">
-          <input class="form-check-input" type="checkbox" required value="remember-me" id="foo-check" name="foo-check"> 
+          <input class="form-check-input form-control-lg" type="checkbox" required value="remember-me" id="foo-check" name="foo-check"> 
         <label class="form-check-label" for="foo-check">I read this form carefully, double-checked my email address and agree to the <a href="/terms" target="_blank">terms and conditions</a> and <a href="/privacy" target="_blank">privacy policy</a>. I am over 18 years of age. Gen AI is trash. LLMs are trash. Open Web forever.</label>
 </div>
 <div class="mb-3">
