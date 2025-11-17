@@ -11,11 +11,11 @@
 
     {if isset($changed)}
     <div class="alert alert-info alert-dismissable">
-      <p>{t}Your new password has been emailed to you.{/t}</p>
+      {t}Your new password has been emailed to you.{/t}
     </div>
     {elseif isset($sent)}
     <div class="alert alert-info alert-dismissable">
-      <p>If we have an account that matches, {t}an email with further information has been sent to the email address associated with your profile.{/t}</p>
+      If we have an account that matches, {t}an email with further information has been sent to the email address associated with your profile.{/t}
     </div>
 
     {else}
