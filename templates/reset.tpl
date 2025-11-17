@@ -18,6 +18,8 @@
       If we have an account that matches, {t}an email with further information has been sent to the email address associated with your profile.{/t}
     </div>
 
+<a href="/reset.php" class="btn btn-success">Reset password</a>
+
     {else}
 <form action="{$base_url}/reset.php" method='post' role='form' class="form-signin">
   <fieldset>
@@ -50,8 +52,5 @@
   
 </form>
 {/if}
-
-
-<a href="/reset.php" class="btn btn-success">Reset password</a>
 
 {include file='mini-footer.tpl'}
