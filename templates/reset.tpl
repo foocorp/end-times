@@ -23,27 +23,27 @@
   <fieldset>
     <div id='invite'>
 
-      <p>{t}Enter your username or e-mail address and we'll email you a link to reset your password. All passwords are encrypted in our database.{/t}</p>
+      <div class="alert alert-info">{t}Enter your username or e-mail address and we'll email you a link to reset your password. All passwords are encrypted in our database.{/t}</div>
 
       <p class="text-center">Need help? <a href="mailto:support@libre.fm">support@libre.fm</a></p>
       
-      <div class="form-group">
+      <div class="form-group mb-3">
 	<label for='username'>{t}Username{/t}</label>
-	<input class="form-control" id='username' name='user'  placeholder="{t}Your username:{/t}" type='text' value='' />
+	<input class="form-control form-control-lg" id='username' name='user'  placeholder="{t}Your username:{/t}" type='text' value='' />
       </div>
 
       <p>{t}or{/t}:</p>
 
-      <div class="form-group">
+      <div class="form-group mb-3">
 	<label for='email'>{t}E-mail address{/t}</label>
-	<input class="form-control" id='email' name='email' type='text'  placeholder="{t}Your e-mail address:{/t}" value='' autofocus />
+	<input class="form-control form-control-lg" id='email' name='email' type='text'  placeholder="{t}Your e-mail address:{/t}" value='' autofocus />
       </div>
 
-      <p>
+      <div class="mb-3">
       <button class="btn btn-success btn-lg" type='submit' name='recover' value='{t}Reset my password!{/t}'>
 	{t}Reset my password!{/t}
       </button>
-      </p>
+      </div>
 </div>
 
   </fieldset>
