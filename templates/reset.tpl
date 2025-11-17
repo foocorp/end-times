@@ -50,4 +50,8 @@
   
 </form>
 {/if}
+
+
+<a href="/reset.php" class="btn btn-success">Reset password</a>
+
 {include file='mini-footer.tpl'}
