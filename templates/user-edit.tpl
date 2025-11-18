@@ -61,7 +61,7 @@ We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for a
   </div>
 
     <div class="form-group mb-3">
-      <label class="form-label" for='laconica_profile'>{t}Fediverse/<a href="https://socialwebfoundation.org" target="_blank">social web</a> (ie. Mastodon, GNU social, etc.) profile:{/t}</label>
+      <label class="form-label" for='laconica_profile'>{t}Fediverse/social web (ie. Mastodon, GNU social, etc.) profile:{/t}</label>
       <input class="form-control form-control-lg" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
