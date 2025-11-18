@@ -31,13 +31,13 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account</a>
 <form class="form-signin" action='{$base_url}/user-edit.php' method='post'>
 
   <div class="form-group mb-3">
-    <p><label class="form-label" for='fullname'>{t}Full name:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="text" class="form-control form-control-lg" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' /></p>
-    <p class="form-text">{t}Enter a name here, if you want to. It'll appear on your profile.{/t}</p>
+    <label class="form-label" for='fullname'>{t}Full name:{/t}</label>
+    <input size="40" maxlength="40" type="text" class="form-control form-control-lg" name='fullname' id='fullname' value='{$fullname|escape:'html':'UTF-8'}' />
+    <div class="form-text">{t}Enter a name here, if you want to. It'll appear on your profile.{/t}</div>
   </div>
 
 <div class="alert alert-info">
-<p>Email address: {$email} &mdash; if you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
+Email address: {$email} &mdash; if you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a>
 </div>
 
 <div class="form-group mb-3">
@@ -85,10 +85,8 @@ We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for a
 <div class="alert alert-danger">
 <h3>Delete your account?</h3>
 <div class="form-check mb-3">
+	<label for='delete' class="form-check-label">Danger Zone: {t}Delete my account{/t}</label>
 	<input type='checkbox' class="form-check-input" id='delete_account_broken' name='delete_account' id='delete' />
-	      <label for='delete' class="form-check-label alert-danger">Danger Zone: 
-		{t}Delete my account{/t}
-      </label>
    </div>
 </div>
 
