@@ -1,7 +1,7 @@
-{include file='header.tpl' subheader='user-header.tpl' showbio=true}
+{include file='header.tpl'}
 
 <div class="alert alert-warning text-center lead" role="alert">
-Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong>
+Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account</a> and scrobbles to Libre.fm go to both services!</strong>
 </div>
 
 <hr />
@@ -10,7 +10,7 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
 
 	  {if $me->homepage}
 	  {if $me->laconica_profile}
-	<p class="bd-callout bd-callout-info">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join us on the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
+	<p class="bd-callout bd-callout-info">Hey! Glad to see you're using Libre.fm's new personal website and Fediverse features! Why not <a href="https://indieweb.org/discuss">join the IndieWeb discussion</a> (Slack, Discord, IRC).</p>
  	  {/if}
 	  {/if}
 
@@ -37,24 +37,19 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
   </div>
 
 <div class="alert alert-info">
-<div class="form-group" id="email">
-<p><label class="form-label">Email address:</label></p>
-<p><tt>{$email}</tt></p>
-<p>If you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
-</div>
+<p>Email address: {$email} &mdash; if you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a></p>
 </div>
 
 <div class="form-group">
-    <p><label class="form-label" for='location'>{t}Location:{/t}</label></p>
-    <p><input size="40" maxlength="40" type="text" class="form-control form-control-lg" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' /></p>
-    <p class="form-text">{t}Where do you live? (or want to live){/t}</p>
+    <label class="form-label" for='location'>{t}Location:{/t}</label>
+    <input size="40" maxlength="40" type="text" class="form-control form-control-lg" name='location' id='location' value='{$location|escape:'html':'UTF-8'}' />
+    <div class="form-text">{t}Where do you live? (or want to live){/t}</div>
 </div>
 
 <div class="form-group">
-    <p><label class="form-label" for='homepage'>{t}Website address:{/t}</label></p>
-    <p><input size="40" maxlength="255" type="url" class="form-control form-control-lg" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
-    <p class="form-text">Got a website? Tell the world! <strong>Shows up on your profile once you start listening to music
-</strong></p>
+    <label class="form-label" for='homepage'>{t}Website address:{/t}</label>
+    <input size="40" maxlength="255" type="url" class="form-control form-control-lg" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' />
+    <div class="form-text">Got a website? Tell the world! <strong>Shows up on your profile once you start listening to music</strong></div>
   </div>
 
 <div class="alert alert-success">
@@ -62,12 +57,12 @@ We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for a
 </div>
 
   <div class="form-group"><p><label class="form-label" for='bio'>{t}Mini Biography:{/t}</label></p>
-    <p><textarea cols="40" rows="5" class="form-control form-control-lg" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea></p>
+    <textarea cols="40" rows="5" class="form-control form-control-lg" name='bio' id='bio'>{$bio|escape:'html':'UTF-8'}</textarea>
   </div>
 
     <div class="form-group">
-      <p><label class="form-label" for='laconica_profile'>{t}Fediverse/<a href="https://socialwebfoundation.org" target="_blank">social web</a> (ie. Mastodon, GNU social, etc.) profile:{/t}</label></p>
-      <p><input class="form-control form-control-lg" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <label class="form-label" for='laconica_profile'>{t}Fediverse/<a href="https://socialwebfoundation.org" target="_blank">social web</a> (ie. Mastodon, GNU social, etc.) profile:{/t}</label>
+      <input class="form-control form-control-lg" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
     <div class="alert alert-secondary" role="alert">
