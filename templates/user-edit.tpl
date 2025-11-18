@@ -53,6 +53,7 @@ Email address: {$email} &mdash; if you need to change it, please email <a href="
   </div>
 
 <div class="alert alert-success">
+{if "" != $this_user->getAvatar(64)}<img class="img-thumbnail" src="{$this_user->getAvatar(64)}" width="64" height="64" alt loading="lazy">{/if}
 We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for avatars. You can sign up there and make sure you use the same email address so it'll show up here too.
 </div>
 
