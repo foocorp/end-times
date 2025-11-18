@@ -29,6 +29,7 @@
 		{section name=i loop=$topartists}
             {if ($topartists[i].freq > 1)}
 			<li class="list-group-item">{$topartists[i].artist} ({$topartists[i].freq} plays)</li>
+			{$topartists[i]|@print_r}
 	        {/if}
 		{/section}
 	</ol>
