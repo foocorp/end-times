@@ -97,6 +97,7 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
       </label>
    </p>
 </details>
+</div>
 
   <div class="form-group">
     <button class="btn btn-success btn-block" type='submit' value='{t}Change{/t}'>{t}Update profile{/t}</button>
