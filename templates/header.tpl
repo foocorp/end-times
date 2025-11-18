@@ -112,7 +112,7 @@
         <div class="row justify-content-center">
 <div class="col-12 mt-20">
 
-<div class="alert alert-info">
+<div class="alert alert-info text-center">
 
 {if (!$logged_in)}
 Libre.fm is not closing. Please <a href="/waitlist.php">join the waitlist</a> and consider <a href="/donate.php">making a donation</a> to help keep the lights on.
