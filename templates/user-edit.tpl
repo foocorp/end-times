@@ -37,7 +37,7 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account</a>
   </div>
 
 <div class="alert alert-info">
-Email address: {$email|lower} &mdash; if you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a>
+Email address: <strong><tt>{$email|lower}</tt></strong> &mdash; if you need to change it, please email <a href="mailto:support@libre.fm">support@libre.fm</a>
 </div>
 
 <div class="form-group mb-3">
