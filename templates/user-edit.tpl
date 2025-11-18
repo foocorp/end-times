@@ -1,7 +1,7 @@
 {include file='header.tpl' subheader='user-header.tpl' showbio=true}
 
 <div class="alert alert-warning text-center lead" role="alert">
-Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong></p>
+Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account here</a> and scrobbles to Libre.fm go to both services!</strong>
 </div>
 
 <hr />
@@ -53,13 +53,12 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
 <div class="form-group">
     <p><label class="form-label" for='homepage'>{t}Website address:{/t}</label></p>
     <p><input size="40" maxlength="255" type="url" class="form-control form-control-lg" placeholder="https://{$me->name}.example.com/" name='homepage' id='homepage' value='{$homepage|escape:'html':'UTF-8'}' /></p>
-    <p class="form-text">{t}Got a website? Tell the world!{/t}</p>
+    <p class="form-text">Got a website? Tell the world! <strong>Shows up on your profile once you start listening to music
+</strong></p>
   </div>
 
-  <div class="alert alert-info">Shows up on your profile once you start listening to music</div>
-
 <div class="alert alert-success">
-<p>We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for avatars. You can sign up there and make sure you use the same email address so it'll show up here too.</p>
+We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for avatars. You can sign up there and make sure you use the same email address so it'll show up here too.
 </div>
 
   <div class="form-group"><p><label class="form-label" for='bio'>{t}Mini Biography:{/t}</label></p>
@@ -67,26 +66,26 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
   </div>
 
     <div class="form-group">
-      <p><label class="form-label" for='laconica_profile'>{t}Fediverse/social web (ie. Mastodon, GNU social, etc.) profile:{/t}</label></p>
+      <p><label class="form-label" for='laconica_profile'>{t}Fediverse/<a href="https://socialwebfoundation.org" target="_blank">social web</a> (ie. Mastodon, GNU social, etc.) profile:{/t}</label></p>
       <p><input class="form-control form-control-lg" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
     </p>
 
-    <div class="form-group">
+    <div class="alert alert-secondary" role="alert">
 
 	<h3>Changing your password</h3>
 
 	<p>Enter your new password in the following two fields:</p>
-
-    <p><label class="form-label" for='password_1'>{t}Password:{/t}
+<div class="form-group mb-3">
+    <label class="form-label" for='password_1'>{t}Password:{/t}
       <span>{t}Leave this blank if you don't want to change your password.{/t}</span>
-    </label></p>
-    <p><input class="form-control form-control-lg" name='password_1' id='password_1' size="32" maxlength="32" type='password' autocomplete="off" value='' />
- </p>
+    </label>
+    <input class="form-control form-control-lg" name='password_1' id='password_1' size="32" maxlength="32" type='password' autocomplete="off" value='' />
 </div>
-<div class="form-group">
-    <p><label class="form-label" for='password_2'>{t}Confirm Password:{/t}</label></p>
-    <p><input class="form-control form-control-lg" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
+<div class="form-group mb-3">
+    <label class="form-label" for='password_2'>{t}Confirm Password:{/t}</label>
+    <input class="form-control form-control-lg" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' />
   </div>
+</div>
 
 <div class="alert alert-danger">
 <h3>Delete your account?</h3>
@@ -100,7 +99,7 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
 </div>
 
   <div class="form-group">
-    <button class="btn btn-success btn-block" type='submit' value='{t}Change{/t}'>{t}Update profile{/t}</button>
+    <button class="btn btn-success btn-xl btn-block" type='submit' value='{t}Change{/t}'>{t}Update profile{/t}</button>
     <input name='submit' value='1' type='hidden' />
   </div>
 
