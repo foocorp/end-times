@@ -112,11 +112,15 @@
         <div class="row justify-content-center">
 <div class="col-12 mt-20">
 
-{if (!$logged_in)}
 <div class="alert alert-info">
+
+{if (!$logged_in)}
 Libre.fm is not closing. Please <a href="/waitlist.php">join the waitlist</a> and consider <a href="/donate.php">making a donation</a> to help keep the lights on.
-</div>
+{else}
+Libre.fm is not closing. Thank you {$this_user->name} for the ongoing support. If you can please consider <a href="/donate.php">making a donation</a> to help keep the lights on.
 {/if}
+</div>
+
 
 {if $nosidebar}
                                       <!-- nosb -->
