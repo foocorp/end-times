@@ -88,8 +88,6 @@ Got Last.fm? <a href='{$base_url}/user-connections.php'>Connect your account her
     <p><input class="form-control form-control-lg" name='password_2' id='password_2' size="32" maxlength="32" type='password' autocomplete="off" value='' /></p>
   </div>
 
-  <p class="callout callout-warning"><strong>Please note profile edits are still cached for approximately 1-2 mins, sorry about that.</strong></p>
-
 <div class="alert alert-danger">
 <h3>Delete your account?</h3>
 <p class="form-check">
