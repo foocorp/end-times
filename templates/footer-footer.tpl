@@ -34,13 +34,13 @@
 
             <div class="col-xl-2 col-lg-3 col-md-6">
               <div class="footer-widget">
-                <h3>Important stuff</h3>
+                <h3>Important</h3>
                 <ul class="links">
                   <li><a href="https://status.libre.fm/">Server status</a></li>
                   <li><a href="/privacy">Privacy policy</a></li>
                   <li><a href="/terms">Terms of service</a></li>
-                  <li><a href="https://github.com/foocorp/gnu-fm/archive/refs/tags/2022-final.zip">Source code</a></li>
                   <li><a href="https://nofuckingai.com">AI policy (LOL)</a></li>
+                  <li><a href="https://github.com/foocorp/gnu-fm/archive/refs/tags/2022-final.zip">Open source</a></li>
                 </ul>
               </div>
             </div>
