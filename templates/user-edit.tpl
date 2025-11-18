@@ -82,9 +82,9 @@ We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for a
   </div>
 </div>
 
-<div class="alert alert-danger">
+<div class="alert alert-danger mb-3">
 <h3>Delete your account?</h3>
-<div class="form-check mb-3">
+<div class="form-check">
 	<label for='delete' class="form-check-label">Danger Zone: {t}Delete my account{/t}</label>
 	<input type='checkbox' class="form-check-input" id='delete_account_broken' name='delete_account' id='delete' />
    </div>
