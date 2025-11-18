@@ -64,6 +64,7 @@ We use <a href="https://libravatar.org" target="_blank">Libravatar.org</a> for a
     <div class="form-group mb-3">
       <label class="form-label" for='laconica_profile'>{t}Fediverse/social web (ie. Mastodon, GNU social, etc.) profile:{/t}</label>
       <input class="form-control form-control-lg" size="40" maxlength="255" type="url" placeholder="https://example.com/@{$me->name}" name='laconica_profile' id='laconica_profile' value='{$laconica_profile|escape:'html':'UTF-8'}' />
+      <div class="form-text">Need an account <a href="https://home.omg.lol/referred-by/mattl">join omg.lol</a> and get access to social.lol</div>
     </p>
 
     <div class="alert alert-secondary" role="alert">
