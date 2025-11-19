@@ -60,6 +60,10 @@ You'll get an email inviting you to pick a username later
       	{t}We won't sell, swap or give away your email address. You can optionally include personal data on your profile, which is displayed publicly.{/t}
         </div>
 
+<div class="alert alert-info text-center lead">
+Current waitlist: {$waitlist} users. New accounts added every day.
+</div>
+
 {include file='tips.tpl'}
 
 {include file='mini-footer.tpl'}
