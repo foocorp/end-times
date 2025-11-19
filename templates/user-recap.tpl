@@ -40,6 +40,8 @@
 
 {if ($user_first_year < 2024)}
 
+{if ($user_first_year > 2002)}
+
 <h3>Previous year recaps</h3>
 
 <ul>
@@ -47,7 +49,7 @@
  <li><a href="/user/{t name=$me->name}%1{/t}/recap/{$var}">{$var} recap</a></li>
 {/for}
 </ul>
-
+{/if}
 {/if}
 
 {include file='footer.tpl'}
