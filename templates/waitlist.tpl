@@ -1,10 +1,11 @@
-<div class="alert alert-info text-center lead">
-Current waitlist: {$waitlist} users. New accounts added every day. Count is cached for 10 mins.
-</div>
+
 
 {if isset($activated)}
 {$nosidebar=true}
 {include file='mini-header.tpl'}
+<div class="alert alert-info text-center lead">
+Current waitlist: {$waitlist} users. New accounts added every day. Count is cached for 10 mins.
+</div>
         <h2 class="mb-3">{t}You're in!{/t}</h2>
 	<p>{t escape=no}Your account has been activated! You are now on the waitlist.{/t}</p>
 
@@ -14,6 +15,9 @@ Current waitlist: {$waitlist} users. New accounts added every day. Count is cach
 {elseif isset($registered)}
 {$nosidebar=true}
 {include file='mini-header.tpl'}
+<div class="alert alert-info text-center lead">
+Current waitlist: {$waitlist} users. New accounts added every day. Count is cached for 10 mins.
+</div>
         <h2 class="mb-3">{t}Check your email now{/t}</h2>
 	<p>{t}Please follow the link in your email to activate your account!{/t}</p>
 
@@ -21,6 +25,9 @@ Current waitlist: {$waitlist} users. New accounts added every day. Count is cach
 {include file='mini-footer.tpl'}
 {else}
 {include file='mini-header.tpl'}
+<div class="alert alert-info text-center lead">
+Current waitlist: {$waitlist} users. New accounts added every day. Count is cached for 10 mins.
+</div>
 
       <h2 class="mb-3">Join the waitlist</h2>
 
