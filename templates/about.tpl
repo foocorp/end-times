@@ -6,7 +6,7 @@
 
 <p class="text-center">Depending on how you listen to music, <a href="https://wiki.libre.fm/Clients">we recommend Web Scrobbler and DeaDBeeF</a> for new users but there are dozens of Libre.fm compatible players.</p>
 
-<p class="text-center"><a target="_blank" href="https://wiki.libre.fm/Clients"><img src="/themes/2024-end-times/image1-7.png" class="about-img" alt=""></a></p>
+<p class="text-center"><a target="_blank" href="https://wiki.libre.fm/Clients"><img src="/themes/2024-end-times/image1-7.png" class="about-img" style="width: 100%; max-width: 300px;" alt=""></a></p>
 
 <h3 class="text-center">2. Connect your client to Libre.fm</h3>
 
