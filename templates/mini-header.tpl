@@ -108,9 +108,9 @@
 
     <!-- ======== feature-section start ======== -->
     <section id="how" class="feature-section pt-40">
-      <div class="container">
+      <div class="container-md">
         <div class="row justify-content-center">
-<div class="col-6 col-sml-12 col-xs-12 mt-20">
+<div class="col-6 mt-20">
 
 {if $nosidebar}
                                       <!-- nosb -->
