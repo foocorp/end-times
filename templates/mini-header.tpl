@@ -108,7 +108,7 @@
 
     <!-- ======== feature-section start ======== -->
     <section id="how" class="feature-section pt-40">
-      <div class="container-md">
+      <div class="container-sm">
         <div class="row justify-content-center">
 <div class="col mt-20">
 
