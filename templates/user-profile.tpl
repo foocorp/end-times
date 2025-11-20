@@ -17,7 +17,7 @@
 	</a>
 </p>
 
-{if ($isme)}<a href="/user/{$user->name}/now">An image to embed this in another webpage</a><br><tt>&lt;a href="https://libre.fm/user/{$user->name}/"&gt;&lt;img src="https://libre.fm/user/{$user->name}/now" alt loading="lazy" width="480" height="90"&gt;&lt;/a&gt;</tt>{/if}
+{if ($isme)}<a href="/user/{$this_user->name}/now">An image to embed this in another webpage</a><br><textarea>&lt;a href="https://libre.fm/user/{$this_user->name}/"&gt;&lt;img src="https://libre.fm/user/{$this_user->name}/now" alt loading="lazy" width="480" height="90"&gt;&lt;/a&gt;</textarea>{/if}
 
 </div>
 {/if}
