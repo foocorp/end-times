@@ -27,7 +27,7 @@
 {/if}
 
 {if ($tops)}
-<ul style="column-count: 2; column-gap: 1em;">
+<ul style="column-count: auto; column-gap: 1em;">
 {$tops}
 </ul>
 {/if}
