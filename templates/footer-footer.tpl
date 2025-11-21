@@ -27,6 +27,8 @@
                   <li><a href="/">Home</a></li>
                   <li><a href="/#features">Features</a></li>
                   <li><a href="/#how">About</a></li>
+                  {else}
+                  <li><a href="/about">Help/FAQ</a></li>
                   {/if}
                   <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
                   <li><a href="https://developer.libre.fm">Developer wiki</a></li>
