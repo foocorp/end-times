@@ -1,4 +1,4 @@
-<h3 class="pt-20">General tips</h3>
+<div class="alert alert-info"><h3 class="pt-20">General tips</h3>
 
 <ul>
 <li><a href="/reset.php">Need to reset your password?</a></li>
@@ -8,3 +8,4 @@
 <li>A handful of websites run by a few people is not a good thing and it makes us sad</li>
 <li>PHP? Postgres? <a href="https://github.com/foocorp/gnu-fm/archive/refs/tags/2022-final.zip">Download the source code to run your own server</a></li>
 </ul>
+</div>
