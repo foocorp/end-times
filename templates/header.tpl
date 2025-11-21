@@ -117,7 +117,7 @@
 <div class="alert alert-success text-center">
 Libre.fm is not closing. Please <a href="/waitlist.php">join the waitlist</a> and consider <a href="/donate.php">making a donation</a> to help keep the lights on.
 {else}
-{if ($thisusertotaltracks < 2)}
+{if ($thisusertotaltracks)}
 <div class="alert alert-info text-center">
 Libre.fm is not closing. Thank you <strong>{$this_user->name}</strong> for the ongoing support. If you can please consider <a href="/donate.php">making a donation</a> to help keep the lights on.
 {else}
