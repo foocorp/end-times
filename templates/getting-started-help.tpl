@@ -16,5 +16,3 @@
 <p>More clients can be found on <a href="https://github.com/mattl/hacienda/wiki" target="_blank">the wiki</a> which also has instructions on contributing to the wiki if you know of other clients.</p>
 <p>Finally, we have <a href="https://developer.libre.fm" target="_blank">information for developers who want to add Libre.fm support</a> to their existing clients or create new ones</p>
 <p>If none of these solutions work for you, please contact <a href="mailto:support@libre.fm">support@libre.fm</a> and we can try and help you find something.</p>
-<hr>
-<p>Once you've successfully scrobbled a few songs, this help box will move to <a href="/help">the help page</a></p>
