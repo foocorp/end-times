@@ -124,6 +124,8 @@ Libre.fm is not closing. Thank you <strong>{$this_user->name}</strong> for the o
 <div class="alert alert-danger">
 {if ($this_user->name == 'joefoo')}
 {include file='getting-started-help.tpl'}
+<hr>
+<p>Once you've successfully scrobbled a few songs, this help box will move to <a href="/about/">the help page</a></p>
 {/if}
 {/if}
 {/if}
