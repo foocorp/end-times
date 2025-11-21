@@ -29,7 +29,7 @@
                   <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
                   <li><a href="https://developer.libre.fm">Developer wiki</a></li>
                   <li><a href="mailto:support@libre.fm">support@libre.fm</a></li>
-                  <li><a href="https://blog.libre.fm">Blog</a> and <a href="https://roadmap.libre.fm">roadmap</a> (outdated)</li>
+                  <li><a href="https://blog.libre.fm">Blog</a> &amp; <a href="https://roadmap.libre.fm">roadmap</a></li>
                 </ul>
               </div>
             </div>
