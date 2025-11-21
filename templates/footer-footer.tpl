@@ -27,7 +27,9 @@
                   <li><a href="/#features">Features</a></li>
                   <li><a href="/#how">About</a></li>
                   <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
+                  <li><a href="https://developer.libre.fm">Developer wiki</a></li>
                   <li><a href="mailto:support@libre.fm">support@libre.fm</a></li>
+                  <li><a href="https://blog.libre.fm">Blog</a> and <a href="https://roadmap.libre.fm">roadmap</a> (outdated)</li>
                 </ul>
               </div>
             </div>
@@ -40,7 +42,8 @@
                   <li><a href="/privacy">Privacy policy</a></li>
                   <li><a href="/terms">Terms of service</a></li>
                   <li><a href="https://nofuckingai.com">AI policy (LOL)</a></li>
-                  <li><a href="https://github.com/foocorp/gnu-fm/archive/refs/tags/2022-final.zip">Open source</a></li>
+                  <li><a href="https://bored.city">We are bored in the city</a></li>
+                  <li><a href="https://github.com/foocorp/end-times-code/">Open source</a></li>
                 </ul>
               </div>
             </div>
