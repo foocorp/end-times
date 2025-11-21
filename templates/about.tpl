@@ -29,16 +29,25 @@
 
 <p>Any <a href="https://libre.fm/user/mattl/scrobble/1733371909" target="_blank">individual scrobble</a> has a delete option at the bottom (if it's your scrobble). Check your profile for links to your latest scrobbles.</p>
 
-<h3>How do I change my username or password</h3>
+<h3>How do I change my username or password?</h3>
 
-<p>Contact <a href="mailto:support@libre.fm">support@libre.fm</a></p>
+<p>Contact <a href="mailto:support@libre.fm">support@libre.fm</a>. I'll be happy to help you in any way possible.</p>
+
+<h3>Do you support...?</h3>
+
+<p>If you can send scrobbles to us, yes. Particularly if you are doing things on a cool/old/retro/vintage system...</p>
+<p>Any/all operating systems are supported.</p>
+
+<h3>You're blocking my VPN! Why?</h3>
+
+<p>We don't block any VPNs. But we do block traffic from <strong>lots</strong> of web hosting companies. These are often used by bots and scrapers and they send us lots and lots of traffic. eIn accordance with the <a href="https://nofuckingai.com">AI policy</a>, these things are blocked. We're happy to help, and reach out to support if you think we're blocking something we shouldn't. Every page should have an IP address or Cloudflare Ray ID at the bottom. These are both useful things to let us know. You can also check the IP address yourself at <a href="https://www.abuseipdb.com" target="_blank">AbuseIPDB</a> and see what's going on.</p>
 
 <h3>Are you on Discord/Twitter/Facebook/Bluesky/Mastodon/MySpace?</h3>
 
 <p>No. You will find mattl in #libre.fm on <a target="_blank" href="https://libera.chat">libera.chat</a> or in #internet on <a target="_blank" href="https://home.omg.lol/info/irc">omg.lol's IRC server</a>.</p>
 <p>Please note that I cannot offer support beyond very casual guidance on IRC. Support requests should be sent via email.</p>
 
-<h3>What are some good songs to listen to</h3>
+<h3>What are some good songs to listen to?</h3>
 
 <p>Anything you like of course... but, some songs I like include:</p>
 
