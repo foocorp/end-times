@@ -122,11 +122,9 @@ Libre.fm is not closing. Please <a href="/waitlist.php">join the waitlist</a> an
 Libre.fm is not closing. Thank you <strong>{$this_user->name}</strong> for the ongoing support. If you can please consider <a href="/donate.php">making a donation</a> to help keep the lights on.
 {else}
 <div class="alert alert-danger">
-{if ($this_user->name == 'joefoo')}
 {include file='getting-started-help.tpl'}
 <hr>
 <p>Once you've successfully scrobbled a few songs, this help box will move to <a href="/about/">the help page</a></p>
-{/if}
 {/if}
 {/if}
 </div>
