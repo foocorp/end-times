@@ -26,8 +26,8 @@
 {$recents}
 {/if}
 
-{if ($topusers)}
-{$topusers}
+{if ($tops)}
+{$tops}
 {/if}
 
 {include file='footer.tpl'}
