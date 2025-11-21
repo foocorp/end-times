@@ -9,7 +9,7 @@
 </div>
 
 <div class="mb-3 form-check">
-  <input class="form-check-input" type='checkbox' name='remember' id='remember' />
+  <input class="form-check-input" type='checkbox' checked name='remember' id='remember' />
   <label class="form-check-label" for='remember'> {t}Remember my login{/t}</label>
 </div>
 <input name="return" type="hidden" value="{$return|htmlentities}" />
