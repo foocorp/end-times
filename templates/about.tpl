@@ -40,7 +40,9 @@
 
 <h3>You're blocking my VPN! Why?</h3>
 
-<p>We don't block any VPNs. But we do block traffic from <strong>lots</strong> of web hosting companies. These are often used by bots and scrapers and they send us lots and lots of traffic. eIn accordance with the <a href="https://nofuckingai.com">AI policy</a>, these things are blocked. We're happy to help, and reach out to support if you think we're blocking something we shouldn't. Every page should have an IP address or Cloudflare Ray ID at the bottom. These are both useful things to let us know. You can also check the IP address yourself at <a href="https://www.abuseipdb.com" target="_blank">AbuseIPDB</a> and see what's going on.</p>
+<p>We don't block any VPNs. But we do block traffic from <strong>lots</strong> of web hosting companies. These are often used by bots and scrapers and they send us lots and lots of traffic.</p>
+<p>In accordance with the <a href="https://nofuckingai.com">AI policy</a>, these things are blocked. We're happy to help, and reach out to support if you think we're blocking something we shouldn't. Every page should have an IP address or Cloudflare Ray ID at the bottom. These are both useful things to let us know. You can also check the IP address yourself at <a href="https://www.abuseipdb.com" target="_blank">AbuseIPDB</a> and see what's going on.</p>
+<p>Libre.fm is a service for humans.</p>
 
 <h3>Are you on Discord/Twitter/Facebook/Bluesky/Mastodon/MySpace?</h3>
 
