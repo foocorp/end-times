@@ -11,7 +11,7 @@
                   </a>
                 </div>
                 <p class="desc mb-30 text-white">
-                  Since 2009. <a href="https://hireme.fyi">Made with love in New England</a>. Libre.fm is supported by <a href="https://www.bytemark.co.uk/company/sponsorships/">Bytemark</a>, <a href="https://corehost.us/">Corehost</a> and <a href="https://archive.org/">The Internet Archive</a>. With thanks to <a href="https://musicbrainz.org/">MusicBrainz</a>, <a href="https://themewagon.com">ThemeWagon</a>, <a href="https://crowdsec.net">Crowdsec</a>, <a href="https://coverartarchive.org/">Cover Art Archive</a> and our <a href="/donate.php">donors</a>.
+                  Since 2009. <a href="https://hireme.fyi">Made with love in New England</a> but <a href="https://bored.city">we are bored in the city</a>. Libre.fm is supported by <a target="_blank" href="https://www.bytemark.co.uk/company/sponsorships/">Bytemark</a>, <a htarget="_blank" ref="https://corehost.us/">Corehost</a> and <a target="_blank" href="https://archive.org/">The Internet Archive</a>. With thanks to <a target="_blank" href="https://musicbrainz.org/">MusicBrainz</a>, <a target="_blank" href="https://themewagon.com">ThemeWagon</a>, <a target="_blank" href="https://crowdsec.net">Crowdsec</a>, <a target="_blank" href="https://coverartarchive.org/">Cover Art Archive</a> and our <a href="/donate.php">donors</a>.
                 </p>
 
                 <p class="mb-30 text-white">This page generated in {$page_time} seconds by <a rel="me" href="https://mat.tl">mattl</a></p>
@@ -42,7 +42,6 @@
                   <li><a href="/privacy">Privacy policy</a></li>
                   <li><a href="/terms">Terms of service</a></li>
                   <li><a href="https://nofuckingai.com">AI policy (LOL)</a></li>
-                  <li><a href="https://bored.city">We are bored in the city</a></li>
                   <li><a href="https://github.com/foocorp/end-times-code/">Open source</a></li>
                 </ul>
               </div>
