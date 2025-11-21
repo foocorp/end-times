@@ -1,6 +1,6 @@
 {include file='header.tpl' subheader='user-header.tpl'}
 
-<h3><a href='{$base_url}/user-edit.php'>{t}Edit your profile{/t}</a> | {t}Connections to other services{/t}</h3>
+<h3>{t}Connections to other services{/t}</h3>
 
 {if isset($errors)}
 <div id="errors">
@@ -20,10 +20,15 @@
 	  <strong>{t}Your new connection has been successfully added!{/t}</strong>
 	</div>
 	{/if}
-	<h4>{t}Current connections{/t}</h4>
-	{if empty($connections)}
-		<p><em>{t}You don't currently have any connections configured.{/t}</em></p>
-	{else}
+	
+
+    <div class="alert alert-info">
+	<p>{t}Connections to other services allow us to do nifty things like forwarding your scrobbles to other places around the web.{/t}<br />
+	{t}If that sounds cool then simply make a connection below.{/t}</p>
+    </div>
+
+{if !empty($connections)}
+	<h2>{t}Current connections{/t}</h2>
 		<table class="table">
 		<tr><th>{t}Service{/t}</th><th>{t}Username{/t}</th><th>{t}Forward Scrobbles?{/t}</th></tr>
 		{foreach from=$connections item=conn}
@@ -35,14 +40,14 @@
 		{/foreach}
 		</table>
 	{/if}
-	<p>{t}Connections to other services allow us to do nifty things like forwarding your scrobbles to other places around the web.{/t}<br />
-	{t}If that sounds cool then simply make a connection below.{/t}</p>
 
 	<h4>{t}Add a connection{/t}</h4>
 	{if isset($lastfm_key)}
-		<a class="btn btn-primary" href='http://www.last.fm/api/auth/?api_key={$lastfm_key}'>{t}Connect to a Last.fm account{/t}</a><br /><br />
+		<p><a class="btn btn-primary" href='http://www.last.fm/api/auth/?api_key={$lastfm_key}'>{t}Connect to a Last.fm account{/t}</a></p>
 	{/if}
+ 
 	{if isset($gnufm_key)}
+<details><summary>Connect to another GNU FM server</summary>
 			<form method="post" class="well">
 			  <div class="form-group">
 				<label for="remote_gnufm_url">
@@ -52,6 +57,7 @@
 			  </div>
 			  <button class="btn btn-primary" type="submit">Connect</button>
 			</form>
+</details>
 	{/if}
 </div>
 
