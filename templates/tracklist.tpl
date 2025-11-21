@@ -21,7 +21,8 @@
 <table class="endtimes-table {$class} tracklist">
 	<thead>
 	  <tr>
-		<th class="title w-75" scope="col">Track</th>
+		<th class="title w-50" scope="col">Track</th>
+        <th class="artist w-25" scope="col">Artist</th>
 		<th class="time w-25" scope="col">Time</th>
 	  </tr>
 	</thead>
@@ -34,7 +35,9 @@
 			{else}
 				<a href="{$i.trackurl|escape:'html'}">{$i.track}</a>
 			{/if}
-			{if $fartist} by
+</td>
+<td>
+			{if $fartist}
 				{if $i.artistlibraryurl}
 					<a href="{$i.artistlibraryurl|escape:'html'}">{$i.artist}</a>
 				{else}
