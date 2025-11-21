@@ -23,9 +23,11 @@
               <div class="footer-widget">
                 <h3>About Us</h3>
                 <ul class="links">
+                  {if (!$logged_in)}
                   <li><a href="/">Home</a></li>
                   <li><a href="/#features">Features</a></li>
                   <li><a href="/#how">About</a></li>
+                  {/if}
                   <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
                   <li><a href="https://developer.libre.fm">Developer wiki</a></li>
                   <li><a href="mailto:support@libre.fm">support@libre.fm</a></li>
