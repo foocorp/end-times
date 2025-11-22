@@ -17,6 +17,12 @@
 <li><a target="_blank" href="https://github.com/mattl/hacienda/wiki/ZOMG">ZOMG</a> is a command-line client from early-Libre.fm developer, <a href="https://libre.fm/user/clint">Clint</a></li>
 </ul>
 
+<h3>I am making a channel of videos on using Libre.fm with various scrobbler clients.</h3>
+
+<p><a href="https://www.youtube.com/playlist?list=PLmhBwG0qxS8V28PEPCcqbDdtGj0VXIKF1" target="_blank">WebScrobbler</a></p>
+
+<p><mark>What videos would you like to see next?</mark> Let me know in the YouTube comments or <a href="mailto:support@libre.fm">support@libre.fm</a></p>
+
 <p>More clients can be found on <a href="https://github.com/mattl/hacienda/wiki" target="_blank">the wiki</a> which also has instructions on contributing to the wiki if you know of other clients (or email them to support!).</p>
 <p>Finally, we have <a href="https://developer.libre.fm" target="_blank">information for developers who want to add Libre.fm support</a> to their existing clients or create new ones</p>
 <p>If none of these solutions work for you, please contact <a href="mailto:support@libre.fm">support@libre.fm</a> and we can try and help you find something.</p>
