@@ -19,7 +19,11 @@
 
 <h3>I am making a channel of videos on using Libre.fm with various scrobbler clients.</h3>
 
-<p><a href="https://www.youtube.com/playlist?list=PLmhBwG0qxS8V28PEPCcqbDdtGj0VXIKF1" target="_blank">WebScrobbler</a></p>
+<p><a href="https://youtube.com/@libre-fm" title="Visit the Libre.fm YouTube channel"><img src="https://libre.fm/themes/2024-end-times/librefm-video-thumbnail.png" alt="" loading="lazy"></a></p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLmhBwG0qxS8V28PEPCcqbDdtGj0VXIKF1" target="_blank">WebScrobbler</a></li>
+</ul>
 
 <p><mark>What videos would you like to see next?</mark> Let me know in the YouTube comments or <a href="mailto:support@libre.fm">support@libre.fm</a></p>
 
