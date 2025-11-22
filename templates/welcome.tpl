@@ -90,6 +90,10 @@
                     <li class="nav-item">
                       <a class="page-scroll" href="/#features">Features</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="/about/">Help/FAQ</a>
+                    </li>
+   
 
                     <li class="nav-item">
                       <a class="page-scroll" href="https://libre.fm/login.php">Login</a>
