@@ -6,6 +6,10 @@
 {include file='getting-started-help.tpl'}
 {/if}
 
+{if (!$logged_in)}
+{include file='getting-started-help.tpl'}
+{/if}
+
 <h2>Frequently Asked Questions</h2>
 <h3>How do I listen to music?</h3>
 
