@@ -27,11 +27,8 @@
                   <li><a href="/">Home</a></li>
                   <li><a href="/#features">Features</a></li>
                   <li><a href="/#how">About</a></li>
-                  {else}
-                  <li><a href="/about">Help/FAQ</a></li>
                   {/if}
-                  <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
-                  <li><a href="https://developer.libre.fm">Developer wiki</a></li>
+                  <li><a href="/about">Help/FAQ</a></li>
                   <li><a href="mailto:support@libre.fm">support@libre.fm</a></li>
                   <li><a href="https://blog.libre.fm">Blog</a> &amp; <a href="https://roadmap.libre.fm">roadmap</a></li>
                   <li><a href="https://www.youtube.com/@libre-fm">YouTube channel</a></li>
@@ -47,6 +44,8 @@
                   <li><a href="/privacy">Privacy policy</a></li>
                   <li><a href="/terms">Terms of service</a></li>
                   <li><a href="https://nofuckingai.com">AI policy (LOL)</a></li>
+                  <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
+                  <li><a href="https://developer.libre.fm">Developer wiki</a></li>
                   <li><a href="https://github.com/foocorp/end-times-code/">Open source</a></li>
                 </ul>
               </div>
