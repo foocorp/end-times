@@ -2,7 +2,7 @@
 
 <a target="_blank" href="https://wiki.libre.fm/Clients"><img
 src="/themes/2024-end-times/image1-7.png" class="about-img img-fluid
-float-lg-right m-1 p-1" style="width: 500px" alt loading="lazy"
+ float-lg-end m-1 p-1" style="width: 500px" alt loading="lazy"
 decoding="async"></a>
 
 {if ($thisusertotaltracks > 3)} {include file='getting-started-help.tpl'} {/if}
