@@ -39,7 +39,7 @@
 	        {"404"|coverartexists:100:"{$albums[i]->name|escape:'html':'UTF-8'}":{$albums[i]->getURL()}}
                 {/if}
 		</li>{/if}
-		{/section}	
+		{/section}
 	</ul>
 		{if $add_album_link}<a href='{$add_album_link}'><strong>[{t}Add new album{/t}]</strong></a>{/if}
 
@@ -106,8 +106,10 @@
 </div>
 
 {/if}
-	
-	<!-- 
+
+	<!--
+
+https://www.discogs.com/search?q=new+order&type=artist&strict=true&page=1
 
 	<a href="https://www.discogs.com/search?q={$artist->name}&type=artist">Find {$artist->name} on Discogs</a> | <a href="https://bandcamp.com/search?q={$artist->name}&item_type=b&from=results">Find {$artist->name} on Bandcamp</a> | <a href="https://www.youtube.com/results?search_query={$artist->name}">Find {$artist->name} on YouTube</a></p>
 	 -->
