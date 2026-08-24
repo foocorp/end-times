@@ -65,7 +65,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                             {/if}
                             <li><a href="/about">Help/FAQ</a></li>
                             <li><i class="bi bi-envelope-fill"></i> <a href="mailto:support@libre.fm?subject=Libre.fm%20help">support@libre.fm</a></li>
-                            <li><a href="https://blog.libre.fm">Blog</a> &amp; <a href="https://roadmap.libre.fm">roadmap</a></li>
+                            <li><a href="https://blog.libre.fm">Blog</a></li>
                             <li><i class="bi bi-youtube"></i> <a href="https://www.youtube.com/@libre-fm">YouTube channel</a></li>
                         </ul>
                     </div>
@@ -81,7 +81,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                             <li><a href="/ai">&quot;AI&quot; policy (LOL)</a></li>
                             <li><a href="https://wiki.libre.fm/Clients">Clients wiki</a></li>
                             <li><a href="https://developer.libre.fm">Developer wiki</a></li>
-                            <li><a href="https://github.com/foocorp/end-times-code/">Open source</a></li>
+                            <li><a href="https://github.com/libre-fm">Open source</a></li>
                         </ul>
                     </div>
                 </div>
