@@ -34,7 +34,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                             </a>
                         </div>
                         <p class="desc mb-30 text-white">
-                            Since 2009. <a href="https://hireme.fyi">Made with love in New England</a> but <a href="https://bored.city">we are bored in the city</a>. Libre.fm is supported by <a target="_blank" href="https://www.bytemark.co.uk/company/sponsorships/">Bytemark</a>, <a target="_blank" href="https://corehost.us/">Corehost</a> and <a target="_blank" href="https://archive.org/">The Internet Archive</a>. With thanks to <a target="_blank" href="https://themewagon.com">ThemeWagon</a>, <a target="_blank" href="https://crowdsec.net">Crowdsec</a>, and our <a href="/donate.php">donors</a>.
+                            Since 2009. <a href="https://globalhypertext.com">Made with love in New England</a> but <a href="https://bored.cnuk.org">we are bored in the city</a>. Libre.fm is supported by <a target="_blank" href="https://www.bytemark.co.uk/company/sponsorships/">Bytemark</a>, <a target="_blank" href="https://corehost.us/">Corehost</a> and <a target="_blank" href="https://archive.org/">The Internet Archive</a>. With thanks to <a target="_blank" href="https://themewagon.com">ThemeWagon</a>, <a target="_blank" href="https://crowdsec.net">Crowdsec</a>, and our <a href="/donate.php">donors</a>.
                         </p>
 
                         <p class="desc mb-30 text-white">
